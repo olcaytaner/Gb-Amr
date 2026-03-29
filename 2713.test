@@ -1,0 +1,23 @@
+<Amr>
+<Word name="8/sat" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="8/sat" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="8/sat" to="o" with="ARG0"/>
+<Word name="1/–" positionX="850" positionY="200"/>
+<Connection from="8/sat" to="1/–"/>
+<Word name="2/peki" positionX="950" positionY="200"/>
+<Connection from="8/sat" to="2/peki"/>
+<Word name="4/sen" positionX="1050" positionY="200"/>
+<Connection from="8/sat" to="4/sen"/>
+<Word name="6/yaz" positionX="1150" positionY="200"/>
+<Connection from="8/sat" to="6/yaz"/>
+<Word name="5/bu" positionX="1050" positionY="300"/>
+<Connection from="6/yaz" to="5/bu"/>
+<Word name="7/ev" positionX="1250" positionY="200"/>
+<Connection from="8/sat" to="7/ev"/>
+<Word name="sen" positionX="1150" positionY="300"/>
+<Connection from="7/ev" to="sen" with="poss"/>
+<Word name="9/mi" positionX="1350" positionY="200"/>
+<Connection from="8/sat" to="9/mi"/>
+</Amr>

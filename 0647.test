@@ -1,0 +1,25 @@
+<Amr>
+<Word name="9/dikkat 10/çek" positionX="750" positionY="100"/>
+<Word name="1/rehber" positionX="650" positionY="200"/>
+<Connection from="9/dikkat 10/çek" to="1/rehber" with="ARG0"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="1/rehber" to="biz" with="poss"/>
+<Word name="8/mescit" positionX="750" positionY="200"/>
+<Connection from="9/dikkat 10/çek" to="8/mescit" with="ARG1"/>
+<Word name="include-91" positionX="650" positionY="300"/>
+<Connection from="8/mescit" to="include-91" with="ARG1-of"/>
+<Word name="6/eser" positionX="550" positionY="400"/>
+<Connection from="include-91" to="6/eser" with="ARG2"/>
+<Word name="4/dönem" positionX="450" positionY="500"/>
+<Connection from="6/eser" to="4/dönem" with="mod"/>
+<Word name="person" positionX="350" positionY="600"/>
+<Connection from="4/dönem" to="person" with="mod"/>
+<Word name="name" positionX="250" positionY="700"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/abdülhamit" positionX="150" positionY="800"/>
+<Connection from="name" to="3/abdülhamit" with="op1"/>
+<Word name="-" positionX="350" positionY="700"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/mimari" positionX="550" positionY="500"/>
+<Connection from="6/eser" to="5/mimari" with="mod"/>
+</Amr>

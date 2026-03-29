@@ -1,0 +1,21 @@
+<Amr>
+<Word name="6/bil" positionX="750" positionY="100"/>
+<Word name="2/halk" positionX="650" positionY="200"/>
+<Connection from="6/bil" to="2/halk" with="ARG0"/>
+<Word name="local-region" positionX="550" positionY="300"/>
+<Connection from="2/halk" to="local-region"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="local-region" to="name" with="name"/>
+<Word name="1/anadolu" positionX="350" positionY="500"/>
+<Connection from="name" to="1/anadolu" with="op1"/>
+<Word name="wili" positionX="550" positionY="400"/>
+<Connection from="local-region" to="wili" with="anadolu"/>
+<Word name="have-degree" positionX="750" positionY="200"/>
+<Connection from="6/bil" to="have-degree" with="ARG1"/>
+<Word name="3/deniz" positionX="650" positionY="300"/>
+<Connection from="have-degree" to="3/deniz" with="ARG4"/>
+<Word name="4/çok" positionX="750" positionY="300"/>
+<Connection from="have-degree" to="4/çok" with="ARG3"/>
+<Word name="5/dağ" positionX="850" positionY="300"/>
+<Connection from="have-degree" to="5/dağ" with="ARG1"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr>
+<Word name="3/donakal" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="3/donakal" to="biz" with="ARG0"/>
+<Word name="2/duy" positionX="750" positionY="200"/>
+<Connection from="3/donakal" to="2/duy" with="time"/>
+<Word name="1/söyle" positionX="650" positionY="300"/>
+<Connection from="2/duy" to="1/söyle" with="ARG1"/>
+<Word name="onlar" positionX="550" positionY="400"/>
+<Connection from="1/söyle" to="onlar" with="ARG0"/>
+</Amr>

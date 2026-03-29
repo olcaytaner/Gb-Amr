@@ -1,0 +1,11 @@
+<Amr>
+<Word name="4/roman" positionX="750" positionY="100"/>
+<Word name="3/bitir" positionX="650" positionY="200"/>
+<Connection from="4/roman" to="3/bitir" with="ARG1-of"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="3/bitir" to="ben" with="ARG0"/>
+<Word name="2/hafta" positionX="650" positionY="300"/>
+<Connection from="3/bitir" to="2/hafta" with="time"/>
+<Word name="1/geç" positionX="550" positionY="400"/>
+<Connection from="2/hafta" to="1/geç"/>
+</Amr>

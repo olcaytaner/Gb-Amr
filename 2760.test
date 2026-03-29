@@ -1,0 +1,15 @@
+<Amr>
+<Word name="9/üzül" positionX="750" positionY="100"/>
+<Word name="7/harca" positionX="650" positionY="200"/>
+<Connection from="9/üzül" to="7/harca" with="cause"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="7/harca" to="sen" with="ARG0"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="7/harca" to="ben" with="cause"/>
+<Word name="4/boş 5/yer" positionX="750" positionY="300"/>
+<Connection from="7/harca" to="4/boş 5/yer" with="manner"/>
+<Word name="6/para" positionX="850" positionY="300"/>
+<Connection from="7/harca" to="6/para" with="ARG1"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="9/üzül" to="ben" with="ARG0"/>
+</Amr>

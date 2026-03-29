@@ -1,0 +1,21 @@
+<Amr>
+<Word name="8/kaza" positionX="750" positionY="100"/>
+<Word name="2/hafta" positionX="650" positionY="200"/>
+<Connection from="8/kaza" to="2/hafta" with="time"/>
+<Word name="3/iç" positionX="750" positionY="200"/>
+<Connection from="8/kaza" to="3/iç" with="mod"/>
+<Word name="1/üç" positionX="650" positionY="300"/>
+<Connection from="3/iç" to="1/üç" with="quant"/>
+<Word name="5/kavşak" positionX="850" positionY="200"/>
+<Connection from="8/kaza" to="5/kavşak" with="location"/>
+<Word name="4/bu" positionX="750" positionY="300"/>
+<Connection from="5/kavşak" to="4/bu" with="mod"/>
+<Word name="7/defa" positionX="950" positionY="200"/>
+<Connection from="8/kaza" to="7/defa" with="mod"/>
+<Word name="6/iki" positionX="850" positionY="300"/>
+<Connection from="7/defa" to="6/iki" with="quant"/>
+<Word name="9/ol" positionX="1050" positionY="200"/>
+<Connection from="8/kaza" to="9/ol"/>
+<Word name="o" positionX="950" positionY="300"/>
+<Connection from="9/ol" to="o" with="ARG0"/>
+</Amr>

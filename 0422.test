@@ -1,0 +1,13 @@
+<Amr>
+<Word name="6/yürü" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/yürü" to="-" with="polarity"/>
+<Word name="3/üst" positionX="750" positionY="200"/>
+<Connection from="6/yürü" to="3/üst" with="location"/>
+<Word name="1/arnavut 2/kaldırım" positionX="650" positionY="300"/>
+<Connection from="3/üst" to="1/arnavut 2/kaldırım" with="poss"/>
+<Word name="5/pabuç" positionX="850" positionY="200"/>
+<Connection from="6/yürü" to="5/pabuç" with="instrument"/>
+<Word name="4/topuklu" positionX="750" positionY="300"/>
+<Connection from="5/pabuç" to="4/topuklu" with="mod"/>
+</Amr>

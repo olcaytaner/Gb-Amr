@@ -1,0 +1,17 @@
+<Amr>
+<Word name="3/söyle" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/söyle" to="o" with="ARG0"/>
+<Word name="1/şarkı" positionX="750" positionY="200"/>
+<Connection from="3/söyle" to="1/şarkı" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="1/şarkı" to="o" with="mod"/>
+<Word name="country" positionX="850" positionY="200"/>
+<Connection from="3/söyle" to="country" with="mod"/>
+<Word name="name" positionX="750" positionY="300"/>
+<Connection from="country" to="name" with="name"/>
+<Word name="2/fransa" positionX="650" positionY="400"/>
+<Connection from="name" to="2/fransa" with="op1"/>
+<Word name="Fransa" positionX="850" positionY="300"/>
+<Connection from="country" to="Fransa" with="wiki"/>
+</Amr>

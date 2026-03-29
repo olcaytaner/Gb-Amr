@@ -1,0 +1,17 @@
+<Amr>
+<Word name="6/kilo 7/ver" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="6/kilo 7/ver" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="1/ayten" positionX="550" positionY="400"/>
+<Connection from="-" to="1/ayten" with="op1"/>
+<Word name="4/yürüyüş 5/yap" positionX="750" positionY="200"/>
+<Connection from="6/kilo 7/ver" to="4/yürüyüş 5/yap" with="prep-by"/>
+<Word name="gün" positionX="650" positionY="300"/>
+<Connection from="4/yürüyüş 5/yap" to="gün" with="frequency"/>
+<Word name="her" positionX="550" positionY="400"/>
+<Connection from="gün" to="her" with="mod"/>
+</Amr>

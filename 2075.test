@@ -1,0 +1,9 @@
+<Amr>
+<Word name="öner" positionX="750" positionY="100"/>
+<Word name="3/vazgeç" positionX="650" positionY="200"/>
+<Connection from="öner" to="3/vazgeç" with="ARG1"/>
+<Word name="siz" positionX="550" positionY="300"/>
+<Connection from="3/vazgeç" to="siz" with="ARG0"/>
+<Word name="1/sigara 2/iç" positionX="650" positionY="300"/>
+<Connection from="3/vazgeç" to="1/sigara 2/iç" with="ARG1"/>
+</Amr>

@@ -1,0 +1,18 @@
+<Amr>
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/yetiş" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/yetiş" with="ARG1"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="5/yetiş" to="biz" with="ARG0"/>
+<Word name="2/yürü" positionX="650" positionY="300"/>
+<Connection from="5/yetiş" to="2/yürü" with="condition"/>
+<Connection from="2/yürü" to="biz" with="ARG0"/>
+<Word name="1/hızlı" positionX="650" positionY="400"/>
+<Connection from="2/yürü" to="1/hızlı" with="manner"/>
+<Word name="4/tren" positionX="750" positionY="300"/>
+<Connection from="5/yetiş" to="4/tren" with="ARG1"/>
+<Word name="date-entity" positionX="650" positionY="400"/>
+<Connection from="4/tren" to="date-entity" with="time-of"/>
+<Word name="3/19.10" positionX="550" positionY="500"/>
+<Connection from="date-entity" to="3/19.10" with="time"/>
+</Amr>

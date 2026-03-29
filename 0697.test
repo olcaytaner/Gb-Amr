@@ -1,0 +1,9 @@
+<Amr>
+<Word name="4/kova" positionX="750" positionY="100"/>
+<Word name="volume-quantity" positionX="650" positionY="200"/>
+<Connection from="4/kova" to="volume-quantity" with="mod"/>
+<Word name="2/litrelik" positionX="550" positionY="300"/>
+<Connection from="volume-quantity" to="2/litrelik" with="unit"/>
+<Word name="1/iki" positionX="650" positionY="300"/>
+<Connection from="volume-quantity" to="1/iki" with="quant"/>
+</Amr>

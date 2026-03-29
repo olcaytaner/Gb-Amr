@@ -1,0 +1,15 @@
+<Amr>
+<Word name="6/araba" positionX="750" positionY="100"/>
+<Word name="have-degree-91" positionX="650" positionY="200"/>
+<Connection from="6/araba" to="have-degree-91" with="mod"/>
+<Word name="4/geniş" positionX="550" positionY="300"/>
+<Connection from="have-degree-91" to="4/geniş" with="ARG2"/>
+<Word name="2/araba" positionX="650" positionY="300"/>
+<Connection from="have-degree-91" to="2/araba" with="ARG4"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/araba" to="1/bu" with="mod"/>
+<Word name="3/daha" positionX="750" positionY="300"/>
+<Connection from="have-degree-91" to="3/daha" with="ARG3"/>
+<Word name="o" positionX="850" positionY="300"/>
+<Connection from="have-degree-91" to="o" with="ARG1"/>
+</Amr>

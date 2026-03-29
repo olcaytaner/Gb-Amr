@@ -1,0 +1,19 @@
+<Amr>
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/gir" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/gir"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="5/gir" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/gir" to="o" with="ARG0"/>
+<Word name="1/yakında" positionX="750" positionY="300"/>
+<Connection from="5/gir" to="1/yakında" with="manner"/>
+<Word name="3/kıyı" positionX="850" positionY="300"/>
+<Connection from="5/gir" to="3/kıyı"/>
+<Word name="2/bu" positionX="750" positionY="400"/>
+<Connection from="3/kıyı" to="2/bu"/>
+<Word name="4/deniz" positionX="950" positionY="300"/>
+<Connection from="5/gir" to="4/deniz"/>
+<Word name="6/ol" positionX="1050" positionY="300"/>
+<Connection from="5/gir" to="6/ol"/>
+</Amr>

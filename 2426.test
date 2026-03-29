@@ -1,0 +1,19 @@
+<Amr>
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="8/geçir" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="8/geçir"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="8/geçir" to="o" with="ARG0"/>
+<Word name="2/bey" positionX="650" positionY="300"/>
+<Connection from="8/geçir" to="2/bey"/>
+<Word name="1/kemal" positionX="550" positionY="400"/>
+<Connection from="2/bey" to="1/kemal" with="mod"/>
+<Word name="5/gün" positionX="750" positionY="300"/>
+<Connection from="8/geçir" to="5/gün"/>
+<Word name="3/bütün" positionX="650" positionY="400"/>
+<Connection from="5/gün" to="3/bütün"/>
+<Word name="7/seyret" positionX="850" positionY="300"/>
+<Connection from="8/geçir" to="7/seyret"/>
+<Word name="6/televizyon" positionX="750" positionY="400"/>
+<Connection from="7/seyret" to="6/televizyon"/>
+</Amr>

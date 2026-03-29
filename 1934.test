@@ -1,0 +1,15 @@
+<Amr>
+<Word name="7/dur" positionX="750" positionY="100"/>
+<Word name="4/takım" positionX="650" positionY="200"/>
+<Connection from="7/dur" to="4/takım" with="ARG0"/>
+<Word name="and" positionX="550" positionY="300"/>
+<Connection from="4/takım" to="and" with="mod"/>
+<Word name="1/bu" positionX="450" positionY="400"/>
+<Connection from="and" to="1/bu" with="op1"/>
+<Word name="2/yemek 3/oda" positionX="550" positionY="400"/>
+<Connection from="and" to="2/yemek 3/oda" with="op2"/>
+<Word name="5/mutfak" positionX="750" positionY="200"/>
+<Connection from="7/dur" to="5/mutfak" with="location"/>
+<Word name="6/iğreti" positionX="850" positionY="200"/>
+<Connection from="7/dur" to="6/iğreti" with="manner"/>
+</Amr>

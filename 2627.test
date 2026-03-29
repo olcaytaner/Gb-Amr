@@ -1,0 +1,17 @@
+<Amr>
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/kızart" positionX="650" positionY="200"/>
+<Connection from="and" to="2/kızart" with="op1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/kızart" to="ben" with="ARG0"/>
+<Word name="1/balık" positionX="650" positionY="300"/>
+<Connection from="2/kızart" to="1/balık" with="ARG1"/>
+<Word name="7/ye" positionX="750" positionY="200"/>
+<Connection from="and" to="7/ye" with="op2"/>
+<Connection from="7/ye" to="ben" with="ARG0"/>
+<Word name="5/sonra" positionX="750" positionY="300"/>
+<Connection from="7/ye" to="5/sonra" with="time"/>
+<Word name="4/biraz" positionX="650" positionY="400"/>
+<Connection from="5/sonra" to="4/biraz" with="degree"/>
+<Connection from="7/ye" to="1/balık" with="ARG1"/>
+</Amr>

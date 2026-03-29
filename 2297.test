@@ -1,0 +1,9 @@
+<Amr>
+<Word name="4/kitap" positionX="750" positionY="100"/>
+<Word name="2/bitir" positionX="650" positionY="200"/>
+<Connection from="4/kitap" to="2/bitir" with="ARG1-of"/>
+<Word name="1/yarın" positionX="550" positionY="300"/>
+<Connection from="2/bitir" to="1/yarın" with="time"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="2/bitir" to="ben" with="ARG0"/>
+</Amr>

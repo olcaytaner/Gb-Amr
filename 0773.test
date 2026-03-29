@@ -1,0 +1,13 @@
+<Amr>
+<Word name="5/oku" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/oku" to="ben" with="ARG0"/>
+<Word name="1/aşağı 2/yukarı" positionX="750" positionY="200"/>
+<Connection from="5/oku" to="1/aşağı 2/yukarı" with="ARG1"/>
+<Word name="volume-quantity" positionX="650" positionY="300"/>
+<Connection from="1/aşağı 2/yukarı" to="volume-quantity" with="op1"/>
+<Word name="3/100" positionX="550" positionY="400"/>
+<Connection from="volume-quantity" to="3/100" with="quant"/>
+<Word name="4/sayfa" positionX="650" positionY="400"/>
+<Connection from="volume-quantity" to="4/sayfa" with="unit"/>
+</Amr>

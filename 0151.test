@@ -1,0 +1,11 @@
+<Amr>
+<Word name="2/işçi" positionX="750" positionY="100"/>
+<Word name="country" positionX="650" positionY="200"/>
+<Connection from="2/işçi" to="country" with="mod"/>
+<Word name="wiki" positionX="550" positionY="300"/>
+<Connection from="country" to="wiki" with="Türkiye"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="country" to="name" with="name"/>
+<Word name="Türkiye" positionX="550" positionY="400"/>
+<Connection from="name" to="Türkiye" with="op1"/>
+</Amr>

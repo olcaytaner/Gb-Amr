@@ -1,0 +1,11 @@
+<Amr>
+<Word name="5/aç" positionX="750" positionY="100"/>
+<Word name="2/ben" positionX="650" positionY="200"/>
+<Connection from="5/aç" to="2/ben" with="domain"/>
+<Word name="4/kadar" positionX="750" positionY="200"/>
+<Connection from="5/aç" to="4/kadar" with="degree"/>
+<Word name="3/o" positionX="650" positionY="300"/>
+<Connection from="4/kadar" to="3/o" with="mod"/>
+<Word name="-" positionX="850" positionY="200"/>
+<Connection from="5/aç" to="-" with="polarity"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr>
+<Word name="5/çalış" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/çalış" to="ben" with="ARG0"/>
+<Word name="temporal-quantity" positionX="750" positionY="200"/>
+<Connection from="5/çalış" to="temporal-quantity" with="duration"/>
+<Word name="2/yıl" positionX="650" positionY="300"/>
+<Connection from="temporal-quantity" to="2/yıl" with="unit"/>
+<Word name="1/üç" positionX="750" positionY="300"/>
+<Connection from="temporal-quantity" to="1/üç" with="quant"/>
+<Word name="4/burada" positionX="850" positionY="200"/>
+<Connection from="5/çalış" to="4/burada" with="location"/>
+</Amr>

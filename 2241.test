@@ -1,0 +1,11 @@
+<Amr>
+<Word name="5/kişi" positionX="750" positionY="100"/>
+<Word name="4/et" positionX="650" positionY="200"/>
+<Connection from="5/kişi" to="4/et" with="ARG1-of"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="4/et" to="biz" with="ARG0"/>
+<Word name="2/kendi" positionX="650" positionY="300"/>
+<Connection from="4/et" to="2/kendi" with="ARG2"/>
+<Word name="3/nefret" positionX="750" positionY="300"/>
+<Connection from="4/et" to="3/nefret" with="ARG1"/>
+</Amr>

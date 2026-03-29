@@ -1,0 +1,27 @@
+<Amr>
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="11/oku 13/oku" positionX="650" positionY="200"/>
+<Connection from="and" to="11/oku 13/oku" with="op1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="11/oku 13/oku" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="11/oku 13/oku" to="ben" with="ARG0"/>
+<Word name="9/yani" positionX="750" positionY="300"/>
+<Connection from="11/oku 13/oku" to="9/yani" with="manner"/>
+<Word name="10/ne" positionX="850" positionY="300"/>
+<Connection from="11/oku 13/oku" to="10/ne"/>
+<Word name="7/gezdir" positionX="750" positionY="200"/>
+<Connection from="and" to="7/gezdir" with="op2"/>
+<Connection from="7/gezdir" to="ben" with="ARG0"/>
+<Word name="2/kitap" positionX="750" positionY="300"/>
+<Connection from="7/gezdir" to="2/kitap" with="ARG1"/>
+<Word name="1/o" positionX="650" positionY="400"/>
+<Connection from="2/kitap" to="1/o"/>
+<Word name="3/sadece" positionX="850" positionY="300"/>
+<Connection from="7/gezdir" to="3/sadece" with="manner"/>
+<Word name="4/şöyle" positionX="950" positionY="300"/>
+<Connection from="7/gezdir" to="4/şöyle" with="manner"/>
+<Word name="5/bir 6/göz" positionX="850" positionY="400"/>
+<Connection from="4/şöyle" to="5/bir 6/göz"/>
+<Connection from="7/gezdir" to="and"/>
+</Amr>

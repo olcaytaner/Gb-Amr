@@ -1,0 +1,21 @@
+<Amr>
+<Word name="8/meşgul" positionX="750" positionY="100"/>
+<Word name="date-entity" positionX="650" positionY="200"/>
+<Connection from="8/meşgul" to="date-entity" with="time"/>
+<Word name="2/akşam" positionX="550" positionY="300"/>
+<Connection from="date-entity" to="2/akşam" with="dayperiod"/>
+<Word name="1/o" positionX="450" positionY="400"/>
+<Connection from="2/akşam" to="1/o" with="mod"/>
+<Word name=" 4/ol" positionX="750" positionY="200"/>
+<Connection from="8/meşgul" to=" 4/ol" with="cause"/>
+<Word name="3/misafir" positionX="650" positionY="300"/>
+<Connection from=" 4/ol" to="3/misafir" with="ARG1"/>
+<Word name="biz" positionX="550" positionY="400"/>
+<Connection from="3/misafir" to="biz" with="poss"/>
+<Word name="7/yap" positionX="850" positionY="200"/>
+<Connection from="8/meşgul" to="7/yap" with="ARG1"/>
+<Word name="6/yemek" positionX="750" positionY="300"/>
+<Connection from="7/yap" to="6/yemek" with="ARG1"/>
+<Word name="biz" positionX="950" positionY="200"/>
+<Connection from="8/meşgul" to="biz" with="domain"/>
+</Amr>

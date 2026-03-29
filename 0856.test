@@ -1,0 +1,11 @@
+<Amr>
+<Word name="4/meraklı" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/meraklı" to="onlar" with="ARG0"/>
+<Word name="2/ol" positionX="750" positionY="200"/>
+<Connection from="4/meraklı" to="2/ol" with="prep-by"/>
+<Word name="1/aile" positionX="650" positionY="300"/>
+<Connection from="2/ol" to="1/aile" with="ARG1"/>
+<Word name="3/müzik" positionX="850" positionY="200"/>
+<Connection from="4/meraklı" to="3/müzik" with="beneficiary"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr>
+<Word name="8/inan" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="8/inan" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="8/inan" to="ben" with="ARG0"/>
+<Word name="7/ver" positionX="850" positionY="200"/>
+<Connection from="8/inan" to="7/ver" with="ARG1"/>
+<Word name="onlar" positionX="750" positionY="300"/>
+<Connection from="7/ver" to="onlar" with="ARG0"/>
+<Word name="1/biz" positionX="850" positionY="300"/>
+<Connection from="7/ver" to="1/biz" with="ARG2"/>
+<Word name="6/para" positionX="950" positionY="300"/>
+<Connection from="7/ver" to="6/para" with="ARG1"/>
+<Word name="4/büyük" positionX="850" positionY="400"/>
+<Connection from="6/para" to="4/büyük" with="mod"/>
+</Amr>

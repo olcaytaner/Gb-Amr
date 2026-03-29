@@ -1,0 +1,19 @@
+<Amr>
+<Word name="monetary-quantity" positionX="750" positionY="100"/>
+<Word name="2/100" positionX="650" positionY="200"/>
+<Connection from="monetary-quantity" to="2/100" with="quant"/>
+<Word name="3/sterlin" positionX="750" positionY="200"/>
+<Connection from="monetary-quantity" to="3/sterlin" with="unit"/>
+<Word name="country" positionX="650" positionY="300"/>
+<Connection from="3/sterlin" to="country" with="mod"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="country" to="name" with="name"/>
+<Word name="İngiltere" positionX="450" positionY="500"/>
+<Connection from="name" to="İngiltere" with="op1"/>
+<Word name="İngiltere" positionX="650" positionY="400"/>
+<Connection from="country" to="İngiltere" with="wiki"/>
+<Word name="1/şişe" positionX="850" positionY="200"/>
+<Connection from="monetary-quantity" to="1/şişe" with="domain"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="1/şişe" to="o" with="poss"/>
+</Amr>

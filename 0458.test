@@ -1,0 +1,24 @@
+<Amr>
+<Word name="iste" positionX="750" positionY="100"/>
+<Word name="9/gez" positionX="650" positionY="200"/>
+<Connection from="iste" to="9/gez" with="ARG1"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="9/gez" to="biz" with="ARG0"/>
+<Word name="4/gel" positionX="650" positionY="300"/>
+<Connection from="9/gez" to="4/gel" with="cause"/>
+<Word name="city" positionX="550" positionY="400"/>
+<Connection from="4/gel" to="city" with="ARG1"/>
+<Word name="name" positionX="450" positionY="500"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="1/ankara" positionX="350" positionY="600"/>
+<Connection from="name" to="1/ankara" with="op1"/>
+<Word name="ankara" positionX="550" positionY="500"/>
+<Connection from="city" to="ankara" with="wiki"/>
+<Word name="2/bir" positionX="650" positionY="400"/>
+<Connection from="4/gel" to="2/bir" with="frequency"/>
+<Connection from="4/gel" to="biz" with="ARG0"/>
+<Word name="7/bari" positionX="750" positionY="300"/>
+<Connection from="9/gez" to="7/bari" with="manner"/>
+<Word name="8/kale" positionX="850" positionY="300"/>
+<Connection from="9/gez" to="8/kale" with="ARG1"/>
+</Amr>

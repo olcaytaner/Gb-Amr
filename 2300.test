@@ -1,0 +1,13 @@
+<Amr>
+<Word name="7/gör" positionX="750" positionY="100"/>
+<Word name="4/film" positionX="650" positionY="200"/>
+<Connection from="7/gör" to="4/film" with="ARG1"/>
+<Word name="2/gör" positionX="550" positionY="300"/>
+<Connection from="4/film" to="2/gör" with="ARG1-of"/>
+<Word name="1/siz" positionX="450" positionY="400"/>
+<Connection from="2/gör" to="1/siz" with="ARG0"/>
+<Word name="5/ben" positionX="750" positionY="200"/>
+<Connection from="7/gör" to="5/ben" with="ARG0"/>
+<Word name="6/yarın" positionX="850" positionY="200"/>
+<Connection from="7/gör" to="6/yarın" with="time"/>
+</Amr>

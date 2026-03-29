@@ -1,0 +1,7 @@
+<Amr>
+<Word name="4/sehpa" positionX="750" positionY="100"/>
+<Word name="2/ceviz 3/ağaç" positionX="650" positionY="200"/>
+<Connection from="4/sehpa" to="2/ceviz 3/ağaç" with="consist-of"/>
+<Word name="1/birtakım" positionX="550" positionY="300"/>
+<Connection from="2/ceviz 3/ağaç" to="1/birtakım" with="mod"/>
+</Amr>

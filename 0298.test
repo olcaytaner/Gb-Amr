@@ -1,0 +1,11 @@
+<Amr>
+<Word name="4/havla" positionX="750" positionY="100"/>
+<Word name="1/köpek" positionX="650" positionY="200"/>
+<Connection from="4/havla" to="1/köpek" with="ARG0"/>
+<Word name="date-entity" positionX="750" positionY="200"/>
+<Connection from="4/havla" to="date-entity" with="time"/>
+<Word name="2/gece" positionX="650" positionY="300"/>
+<Connection from="date-entity" to="2/gece" with="time"/>
+<Word name="3/hep" positionX="850" positionY="200"/>
+<Connection from="4/havla" to="3/hep" with="frequency"/>
+</Amr>

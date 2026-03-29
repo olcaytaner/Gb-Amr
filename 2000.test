@@ -1,0 +1,7 @@
+<Amr>
+<Word name="2/uyar" positionX="750" positionY="100"/>
+<Word name="1/onlar" positionX="650" positionY="200"/>
+<Connection from="2/uyar" to="1/onlar" with="ARG1"/>
+<Word name="3/ben" positionX="750" positionY="200"/>
+<Connection from="2/uyar" to="3/ben" with="ARG0"/>
+</Amr>

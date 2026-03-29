@@ -1,0 +1,13 @@
+<Amr>
+<Word name="6/git" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="6/git" to="biz" with="ARG0"/>
+<Word name="1/artık" positionX="750" positionY="200"/>
+<Connection from="6/git" to="1/artık" with="manner"/>
+<Word name="5/al" positionX="850" positionY="200"/>
+<Connection from="6/git" to="5/al"/>
+<Word name="3/herhangi 4/biri" positionX="750" positionY="300"/>
+<Connection from="5/al" to="3/herhangi 4/biri" with="ARG1"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="3/herhangi 4/biri" to="o" with="poss"/>
+</Amr>

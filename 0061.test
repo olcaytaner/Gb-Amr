@@ -1,0 +1,9 @@
+<Amr>
+<Word name="and" positionX="517" positionY="59"/>
+<Word name="bak" positionX="454" positionY="314"/>
+<Word name="söyle" positionX="804" positionY="370"/>
+<Word name="doktor" positionX="613" positionY="107"/>
+<Connection from="and" to="doktor" with="op1"/>
+<Word name="doktor" positionX="431" positionY="179"/>
+<Connection from="and" to="doktor" with="op2"/>
+</Amr>

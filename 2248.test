@@ -1,0 +1,9 @@
+<Amr>
+<Word name="4/geç" positionX="750" positionY="100"/>
+<Word name="1/köprü" positionX="650" positionY="200"/>
+<Connection from="4/geç" to="1/köprü" with="ARG0"/>
+<Word name="3/ön" positionX="750" positionY="200"/>
+<Connection from="4/geç" to="3/ön" with="location"/>
+<Word name="2/ev" positionX="650" positionY="300"/>
+<Connection from="3/ön" to="2/ev" with="poss"/>
+</Amr>

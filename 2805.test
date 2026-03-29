@@ -1,0 +1,9 @@
+<Amr>
+<Word name="either" positionX="750" positionY="100"/>
+<Word name="4/defter" positionX="650" positionY="200"/>
+<Connection from="either" to="4/defter" with="op1"/>
+<Word name="1/kitap" positionX="750" positionY="200"/>
+<Connection from="either" to="1/kitap" with="op2"/>
+<Word name="-" positionX="850" positionY="200"/>
+<Connection from="either" to="-" with="polarity"/>
+</Amr>

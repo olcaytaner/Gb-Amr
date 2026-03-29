@@ -1,0 +1,9 @@
+<Amr>
+<Word name="4/yanlış" positionX="750" positionY="100"/>
+<Word name="3/fikir" positionX="650" positionY="200"/>
+<Connection from="4/yanlış" to="3/fikir" with="domain"/>
+<Word name="siz" positionX="550" positionY="300"/>
+<Connection from="3/fikir" to="siz" with="poss"/>
+<Word name="1/ben" positionX="650" positionY="300"/>
+<Connection from="3/fikir" to="1/ben" with="topic"/>
+</Amr>

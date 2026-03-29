@@ -1,0 +1,18 @@
+<Amr>
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="and" to="person" with="op1"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/turhan" positionX="450" positionY="400"/>
+<Connection from="name" to="1/turhan" with="op1"/>
+<Word name="2/kural" positionX="550" positionY="400"/>
+<Connection from="name" to="2/kural" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="person" to="o" with="domain"/>
+<Word name="5/yazar" positionX="750" positionY="200"/>
+<Connection from="and" to="5/yazar" with="op2"/>
+<Connection from="5/yazar" to="o" with="domain"/>
+</Amr>

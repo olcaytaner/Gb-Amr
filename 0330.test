@@ -1,0 +1,9 @@
+<Amr>
+<Word name="4/dene" positionX="750" positionY="100"/>
+<Word name="3/başla" positionX="650" positionY="200"/>
+<Connection from="4/dene" to="3/başla" with="ARG1"/>
+<Word name="1/maç" positionX="550" positionY="300"/>
+<Connection from="3/başla" to="1/maç" with="ARG1"/>
+<Word name="2/birazdan" positionX="650" positionY="300"/>
+<Connection from="3/başla" to="2/birazdan" with="time"/>
+</Amr>

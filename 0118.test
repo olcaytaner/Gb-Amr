@@ -1,0 +1,5 @@
+<Amr>
+<Word name="2/bahçe" positionX="750" positionY="100"/>
+<Word name="1/çocuk" positionX="650" positionY="200"/>
+<Connection from="2/bahçe" to="1/çocuk" with="mod"/>
+</Amr>

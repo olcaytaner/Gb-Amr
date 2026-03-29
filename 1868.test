@@ -1,0 +1,9 @@
+<Amr>
+<Word name="4/gönder" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/gönder" to="-" with="polarity"/>
+<Word name="2/ora" positionX="750" positionY="200"/>
+<Connection from="4/gönder" to="2/ora"/>
+<Word name="3/asker" positionX="850" positionY="200"/>
+<Connection from="4/gönder" to="3/asker" with="ARG1"/>
+</Amr>

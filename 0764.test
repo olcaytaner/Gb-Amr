@@ -1,0 +1,30 @@
+<Amr>
+<Word name="6/ver" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="6/ver" to="and" with="ARG0"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="and" to="person" with="op1"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/mehmet" positionX="350" positionY="500"/>
+<Connection from="name" to="2/mehmet" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="and" to="person" with="op2"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ahmet" positionX="450" positionY="500"/>
+<Connection from="name" to="1/ahmet" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/hediye" positionX="750" positionY="200"/>
+<Connection from="6/ver" to="5/hediye" with="ARG1"/>
+<Word name="4/iki" positionX="650" positionY="300"/>
+<Connection from="5/hediye" to="4/iki" with="quant"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="6/ver" to="person" with="ARG2"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/ semra" positionX="650" positionY="400"/>
+<Connection from="name" to="3/ semra" with="op1"/>
+<Word name="wiki" positionX="850" positionY="300"/>
+<Connection from="person" to="wiki" with="semra"/>
+</Amr>

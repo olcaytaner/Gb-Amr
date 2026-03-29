@@ -1,0 +1,5 @@
+<Amr>
+<Word name="2/çanta" positionX="750" positionY="100"/>
+<Word name="1/el" positionX="650" positionY="200"/>
+<Connection from="2/çanta" to="1/el" with="mod"/>
+</Amr>

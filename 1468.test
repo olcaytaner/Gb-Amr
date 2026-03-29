@@ -1,0 +1,22 @@
+<Amr>
+<Word name="6/düşün" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/düşün" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="6/düşün" to="ben" with="ARG0"/>
+<Word name="3/bil" positionX="850" positionY="200"/>
+<Connection from="6/düşün" to="3/bil" with="ARG1"/>
+<Connection from="3/bil" to="-" with="polarity"/>
+<Word name="o" positionX="850" positionY="300"/>
+<Connection from="3/bil" to="o" with="ARG0"/>
+<Word name="o" positionX="950" positionY="300"/>
+<Connection from="3/bil" to="o" with="poss"/>
+<Word name="1/Ayşe" positionX="1050" positionY="300"/>
+<Connection from="3/bil" to="1/Ayşe"/>
+<Word name="2/durum" positionX="1150" positionY="300"/>
+<Connection from="3/bil" to="2/durum"/>
+<Word name="5/zaman" positionX="950" positionY="200"/>
+<Connection from="6/düşün" to="5/zaman"/>
+<Word name="4/hiçbir" positionX="850" positionY="300"/>
+<Connection from="5/zaman" to="4/hiçbir"/>
+</Amr>

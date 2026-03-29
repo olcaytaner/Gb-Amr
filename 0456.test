@@ -1,0 +1,22 @@
+<Amr>
+<Word name="7/anlat" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="7/anlat" to="sen" with="ARG0"/>
+<Word name="2/konuş" positionX="750" positionY="200"/>
+<Connection from="7/anlat" to="2/konuş" with="time"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="2/konuş" to="person" with="accompanier"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/semra" positionX="450" positionY="500"/>
+<Connection from="name" to="1/semra" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="2/konuş" to="sen" with="ARG0"/>
+<Word name="6/sır" positionX="850" positionY="200"/>
+<Connection from="7/anlat" to="6/sır" with="ARG1"/>
+<Word name="5/bütün" positionX="750" positionY="300"/>
+<Connection from="6/sır" to="5/bütün" with="mod"/>
+<Word name="sen" positionX="850" positionY="300"/>
+<Connection from="6/sır" to="sen" with="poss"/>
+</Amr>

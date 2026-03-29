@@ -1,0 +1,9 @@
+<Amr>
+<Word name="5/video" positionX="750" positionY="100"/>
+<Word name="3/seyret" positionX="650" positionY="200"/>
+<Connection from="5/video" to="3/seyret" with="ARG1-of"/>
+<Word name="1/o 2/sıra" positionX="550" positionY="300"/>
+<Connection from="3/seyret" to="1/o 2/sıra" with="time"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="3/seyret" to="ben" with="ARG0"/>
+</Amr>

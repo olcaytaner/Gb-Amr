@@ -1,0 +1,18 @@
+<Amr>
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="language" positionX="650" positionY="200"/>
+<Connection from="and" to="language" with="op1"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="language" to="name" with="name"/>
+<Word name="Farsça" positionX="650" positionY="300"/>
+<Connection from="language" to="Farsça" with="wiki"/>
+<Word name="Farsça" positionX="550" positionY="400"/>
+<Connection from="Farsça" to="Farsça" with="op1"/>
+<Word name="language" positionX="750" positionY="200"/>
+<Connection from="and" to="language" with="op2"/>
+<Connection from="language" to="name" with="name"/>
+<Word name="Arapça" positionX="750" positionY="300"/>
+<Connection from="language" to="Arapça" with="wiki"/>
+<Word name="Arapça" positionX="650" positionY="400"/>
+<Connection from="Arapça" to="Arapça" with="op2"/>
+</Amr>

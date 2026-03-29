@@ -1,0 +1,9 @@
+<Amr>
+<Word name="4/kolaylaştır" positionX="750" positionY="100"/>
+<Word name="1/bilgisayar" positionX="650" positionY="200"/>
+<Connection from="4/kolaylaştır" to="1/bilgisayar" with="ARG0"/>
+<Word name="3/iş" positionX="750" positionY="200"/>
+<Connection from="4/kolaylaştır" to="3/iş" with="ARG1"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="3/iş" to="biz" with="poss"/>
+</Amr>

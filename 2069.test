@@ -1,0 +1,19 @@
+<Amr>
+<Word name="5/düşün" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/düşün" to="biz" with="ARG0"/>
+<Word name="4/gitme" positionX="750" positionY="200"/>
+<Connection from="5/düşün" to="4/gitme" with="ARG1"/>
+<Word name="2/yaz" positionX="650" positionY="300"/>
+<Connection from="4/gitme" to="2/yaz" with="time"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/yaz" to="1/bu" with="mod"/>
+<Word name="country" positionX="750" positionY="300"/>
+<Connection from="4/gitme" to="country" with="ARG1"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="country" to="name" with="name"/>
+<Word name="3/italya" positionX="550" positionY="500"/>
+<Connection from="name" to="3/italya" with="op1"/>
+<Word name="İtalya" positionX="750" positionY="400"/>
+<Connection from="country" to="İtalya" with="wiki"/>
+</Amr>

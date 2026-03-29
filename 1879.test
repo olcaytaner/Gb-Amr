@@ -1,0 +1,7 @@
+<Amr>
+<Word name="4/hayvan" positionX="750" positionY="100"/>
+<Word name="1/balina" positionX="650" positionY="200"/>
+<Connection from="4/hayvan" to="1/balina"/>
+<Word name="2/memeli" positionX="750" positionY="200"/>
+<Connection from="4/hayvan" to="2/memeli" with="mod"/>
+</Amr>

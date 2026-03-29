@@ -1,0 +1,12 @@
+<Amr>
+<Word name="3/kal" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="3/kal" to="-" with="polarity"/>
+<Word name="1/numara" positionX="750" positionY="200"/>
+<Connection from="3/kal" to="1/numara" with="ARG0"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="1/numara" to="o" with="poss"/>
+<Word name="2/akıl" positionX="850" positionY="200"/>
+<Connection from="3/kal" to="2/akıl" with="location"/>
+<Connection from="2/akıl" to="o" with="poss"/>
+</Amr>

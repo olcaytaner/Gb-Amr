@@ -1,0 +1,9 @@
+<Amr>
+<Word name="4/ol" positionX="750" positionY="100"/>
+<Word name="1/de" positionX="650" positionY="200"/>
+<Connection from="4/ol" to="1/de" with="prep-while"/>
+<Word name="2/saat" positionX="750" positionY="200"/>
+<Connection from="4/ol" to="2/saat"/>
+<Word name="3/beş" positionX="850" positionY="200"/>
+<Connection from="4/ol" to="3/beş"/>
+</Amr>

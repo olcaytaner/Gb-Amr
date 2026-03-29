@@ -1,0 +1,7 @@
+<Amr>
+<Word name="3/pencere" positionX="750" positionY="100"/>
+<Word name="2/açık" positionX="650" positionY="200"/>
+<Connection from="3/pencere" to="2/açık" with="mod"/>
+<Word name="1/bir" positionX="750" positionY="200"/>
+<Connection from="3/pencere" to="1/bir" with="quant"/>
+</Amr>

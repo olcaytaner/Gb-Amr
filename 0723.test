@@ -1,0 +1,17 @@
+<Amr>
+<Word name="have-degree-91" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="have-degree-91" to="ben" with="domain"/>
+<Word name="5/iyi" positionX="750" positionY="200"/>
+<Connection from="have-degree-91" to="5/iyi" with="ARG2"/>
+<Word name="3/gör" positionX="850" positionY="200"/>
+<Connection from="have-degree-91" to="3/gör" with="ARG4"/>
+<Word name="siz" positionX="750" positionY="300"/>
+<Connection from="3/gör" to="siz" with="ARG0"/>
+<Word name="1/ben" positionX="850" positionY="300"/>
+<Connection from="3/gör" to="1/ben" with="ARG1"/>
+<Word name="2/son" positionX="950" positionY="300"/>
+<Connection from="3/gör" to="2/son" with="time"/>
+<Word name="4/daha" positionX="950" positionY="200"/>
+<Connection from="have-degree-91" to="4/daha" with="ARG3"/>
+</Amr>

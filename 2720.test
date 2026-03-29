@@ -1,0 +1,9 @@
+<Amr>
+<Word name="4/var" positionX="750" positionY="100"/>
+<Word name="1/hep" positionX="650" positionY="200"/>
+<Connection from="4/var" to="1/hep" with="frequency"/>
+<Word name="3/bahane" positionX="750" positionY="200"/>
+<Connection from="4/var" to="3/bahane" with="ARG1"/>
+<Word name="o" positionX="850" positionY="200"/>
+<Connection from="4/var" to="o" with="ARG0"/>
+</Amr>

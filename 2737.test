@@ -1,0 +1,25 @@
+<Amr>
+<Word name="4/iste" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/iste" to="-" with="polarity"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="4/iste" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="1/erol" positionX="650" positionY="400"/>
+<Connection from="-" to="1/erol" with="op1"/>
+<Word name="3/gör" positionX="850" positionY="200"/>
+<Connection from="4/iste" to="3/gör" with="ARG1"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="3/gör" to="person" with="ARG1"/>
+<Connection from="person" to="name" with="name"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/semra" positionX="650" positionY="500"/>
+<Connection from="-" to="2/semra" with="op1"/>
+<Connection from="3/gör" to="person" with="ARG0"/>
+<Connection from="person" to="name" with="name"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="-" to="1/erol" with="op1"/>
+</Amr>

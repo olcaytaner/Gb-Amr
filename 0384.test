@@ -1,0 +1,7 @@
+<Amr>
+<Word name="3/geç" positionX="750" positionY="100"/>
+<Word name="2/üst" positionX="650" positionY="200"/>
+<Connection from="3/geç" to="2/üst" with="location"/>
+<Word name="1/ev" positionX="550" positionY="300"/>
+<Connection from="2/üst" to="1/ev" with="poss"/>
+</Amr>

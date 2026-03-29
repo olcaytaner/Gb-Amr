@@ -1,0 +1,13 @@
+<Amr>
+<Word name="iste" positionX="750" positionY="100"/>
+<Word name="4/al" positionX="650" positionY="200"/>
+<Connection from="iste" to="4/al" with="ARG1"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="4/al" to="biz" with="ARG0"/>
+<Word name="1/şura" positionX="650" positionY="300"/>
+<Connection from="4/al" to="1/şura" with="source"/>
+<Word name="3/şeftali" positionX="750" positionY="300"/>
+<Connection from="4/al" to="3/şeftali" with="ARG1"/>
+<Word name="2/biraz" positionX="650" positionY="400"/>
+<Connection from="3/şeftali" to="2/biraz" with="mod"/>
+</Amr>

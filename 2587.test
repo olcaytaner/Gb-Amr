@@ -1,0 +1,38 @@
+<Amr>
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="13/bul" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="13/bul"/>
+<Word name="5/yap" positionX="550" positionY="300"/>
+<Connection from="13/bul" to="5/yap" with="cond"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="5/yap" to="o" with="ARG0"/>
+<Word name="1/nasıl" positionX="550" positionY="400"/>
+<Connection from="5/yap" to="1/nasıl" with="manner"/>
+<Word name="person" positionX="650" positionY="400"/>
+<Connection from="5/yap" to="person"/>
+<Word name="name" positionX="550" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/hakan" positionX="450" positionY="600"/>
+<Connection from="name" to="2/hakan" with="op1"/>
+<Word name="-" positionX="650" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/akşam" positionX="750" positionY="400"/>
+<Connection from="5/yap" to="3/akşam"/>
+<Word name="o" positionX="650" positionY="500"/>
+<Connection from="3/akşam" to="o" with="poss"/>
+<Word name="4/garsonluk" positionX="850" positionY="400"/>
+<Connection from="5/yap" to="4/garsonluk"/>
+<Word name="6/sen" positionX="650" positionY="300"/>
+<Connection from="13/bul" to="6/sen"/>
+<Word name="7/de" positionX="550" positionY="400"/>
+<Connection from="6/sen" to="7/de"/>
+<Word name="12/iş" positionX="750" positionY="300"/>
+<Connection from="13/bul" to="12/iş"/>
+<Word name="9/engel 10/ol" positionX="650" positionY="400"/>
+<Connection from="12/iş" to="9/engel 10/ol"/>
+<Word name="-" positionX="550" positionY="500"/>
+<Connection from="9/engel 10/ol" to="-" with="polarity"/>
+<Connection from="9/engel 10/ol" to="o" with="ARG0"/>
+<Word name="8/ders" positionX="750" positionY="500"/>
+<Connection from="9/engel 10/ol" to="8/ders" with="mod"/>
+</Amr>

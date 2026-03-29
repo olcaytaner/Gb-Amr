@@ -1,0 +1,24 @@
+<Amr>
+<Word name="9/sev" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="9/sev" to="-" with="polarity"/>
+<Word name="biz" positionX="750" positionY="200"/>
+<Connection from="9/sev" to="biz" with="ARG0"/>
+<Word name="6/komşu" positionX="850" positionY="200"/>
+<Connection from="9/sev" to="6/komşu" with="ARG1"/>
+<Word name="biz" positionX="750" positionY="300"/>
+<Connection from="6/komşu" to="biz" with="poss"/>
+<Word name="4/görüş" positionX="850" positionY="300"/>
+<Connection from="6/komşu" to="4/görüş" with="ARG1-of"/>
+<Word name="and" positionX="750" positionY="400"/>
+<Connection from="4/görüş" to="and" with="manner"/>
+<Word name="1/artık" positionX="650" positionY="500"/>
+<Connection from="and" to="1/artık" with="op1"/>
+<Word name="3/sık" positionX="750" positionY="500"/>
+<Connection from="and" to="3/sık" with="op2"/>
+<Connection from="4/görüş" to="biz" with="ARG0"/>
+<Word name="7/baş" positionX="950" positionY="200"/>
+<Connection from="9/sev" to="7/baş" with="time"/>
+<Word name="8/hiç" positionX="1050" positionY="200"/>
+<Connection from="9/sev" to="8/hiç" with="degree"/>
+</Amr>

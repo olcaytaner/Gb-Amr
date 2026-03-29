@@ -1,0 +1,15 @@
+<Amr>
+<Word name="5/git" positionX="750" positionY="100"/>
+<Word name="siz" positionX="650" positionY="200"/>
+<Connection from="5/git" to="siz" with="ARG0"/>
+<Word name="date-entity" positionX="750" positionY="200"/>
+<Connection from="5/git" to="date-entity" with="time"/>
+<Word name="2/yaz" positionX="650" positionY="300"/>
+<Connection from="date-entity" to="2/yaz" with="season"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/yaz" to="1/bu" with="mod"/>
+<Word name="4/yer" positionX="850" positionY="200"/>
+<Connection from="5/git" to="4/yer" with="ARG1"/>
+<Word name="amr-unknown" positionX="950" positionY="200"/>
+<Connection from="5/git" to="amr-unknown" with="polarity"/>
+</Amr>

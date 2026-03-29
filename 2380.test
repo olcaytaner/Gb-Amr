@@ -1,0 +1,13 @@
+<Amr>
+<Word name="4/burada" positionX="750" positionY="100"/>
+<Word name="2/duy" positionX="650" positionY="200"/>
+<Connection from="4/burada" to="2/duy" with="time"/>
+<Word name="1/haber" positionX="550" positionY="300"/>
+<Connection from="2/duy" to="1/haber" with="ARG1"/>
+<Word name="siz" positionX="650" positionY="300"/>
+<Connection from="2/duy" to="siz" with="ARG0"/>
+<Word name="siz" positionX="750" positionY="200"/>
+<Connection from="4/burada" to="siz" with="domain"/>
+<Word name="5/mi" positionX="850" positionY="200"/>
+<Connection from="4/burada" to="5/mi"/>
+</Amr>

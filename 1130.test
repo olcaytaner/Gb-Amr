@@ -1,0 +1,9 @@
+<Amr>
+<Word name="3/siz" positionX="750" positionY="100"/>
+<Word name="4/için" positionX="650" positionY="200"/>
+<Connection from="3/siz" to="4/için" with=" purpose"/>
+<Word name="2/çiçek" positionX="750" positionY="200"/>
+<Connection from="3/siz" to="2/çiçek" with="ARG0"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/çiçek" to="1/bu" with="mod"/>
+</Amr>

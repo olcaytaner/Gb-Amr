@@ -1,0 +1,9 @@
+<Amr>
+<Word name="3/duy" positionX="750" positionY="100"/>
+<Word name="2/ses" positionX="650" positionY="200"/>
+<Connection from="3/duy" to="2/ses" with="ARG1"/>
+<Word name="4/galiba" positionX="750" positionY="200"/>
+<Connection from="3/duy" to="4/galiba" with="manner"/>
+<Word name="ben" positionX="850" positionY="200"/>
+<Connection from="3/duy" to="ben" with="ARG0"/>
+</Amr>

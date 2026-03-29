@@ -1,0 +1,13 @@
+<Amr>
+<Word name="5/yeterli" positionX="750" positionY="100"/>
+<Word name="4/not" positionX="650" positionY="200"/>
+<Connection from="5/yeterli" to="4/not"/>
+<Word name="2/bırak" positionX="550" positionY="300"/>
+<Connection from="4/not" to="2/bırak"/>
+<Word name="1/masa" positionX="450" positionY="400"/>
+<Connection from="2/bırak" to="1/masa"/>
+<Word name="6/ol" positionX="750" positionY="200"/>
+<Connection from="5/yeterli" to="6/ol"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="6/ol" to="o" with="ARG0"/>
+</Amr>

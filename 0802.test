@@ -1,0 +1,21 @@
+<Amr>
+<Word name="sahip" positionX="750" positionY="100"/>
+<Word name="3/tiraj" positionX="650" positionY="200"/>
+<Connection from="sahip" to="3/tiraj" with="ARG1"/>
+<Word name="2/yüksek" positionX="550" positionY="300"/>
+<Connection from="3/tiraj" to="2/yüksek" with="mod"/>
+<Word name="1/en" positionX="450" positionY="400"/>
+<Connection from="2/yüksek" to="1/en" with="degree"/>
+<Word name="6/gazete" positionX="750" positionY="200"/>
+<Connection from="sahip" to="6/gazete" with="ARG0"/>
+<Word name="4/beş" positionX="650" positionY="300"/>
+<Connection from="6/gazete" to="4/beş" with="quant"/>
+<Word name="country" positionX="750" positionY="300"/>
+<Connection from="6/gazete" to="country" with="mod"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="country" to="name" with="name"/>
+<Word name="Türkiye" positionX="550" positionY="500"/>
+<Connection from="name" to="Türkiye" with="op1"/>
+<Word name="Türkiye" positionX="750" positionY="400"/>
+<Connection from="country" to="Türkiye" with="wiki"/>
+</Amr>

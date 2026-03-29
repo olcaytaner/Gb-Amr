@@ -1,0 +1,20 @@
+<Amr>
+<Word name="7/akıl 8/iş 9/değil" positionX="750" positionY="100"/>
+<Word name="2/ye" positionX="650" positionY="200"/>
+<Connection from="7/akıl 8/iş 9/değil" to="2/ye"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="2/ye" to="o" with="ARG0"/>
+<Word name="1/düzenli" positionX="650" positionY="300"/>
+<Connection from="2/ye" to="1/düzenli" with="manner"/>
+<Word name="3/yer" positionX="750" positionY="300"/>
+<Connection from="2/ye" to="3/yer"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="3/yer" to="o" with="poss"/>
+<Word name="5/atıştır" positionX="750" positionY="200"/>
+<Connection from="7/akıl 8/iş 9/değil" to="5/atıştır"/>
+<Connection from="5/atıştır" to="o" with="ARG0"/>
+<Word name="4/durmadan" positionX="750" positionY="300"/>
+<Connection from="5/atıştır" to="4/durmadan"/>
+<Word name="6/hiç" positionX="850" positionY="200"/>
+<Connection from="7/akıl 8/iş 9/değil" to="6/hiç" with="degree"/>
+</Amr>

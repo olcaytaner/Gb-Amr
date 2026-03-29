@@ -1,0 +1,7 @@
+<Amr>
+<Word name="4/ilaç" positionX="750" positionY="100"/>
+<Word name="2/tavsiye 3/et" positionX="650" positionY="200"/>
+<Connection from="4/ilaç" to="2/tavsiye 3/et" with="ARG1-of"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/tavsiye 3/et" to="ben" with="ARG0"/>
+</Amr>

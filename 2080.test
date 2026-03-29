@@ -1,0 +1,11 @@
+<Amr>
+<Word name="5/iste" positionX="750" positionY="100"/>
+<Word name="4/başlat" positionX="650" positionY="200"/>
+<Connection from="5/iste" to="4/başlat" with="ARG1"/>
+<Word name="1/toplantı" positionX="550" positionY="300"/>
+<Connection from="4/başlat" to="1/toplantı" with="ARG1"/>
+<Word name="3/gel" positionX="650" positionY="300"/>
+<Connection from="4/başlat" to="3/gel" with="prep-without"/>
+<Word name="2/müdür" positionX="550" positionY="400"/>
+<Connection from="3/gel" to="2/müdür" with="ARG0"/>
+</Amr>

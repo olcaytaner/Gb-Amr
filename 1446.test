@@ -1,0 +1,7 @@
+<Amr>
+<Word name="3/kim" positionX="750" positionY="100"/>
+<Word name="1/hülya" positionX="650" positionY="200"/>
+<Connection from="3/kim" to="1/hülya"/>
+<Word name="2/mi" positionX="550" positionY="300"/>
+<Connection from="1/hülya" to="2/mi"/>
+</Amr>

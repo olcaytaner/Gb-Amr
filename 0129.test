@@ -1,0 +1,11 @@
+<Amr>
+<Word name="location" positionX="750" positionY="100"/>
+<Word name="name" positionX="650" positionY="200"/>
+<Connection from="location" to="name" with="name"/>
+<Word name="1/Ağrı" positionX="550" positionY="300"/>
+<Connection from="name" to="1/Ağrı" with="op1"/>
+<Word name="2/Dağ" positionX="650" positionY="300"/>
+<Connection from="name" to="2/Dağ" with="op2"/>
+<Word name="wiki" positionX="750" positionY="200"/>
+<Connection from="location" to="wiki" with="Ağrı Dağı"/>
+</Amr>

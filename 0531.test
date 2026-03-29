@@ -1,0 +1,7 @@
+<Amr>
+<Word name="amr-unknown" positionX="750" positionY="100"/>
+<Word name="1/abla" positionX="650" positionY="200"/>
+<Connection from="amr-unknown" to="1/abla" with="loc-of"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="1/abla" to="ben" with="poss"/>
+</Amr>

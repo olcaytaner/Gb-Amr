@@ -1,0 +1,9 @@
+<Amr>
+<Word name="5/zorun" positionX="750" positionY="100"/>
+<Word name="1/artık" positionX="650" positionY="200"/>
+<Connection from="5/zorun" to="1/artık" with="manner"/>
+<Word name="4/söyle" positionX="750" positionY="200"/>
+<Connection from="5/zorun" to="4/söyle"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/söyle" to="o" with="ARG0"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr>
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/affet" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/affet" with="ARG1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="5/affet" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="5/affet" to="o" with="ARG0"/>
+<Word name="3/yalan 4/söyle" positionX="750" positionY="300"/>
+<Connection from="5/affet" to="3/yalan 4/söyle" with="ARG1"/>
+<Word name="koca" positionX="650" positionY="400"/>
+<Connection from="3/yalan 4/söyle" to="koca" with="ARG0"/>
+<Word name="o" positionX="550" positionY="500"/>
+<Connection from="koca" to="o" with="poss"/>
+<Word name="o" positionX="750" positionY="400"/>
+<Connection from="3/yalan 4/söyle" to="o" with="ARG1"/>
+</Amr>

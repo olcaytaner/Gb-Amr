@@ -1,0 +1,22 @@
+<Amr>
+<Word name="10/dikkat 11/çek" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="10/dikkat 11/çek" to="o" with="ARG0"/>
+<Word name="1/ne 2/var 3/ki" positionX="750" positionY="200"/>
+<Connection from="10/dikkat 11/çek" to="1/ne 2/var 3/ki"/>
+<Word name="6/bak" positionX="850" positionY="200"/>
+<Connection from="10/dikkat 11/çek" to="6/bak"/>
+<Connection from="6/bak" to="o" with="ARG0"/>
+<Word name="o" positionX="850" positionY="300"/>
+<Connection from="6/bak" to="o" with="poss"/>
+<Word name="4/rakam" positionX="950" positionY="300"/>
+<Connection from="6/bak" to="4/rakam"/>
+<Word name="5/ayrıntılı" positionX="1050" positionY="300"/>
+<Connection from="6/bak" to="5/ayrıntılı"/>
+<Word name="8/farklılaşma" positionX="950" positionY="200"/>
+<Connection from="10/dikkat 11/çek" to="8/farklılaşma"/>
+<Word name="7/bölgesel" positionX="850" positionY="300"/>
+<Connection from="8/farklılaşma" to="7/bölgesel" with="mod"/>
+<Word name="9/da" positionX="950" positionY="300"/>
+<Connection from="8/farklılaşma" to="9/da"/>
+</Amr>

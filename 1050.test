@@ -1,0 +1,17 @@
+<Amr>
+<Word name="6/al" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/al" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="6/al" to="o" with="ARG0"/>
+<Word name="1/yıl" positionX="850" positionY="200"/>
+<Connection from="6/al" to="1/yıl" with="time"/>
+<Word name="2/beri" positionX="750" positionY="300"/>
+<Connection from="1/yıl" to="2/beri" with="duration"/>
+<Word name="3/kendi" positionX="950" positionY="200"/>
+<Connection from="6/al" to="3/kendi" with="beneficiary"/>
+<Word name="5/pabuç" positionX="1050" positionY="200"/>
+<Connection from="6/al" to="5/pabuç" with="ARG1"/>
+<Word name="4/yeni" positionX="950" positionY="300"/>
+<Connection from="5/pabuç" to="4/yeni" with="mod"/>
+</Amr>

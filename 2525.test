@@ -1,0 +1,16 @@
+<Amr>
+<Word name="5/yetiş" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/yetiş" to="-" with="polarity"/>
+<Word name="sen" positionX="750" positionY="200"/>
+<Connection from="5/yetiş" to="sen" with="ARG0"/>
+<Word name="3/bin" positionX="850" positionY="200"/>
+<Connection from="5/yetiş" to="3/bin" with="cond"/>
+<Connection from="3/bin" to="sen" with="ARG0"/>
+<Word name="2/otobüs" positionX="850" positionY="300"/>
+<Connection from="3/bin" to="2/otobüs" with="ARG1"/>
+<Word name="1/9" positionX="750" positionY="400"/>
+<Connection from="2/otobüs" to="1/9" with="mod"/>
+<Word name="4/uçak" positionX="950" positionY="200"/>
+<Connection from="5/yetiş" to="4/uçak" with="destination"/>
+</Amr>

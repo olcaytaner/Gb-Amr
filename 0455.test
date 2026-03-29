@@ -1,0 +1,13 @@
+<Amr>
+<Word name="5/bitir" positionX="750" positionY="100"/>
+<Word name="2/ara" positionX="650" positionY="200"/>
+<Connection from="5/bitir" to="2/ara" with="time"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/ara" to="1/bu" with="mod"/>
+<Word name="4/ders" positionX="750" positionY="200"/>
+<Connection from="5/bitir" to="4/ders" with="ARG1"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="4/ders" to="biz" with="poss"/>
+<Word name="biz" positionX="850" positionY="200"/>
+<Connection from="5/bitir" to="biz" with="ARG0"/>
+</Amr>

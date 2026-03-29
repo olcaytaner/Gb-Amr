@@ -1,0 +1,9 @@
+<Amr>
+<Word name="4/doğru" positionX="750" positionY="100"/>
+<Word name="2/ameliyat 3/ol" positionX="650" positionY="200"/>
+<Connection from="4/doğru" to="2/ameliyat 3/ol" with="domain"/>
+<Word name="ayşe" positionX="550" positionY="300"/>
+<Connection from="2/ameliyat 3/ol" to="ayşe" with="poss"/>
+<Word name="amr-unknown" positionX="750" positionY="200"/>
+<Connection from="4/doğru" to="amr-unknown" with="polarity"/>
+</Amr>

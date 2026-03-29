@@ -1,0 +1,28 @@
+<Amr>
+<Word name="4/yaz" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="4/yaz" to="person" with="ARG1"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/tosca" positionX="450" positionY="400"/>
+<Connection from="name" to="1/tosca" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="4/yaz" to="and"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="and" to="person" with="ARG0"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/Puccini" positionX="450" positionY="500"/>
+<Connection from="name" to="5/Puccini" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/mi" positionX="750" positionY="400"/>
+<Connection from="person" to="6/mi"/>
+<Connection from="and" to="person" with="ARG0"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/verdi" positionX="550" positionY="500"/>
+<Connection from="name" to="2/verdi" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/mi" positionX="850" positionY="400"/>
+<Connection from="person" to="3/mi"/>
+</Amr>

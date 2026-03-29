@@ -1,0 +1,15 @@
+<Amr>
+<Word name="6/kal" positionX="750" positionY="100"/>
+<Word name="1/otobüs" positionX="650" positionY="200"/>
+<Connection from="6/kal" to="1/otobüs" with="location"/>
+<Word name="5/yer" positionX="750" positionY="200"/>
+<Connection from="6/kal" to="5/yer" with="ARG1"/>
+<Word name="volume-quantity" positionX="650" positionY="300"/>
+<Connection from="5/yer" to="volume-quantity" with="mod"/>
+<Word name="4/kişilik" positionX="550" positionY="400"/>
+<Connection from="volume-quantity" to="4/kişilik" with="unit"/>
+<Word name="3/iki" positionX="650" positionY="400"/>
+<Connection from="volume-quantity" to="3/iki" with="quant"/>
+<Word name="2/sadece" positionX="750" positionY="400"/>
+<Connection from="volume-quantity" to="2/sadece" with="manner"/>
+</Amr>

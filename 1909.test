@@ -1,0 +1,5 @@
+<Amr>
+<Word name="2/yazıl" positionX="750" positionY="100"/>
+<Word name="1/rapor" positionX="650" positionY="200"/>
+<Connection from="2/yazıl" to="1/rapor" with="ARG1"/>
+</Amr>

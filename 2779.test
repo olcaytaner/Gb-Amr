@@ -1,0 +1,11 @@
+<Amr>
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/yetiş" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/yetiş" with="domain"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="5/yetiş" to="ben" with="ARG0"/>
+<Word name="4/tren" positionX="650" positionY="300"/>
+<Connection from="5/yetiş" to="4/tren" with="ARG1"/>
+<Word name="3/8.5" positionX="550" positionY="400"/>
+<Connection from="4/tren" to="3/8.5" with="mod"/>
+</Amr>

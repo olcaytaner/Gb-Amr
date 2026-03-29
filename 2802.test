@@ -1,0 +1,11 @@
+<Amr>
+<Word name="either" positionX="750" positionY="100"/>
+<Word name="4/öğrenci" positionX="650" positionY="200"/>
+<Connection from="either" to="4/öğrenci" with="op1"/>
+<Word name="1/öğretmen" positionX="750" positionY="200"/>
+<Connection from="either" to="1/öğretmen" with="op2"/>
+<Word name="siz" positionX="850" positionY="200"/>
+<Connection from="either" to="siz" with="domain"/>
+<Word name="amr-unknown" positionX="950" positionY="200"/>
+<Connection from="either" to="amr-unknown" with="polarity"/>
+</Amr>

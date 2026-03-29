@@ -1,0 +1,11 @@
+<Amr>
+<Word name="3/eksik 4/çık" positionX="750" positionY="100"/>
+<Word name="thing" positionX="650" positionY="200"/>
+<Connection from="3/eksik 4/çık" to="thing" with="ARG0"/>
+<Word name="include-91" positionX="550" positionY="300"/>
+<Connection from="thing" to="include-91" with="ARG1-of"/>
+<Word name="2/iç" positionX="450" positionY="400"/>
+<Connection from="include-91" to="2/iç" with="ARG2"/>
+<Word name="1/paket" positionX="350" positionY="500"/>
+<Connection from="2/iç" to="1/paket" with="poss"/>
+</Amr>

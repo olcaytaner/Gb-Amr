@@ -1,0 +1,13 @@
+<Amr>
+<Word name="karşılaştır" positionX="750" positionY="100"/>
+<Word name="2/gel" positionX="650" positionY="200"/>
+<Connection from="karşılaştır" to="2/gel" with="ARG1"/>
+<Word name="1/sonbahar" positionX="550" positionY="300"/>
+<Connection from="2/gel" to="1/sonbahar" with="ARG0"/>
+<Word name="6/yeşil" positionX="750" positionY="200"/>
+<Connection from="karşılaştır" to="6/yeşil" with="ARG2"/>
+<Word name="4/ağaç" positionX="650" positionY="300"/>
+<Connection from="6/yeşil" to="4/ağaç" with="domain"/>
+<Word name="5/hâlâ" positionX="750" positionY="300"/>
+<Connection from="6/yeşil" to="5/hâlâ" with="time"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr>
+<Word name="3/cep" positionX="750" positionY="100"/>
+<Word name="1/anahtar" positionX="650" positionY="200"/>
+<Connection from="3/cep" to="1/anahtar" with="loc-of"/>
+<Word name="2/palto" positionX="750" positionY="200"/>
+<Connection from="3/cep" to="2/palto" with="poss"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="2/palto" to="ben" with="poss"/>
+</Amr>

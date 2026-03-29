@@ -1,0 +1,13 @@
+<Amr>
+<Word name="5/bil" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/bil" to="-" with="polarity"/>
+<Word name="1/bugün" positionX="750" positionY="200"/>
+<Connection from="5/bil" to="1/bugün" with="time"/>
+<Word name="2/genç" positionX="850" positionY="200"/>
+<Connection from="5/bil" to="2/genç" with="ARG0"/>
+<Word name="4/yap" positionX="950" positionY="200"/>
+<Connection from="5/bil" to="4/yap" with="ARG1"/>
+<Word name="3/yemek" positionX="850" positionY="300"/>
+<Connection from="4/yap" to="3/yemek" with="ARG1"/>
+</Amr>

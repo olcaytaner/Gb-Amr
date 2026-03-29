@@ -1,0 +1,21 @@
+<Amr>
+<Word name="6/et" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="6/et" to="ben" with="ARG0"/>
+<Word name="4/ettir" positionX="750" positionY="200"/>
+<Connection from="6/et" to="4/ettir"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="4/ettir" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="4/ettir" to="o" with="ARG0"/>
+<Word name="o" positionX="850" positionY="300"/>
+<Connection from="4/ettir" to="o" with="poss"/>
+<Word name="2/bil" positionX="950" positionY="300"/>
+<Connection from="4/ettir" to="2/bil"/>
+<Word name="1/konu" positionX="850" positionY="400"/>
+<Connection from="2/bil" to="1/konu"/>
+<Word name="3/fark" positionX="1050" positionY="300"/>
+<Connection from="4/ettir" to="3/fark"/>
+<Word name="5/tahmin" positionX="850" positionY="200"/>
+<Connection from="6/et" to="5/tahmin"/>
+</Amr>

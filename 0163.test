@@ -1,0 +1,21 @@
+<Amr>
+<Word name="4/sinema" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Word name="country" positionX="528" positionY="271"/>
+<Word name="Almanya" positionX="450" positionY="400"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Word name="2/Almanya" positionX="570" positionY="499"/>
+<Word name="country" positionX="650" positionY="300"/>
+<Word name="1/ingiltere" positionX="94" positionY="164"/>
+<Word name="ingiltere" positionX="329" positionY="312"/>
+<Connection from="4/sinema" to="and" with="mod"/>
+<Connection from="and" to="country" with="op1"/>
+<Connection from="country" to="Almanya" with="wiki"/>
+<Connection from="country" to="name" with="name"/>
+<Connection from="name" to="2/Almanya" with="op1"/>
+<Connection from="and" to="country" with="op2"/>
+<Connection from="country" to="name" with="name"/>
+<Connection from="country" to="ingiltere" with="wiki"/>
+<Connection from="and" to="country" with="op1"/>
+<Connection from="and" to="country" with="op1"/>
+</Amr>

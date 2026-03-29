@@ -1,0 +1,13 @@
+<Amr>
+<Word name="7/var" positionX="750" positionY="100"/>
+<Word name="5/sor" positionX="650" positionY="200"/>
+<Connection from="7/var" to="5/sor" with="ARG0"/>
+<Word name="1/baba" positionX="550" positionY="300"/>
+<Connection from="5/sor" to="1/baba" with="ARG1"/>
+<Word name="sen" positionX="450" positionY="400"/>
+<Connection from="1/baba" to="sen" with="poss"/>
+<Word name="tekrar" positionX="650" positionY="300"/>
+<Connection from="5/sor" to="tekrar" with="manner"/>
+<Word name="6/yarar" positionX="750" positionY="200"/>
+<Connection from="7/var" to="6/yarar" with="ARG1"/>
+</Amr>

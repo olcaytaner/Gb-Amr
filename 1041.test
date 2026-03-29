@@ -1,0 +1,11 @@
+<Amr>
+<Word name="4/din" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/din" to="o" with="ARG0"/>
+<Word name="1/sabah" positionX="750" positionY="200"/>
+<Connection from="4/din" to="1/sabah" with="time"/>
+<Word name="2/karşı" positionX="850" positionY="200"/>
+<Connection from="4/din" to="2/karşı" with="mod"/>
+<Word name="3/fırtına" positionX="950" positionY="200"/>
+<Connection from="4/din" to="3/fırtına" with="ARG1"/>
+</Amr>

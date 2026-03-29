@@ -1,0 +1,9 @@
+<Amr>
+<Word name="1/sen" positionX="750" positionY="100"/>
+<Word name="2/karşı" positionX="650" positionY="200"/>
+<Connection from="1/sen" to="2/karşı" with="ARG1"/>
+<Word name="onlar" positionX="750" positionY="200"/>
+<Connection from="1/sen" to="onlar" with="ARG0"/>
+<Word name="-" positionX="850" positionY="200"/>
+<Connection from="1/sen" to="-" with="polarity"/>
+</Amr>

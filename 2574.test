@@ -1,0 +1,21 @@
+<Amr>
+<Word name="6/iste" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/iste" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="6/iste" to="o" with="ARG0"/>
+<Word name="2/var" positionX="850" positionY="200"/>
+<Connection from="6/iste" to="2/var"/>
+<Word name="1/para" positionX="750" positionY="300"/>
+<Connection from="2/var" to="1/para"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="1/para" to="o" with="poss"/>
+<Word name="3/i" positionX="850" positionY="300"/>
+<Connection from="2/var" to="3/i"/>
+<Connection from="3/i" to="o" with="ARG0"/>
+<Word name="4/de" positionX="950" positionY="300"/>
+<Connection from="2/var" to="4/de"/>
+<Word name="5/harca" positionX="950" positionY="200"/>
+<Connection from="6/iste" to="5/harca"/>
+<Connection from="5/harca" to="o" with="ARG0"/>
+</Amr>

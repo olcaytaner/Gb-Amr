@@ -1,0 +1,35 @@
+<Amr>
+<Word name="governent-organization" positionX="750" positionY="100"/>
+<Word name="name" positionX="650" positionY="200"/>
+<Connection from="governent-organization" to="name" with="name"/>
+<Word name="country" positionX="550" positionY="300"/>
+<Connection from="name" to="country" with="op1"/>
+<Connection from="country" to="name" with="name"/>
+<Word name="1/türkiye" positionX="350" positionY="500"/>
+<Connection from="name" to="1/türkiye" with="op1"/>
+<Word name="2/cumhuriyet" positionX="450" positionY="500"/>
+<Connection from="name" to="2/cumhuriyet" with="op2"/>
+<Word name="Türkiye Cumhuriyeti" positionX="550" positionY="400"/>
+<Connection from="country" to="Türkiye Cumhuriyeti" with="wiki"/>
+<Word name="3/milli" positionX="650" positionY="300"/>
+<Connection from="name" to="3/milli" with="op2"/>
+<Word name="4/eğitim" positionX="750" positionY="300"/>
+<Connection from="name" to="4/eğitim" with="op3"/>
+<Word name="5/bakanlık" positionX="850" positionY="300"/>
+<Connection from="name" to="5/bakanlık" with="op4"/>
+<Word name="province" positionX="950" positionY="300"/>
+<Connection from="name" to="province" with="op5"/>
+<Connection from="province" to="name" with="name"/>
+<Word name="6/kadıköy" positionX="750" positionY="500"/>
+<Connection from="name" to="6/kadıköy" with="op1"/>
+<Word name="Kadıköy" positionX="950" positionY="400"/>
+<Connection from="province" to="Kadıköy" with="wiki"/>
+<Word name="7/kız" positionX="1050" positionY="300"/>
+<Connection from="name" to="7/kız" with="op6"/>
+<Word name="8/yüksek" positionX="1150" positionY="300"/>
+<Connection from="name" to="8/yüksek" with="op7"/>
+<Word name="9/meslek 10/okul" positionX="1250" positionY="300"/>
+<Connection from="name" to="9/meslek 10/okul" with=" op8"/>
+<Word name="11/müdürlük" positionX="1350" positionY="300"/>
+<Connection from="name" to="11/müdürlük" with="op9"/>
+</Amr>

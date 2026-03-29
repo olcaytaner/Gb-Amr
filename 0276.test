@@ -1,0 +1,15 @@
+<Amr>
+<Word name="11/yap" positionX="750" positionY="100"/>
+<Word name="1/her 2/yıl" positionX="650" positionY="200"/>
+<Connection from="11/yap" to="1/her 2/yıl" with="frequency"/>
+<Word name="4/kent" positionX="750" positionY="200"/>
+<Connection from="11/yap" to="4/kent" with="location"/>
+<Word name="3/bu" positionX="650" positionY="300"/>
+<Connection from="4/kent" to="3/bu" with="mod"/>
+<Word name="10/bina" positionX="850" positionY="200"/>
+<Connection from="11/yap" to="10/bina" with="ARG1"/>
+<Word name="5/iki 6/bin 7/beş 8/yüz" positionX="750" positionY="300"/>
+<Connection from="10/bina" to="5/iki 6/bin 7/beş 8/yüz" with="quant"/>
+<Word name="9/yeni" positionX="850" positionY="300"/>
+<Connection from="10/bina" to="9/yeni" with="mod"/>
+</Amr>

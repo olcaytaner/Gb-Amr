@@ -1,0 +1,11 @@
+<Amr>
+<Word name="4/zaman" positionX="750" positionY="100"/>
+<Word name="3/ol" positionX="650" positionY="200"/>
+<Connection from="4/zaman" to="3/ol" with="time-of"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="3/ol" to="-" with="polarity"/>
+<Word name="1/ev" positionX="650" positionY="300"/>
+<Connection from="3/ol" to="1/ev" with="location"/>
+<Word name="2/su" positionX="750" positionY="300"/>
+<Connection from="3/ol" to="2/su" with="ARG0"/>
+</Amr>

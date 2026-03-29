@@ -1,0 +1,10 @@
+<Amr>
+<Word name="3/buluş" positionX="750" positionY="100"/>
+<Word name="1/arkadaş" positionX="780" positionY="219"/>
+<Word name="biz" positionX="674" positionY="323"/>
+<Word name="2/burada" positionX="943" positionY="201"/>
+<Connection from="3/buluş" to="biz" with="ARG0"/>
+<Connection from="3/buluş" to="1/arkadaş" with="ARG1"/>
+<Connection from="1/arkadaş" to="biz" with="poss"/>
+<Connection from="3/buluş" to="2/burada" with="location"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr>
+<Word name="4/televizyon" positionX="750" positionY="100"/>
+<Word name="2/al" positionX="650" positionY="200"/>
+<Connection from="4/televizyon" to="2/al" with="ARG1-of"/>
+<Word name="1/arkadaş" positionX="550" positionY="300"/>
+<Connection from="2/al" to="1/arkadaş" with="ARG0"/>
+</Amr>

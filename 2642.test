@@ -1,0 +1,19 @@
+<Amr>
+<Word name="7/kurtar" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/kurtar" to="o" with="ARG0"/>
+<Word name="1/ya" positionX="750" positionY="200"/>
+<Connection from="7/kurtar" to="1/ya" with="manner"/>
+<Word name="3/ev" positionX="850" positionY="200"/>
+<Connection from="7/kurtar" to="3/ev" with="location"/>
+<Word name="2/ben" positionX="750" positionY="300"/>
+<Connection from="3/ev" to="2/ben"/>
+<Word name="4/ol" positionX="850" positionY="300"/>
+<Connection from="3/ev" to="4/ol"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="4/ol" to="-" with="polarity"/>
+<Word name="5/sen" positionX="950" positionY="200"/>
+<Connection from="7/kurtar" to="5/sen"/>
+<Word name="6/kim" positionX="1050" positionY="200"/>
+<Connection from="7/kurtar" to="6/kim"/>
+</Amr>

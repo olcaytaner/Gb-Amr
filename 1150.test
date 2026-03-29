@@ -1,0 +1,9 @@
+<Amr>
+<Word name="4/renk" positionX="750" positionY="100"/>
+<Word name="1/bu" positionX="650" positionY="200"/>
+<Connection from="4/renk" to="1/bu" with="mod"/>
+<Word name="2/ev" positionX="750" positionY="200"/>
+<Connection from="4/renk" to="2/ev" with="mod"/>
+<Word name="3/kendi" positionX="850" positionY="200"/>
+<Connection from="4/renk" to="3/kendi" with="mod"/>
+</Amr>

@@ -1,0 +1,32 @@
+<Amr>
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="-" with="polarity"/>
+<Word name="10/gel" positionX="750" positionY="200"/>
+<Connection from="mümkün" to="10/gel" with="ARG1"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="10/gel" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="1/musa" positionX="550" positionY="500"/>
+<Connection from="-" to="1/musa" with="op1"/>
+<Word name="8/biz" positionX="750" positionY="300"/>
+<Connection from="10/gel" to="8/biz"/>
+<Word name="9/plaj" positionX="850" positionY="300"/>
+<Connection from="10/gel" to="9/plaj" with="destination"/>
+<Word name="6/ol" positionX="850" positionY="200"/>
+<Connection from="mümkün" to="6/ol" with="cause"/>
+<Word name="5/çalış" positionX="750" positionY="300"/>
+<Connection from="6/ol" to="5/çalış" with="cause"/>
+<Word name="and" positionX="650" positionY="400"/>
+<Connection from="5/çalış" to="and" with="time"/>
+<Word name="2/dün" positionX="550" positionY="500"/>
+<Connection from="and" to="2/dün" with="op1"/>
+<Word name="4/gün" positionX="650" positionY="500"/>
+<Connection from="and" to="4/gün" with="op2"/>
+<Word name="3/bütün" positionX="550" positionY="600"/>
+<Connection from="4/gün" to="3/bütün" with="mod"/>
+<Connection from="6/ol" to="person" with="ARG0"/>
+</Amr>

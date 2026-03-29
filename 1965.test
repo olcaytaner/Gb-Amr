@@ -1,0 +1,9 @@
+<Amr>
+<Word name="4/burada" positionX="750" positionY="100"/>
+<Word name="1/hafta 2/son" positionX="650" positionY="200"/>
+<Connection from="4/burada" to="1/hafta 2/son" with="time"/>
+<Word name="3/çocuk" positionX="750" positionY="200"/>
+<Connection from="4/burada" to="3/çocuk" with="loc-of"/>
+<Word name="-" positionX="850" positionY="200"/>
+<Connection from="4/burada" to="-" with="polarity"/>
+</Amr>

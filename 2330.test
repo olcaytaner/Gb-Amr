@@ -1,0 +1,9 @@
+<Amr>
+<Word name="6/uyku 7/dal" positionX="750" positionY="100"/>
+<Word name="4/bebek" positionX="650" positionY="200"/>
+<Connection from="6/uyku 7/dal" to="4/bebek" with="ARG0"/>
+<Word name="1/yemek 2/ye" positionX="550" positionY="300"/>
+<Connection from="4/bebek" to="1/yemek 2/ye" with="ARG0-of"/>
+<Word name="5/hemen" positionX="750" positionY="200"/>
+<Connection from="6/uyku 7/dal" to="5/hemen" with="manner"/>
+</Amr>

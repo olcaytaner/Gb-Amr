@@ -1,0 +1,22 @@
+<Amr>
+<Word name="6/uğra" positionX="750" positionY="100"/>
+<Word name="1/vapur" positionX="650" positionY="200"/>
+<Connection from="6/uğra" to="1/vapur" with="ARG0"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="6/uğra" to="and" with="ARG1"/>
+<Word name="city" positionX="650" positionY="300"/>
+<Connection from="and" to="city" with="op1"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="5/Venedik" positionX="450" positionY="500"/>
+<Connection from="name" to="5/Venedik" with="op1"/>
+<Word name="Venedik" positionX="650" positionY="400"/>
+<Connection from="city" to="Venedik" with="wiki"/>
+<Word name="city" positionX="750" positionY="300"/>
+<Connection from="and" to="city" with="op2"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="3/Napoli" positionX="550" positionY="500"/>
+<Connection from="name" to="3/Napoli" with="op1"/>
+<Word name="Napoli" positionX="750" positionY="400"/>
+<Connection from="city" to="Napoli" with="wiki"/>
+</Amr>

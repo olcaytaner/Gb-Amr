@@ -1,0 +1,9 @@
+<Amr>
+<Word name="7/karar 8/ver" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="7/karar 8/ver" to="onlar" with="ARG0"/>
+<Word name="3/bu" positionX="750" positionY="200"/>
+<Connection from="7/karar 8/ver" to="3/bu" with="cause"/>
+<Word name="5/grev 6/yap" positionX="850" positionY="200"/>
+<Connection from="7/karar 8/ver" to="5/grev 6/yap" with="ARG1"/>
+</Amr>

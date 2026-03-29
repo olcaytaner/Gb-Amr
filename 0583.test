@@ -1,0 +1,9 @@
+<Amr>
+<Word name="3/gel" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="3/gel" to="ben" with="ARG0"/>
+<Word name="2/görme" positionX="750" positionY="200"/>
+<Connection from="3/gel" to="2/görme" with="purpose"/>
+<Word name="1/sen" positionX="650" positionY="300"/>
+<Connection from="2/görme" to="1/sen" with="ARG1"/>
+</Amr>

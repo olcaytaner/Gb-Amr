@@ -1,0 +1,7 @@
+<Amr>
+<Word name="6/aç" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/aç" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="6/aç" to="o" with="ARG0"/>
+</Amr>

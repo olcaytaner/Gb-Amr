@@ -1,0 +1,11 @@
+<Amr>
+<Word name="date-interval" positionX="750" positionY="100"/>
+<Word name="date-entity" positionX="650" positionY="200"/>
+<Connection from="date-interval" to="date-entity" with="op1"/>
+<Word name="1830" positionX="550" positionY="300"/>
+<Connection from="date-entity" to="1830" with="year"/>
+<Word name="date-entity" positionX="750" positionY="200"/>
+<Connection from="date-interval" to="date-entity" with="op2"/>
+<Word name="1840" positionX="650" positionY="300"/>
+<Connection from="date-entity" to="1840" with="year"/>
+</Amr>

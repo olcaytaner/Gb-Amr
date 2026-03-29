@@ -1,0 +1,11 @@
+<Amr>
+<Word name="5/postala" positionX="750" positionY="100"/>
+<Word name="2/dörd" positionX="650" positionY="200"/>
+<Connection from="5/postala" to="2/dörd" with="extent"/>
+<Word name="1/saat" positionX="550" positionY="300"/>
+<Connection from="2/dörd" to="1/saat" with="mod"/>
+<Word name="4/mektup" positionX="750" positionY="200"/>
+<Connection from="5/postala" to="4/mektup" with="ARG1"/>
+<Word name="6/ol" positionX="850" positionY="200"/>
+<Connection from="5/postala" to="6/ol"/>
+</Amr>

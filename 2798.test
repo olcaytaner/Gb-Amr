@@ -1,0 +1,24 @@
+<Amr>
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="7/yaşa" positionX="650" positionY="200"/>
+<Connection from="and" to="7/yaşa" with="op1"/>
+<Word name="onlar" positionX="550" positionY="300"/>
+<Connection from="7/yaşa" to="onlar" with="ARG0"/>
+<Word name="5/hatta" positionX="650" positionY="300"/>
+<Connection from="7/yaşa" to="5/hatta" with="manner"/>
+<Word name="6/ora" positionX="750" positionY="300"/>
+<Connection from="7/yaşa" to="6/ora" with="location"/>
+<Word name="3/git" positionX="750" positionY="200"/>
+<Connection from="and" to="3/git" with="op2"/>
+<Connection from="3/git" to="onlar" with="ARG0"/>
+<Word name="1/eskiden" positionX="750" positionY="300"/>
+<Connection from="3/git" to="1/eskiden" with="time"/>
+<Word name="city" positionX="850" positionY="300"/>
+<Connection from="3/git" to="city" with="destination"/>
+<Word name="name" positionX="750" positionY="400"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="2/Kayseri" positionX="650" positionY="500"/>
+<Connection from="name" to="2/Kayseri" with="op1"/>
+<Word name="Kayseri" positionX="850" positionY="400"/>
+<Connection from="city" to="Kayseri" with="wiki"/>
+</Amr>

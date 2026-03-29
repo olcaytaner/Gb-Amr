@@ -1,0 +1,14 @@
+<Amr>
+<Word name="6/sür" positionX="750" positionY="100"/>
+<Word name="3/yağmur" positionX="650" positionY="200"/>
+<Connection from="6/sür" to="3/yağmur" with="ARG0"/>
+<Word name="2/başla" positionX="550" positionY="300"/>
+<Connection from="3/yağmur" to="2/başla" with="ARG0-of"/>
+<Word name="date-entity" positionX="450" positionY="400"/>
+<Connection from="2/başla" to="date-entity" with="time"/>
+<Word name="1/kış" positionX="350" positionY="500"/>
+<Connection from="date-entity" to="1/kış" with="season"/>
+<Connection from="6/sür" to="date-entity" with="time"/>
+<Word name="4/ilkbahar" positionX="650" positionY="300"/>
+<Connection from="date-entity" to="4/ilkbahar" with="season"/>
+</Amr>

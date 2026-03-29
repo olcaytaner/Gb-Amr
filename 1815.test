@@ -1,0 +1,9 @@
+<Amr>
+<Word name="3/çocuksu" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="3/çocuksu" to="sen" with="poss"/>
+<Word name="1/sen" positionX="750" positionY="200"/>
+<Connection from="3/çocuksu" to="1/sen"/>
+<Word name="2/daha" positionX="850" positionY="200"/>
+<Connection from="3/çocuksu" to="2/daha" with="manner"/>
+</Amr>

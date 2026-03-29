@@ -1,0 +1,9 @@
+<Amr>
+<Word name="5/konu" positionX="750" positionY="100"/>
+<Word name="3/gerek" positionX="650" positionY="200"/>
+<Connection from="5/konu" to="3/gerek" with="ARG1-of"/>
+<Word name="2/bil" positionX="550" positionY="300"/>
+<Connection from="3/gerek" to="2/bil" with="ARG1"/>
+<Word name="1/herkes" positionX="450" positionY="400"/>
+<Connection from="2/bil" to="1/herkes" with="ARG0"/>
+</Amr>

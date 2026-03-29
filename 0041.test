@@ -1,0 +1,15 @@
+<Amr>
+<Word name="city" positionX="750" positionY="100"/>
+<Word name="name" positionX="650" positionY="200"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="2/paris" positionX="550" positionY="300"/>
+<Connection from="name" to="2/paris" with="op1"/>
+<Word name="paris" positionX="750" positionY="200"/>
+<Connection from="city" to="paris" with="wiki"/>
+<Word name="biz" positionX="850" positionY="200"/>
+<Connection from="city" to="biz" with="loc-of"/>
+<Word name="date-entity" positionX="950" positionY="200"/>
+<Connection from="city" to="date-entity" with="time"/>
+<Word name="1/yazın" positionX="850" positionY="300"/>
+<Connection from="date-entity" to="1/yazın" with="season"/>
+</Amr>

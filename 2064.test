@@ -1,0 +1,11 @@
+<Amr>
+<Word name="5/zor" positionX="750" positionY="100"/>
+<Word name="3/otur" positionX="650" positionY="200"/>
+<Connection from="5/zor" to="3/otur" with="domain"/>
+<Word name="2/gece" positionX="550" positionY="300"/>
+<Connection from="3/otur" to="2/gece" with="time"/>
+<Word name="1/bütün" positionX="450" positionY="400"/>
+<Connection from="2/gece" to="1/bütün" with="mod"/>
+<Word name="4/çok" positionX="750" positionY="200"/>
+<Connection from="5/zor" to="4/çok" with="degree"/>
+</Amr>

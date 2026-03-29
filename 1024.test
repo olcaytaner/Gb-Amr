@@ -1,0 +1,19 @@
+<Amr>
+<Word name="6/kes" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="6/kes" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/mehmet" positionX="450" positionY="400"/>
+<Connection from="name" to="1/mehmet" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/ekmek" positionX="750" positionY="200"/>
+<Connection from="6/kes" to="2/ekmek" with="ARG1"/>
+<Word name="5/bıçak" positionX="850" positionY="200"/>
+<Connection from="6/kes" to="5/bıçak" with="instrument"/>
+<Word name="4/bir" positionX="750" positionY="300"/>
+<Connection from="5/bıçak" to="4/bir" with="quant"/>
+<Word name="3/keskin" positionX="850" positionY="300"/>
+<Connection from="5/bıçak" to="3/keskin" with="mod"/>
+</Amr>

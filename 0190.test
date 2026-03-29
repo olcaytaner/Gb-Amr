@@ -1,0 +1,13 @@
+<Amr>
+<Word name="1/bil" positionX="750" positionY="100"/>
+<Word name="8/var" positionX="650" positionY="200"/>
+<Connection from="1/bil" to="8/var" with="ARG1"/>
+<Word name="7/ihtiyaç" positionX="550" positionY="300"/>
+<Connection from="8/var" to="7/ihtiyaç" with="ARG1"/>
+<Word name="6/tatil" positionX="450" positionY="400"/>
+<Connection from="7/ihtiyaç" to="6/tatil" with="mod"/>
+<Word name="5/herkes" positionX="550" positionY="400"/>
+<Connection from="7/ihtiyaç" to="5/herkes" with="poss"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="1/bil" to="ben" with="ARG0"/>
+</Amr>

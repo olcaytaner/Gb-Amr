@@ -1,0 +1,24 @@
+<Amr>
+<Word name="6/gücen" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="6/gücen" to="person"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/mehmet" positionX="450" positionY="400"/>
+<Connection from="name" to="1/mehmet" with="op1"/>
+<Word name="3/ali" positionX="550" positionY="400"/>
+<Connection from="name" to="3/ali" with="op3"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/çağır" positionX="750" positionY="200"/>
+<Connection from="6/gücen" to="5/çağır"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="5/çağır" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="5/çağır" to="o" with="ARG0"/>
+<Word name="o" positionX="850" positionY="300"/>
+<Connection from="5/çağır" to="o" with="poss"/>
+<Word name="4/kendi" positionX="950" positionY="300"/>
+<Connection from="5/çağır" to="4/kendi"/>
+<Connection from="4/kendi" to="o" with="poss"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr>
+<Word name="7/dağıl" positionX="750" positionY="100"/>
+<Word name="6/aile" positionX="650" positionY="200"/>
+<Connection from="7/dağıl" to="6/aile" with="poss"/>
+<Word name="4/sorun" positionX="750" positionY="200"/>
+<Connection from="7/dağıl" to="4/sorun" with="domain"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="4/sorun" to="biz" with="poss"/>
+<Word name="2/önemli" positionX="750" positionY="300"/>
+<Connection from="4/sorun" to="2/önemli" with="mod"/>
+<Word name="3/toplumsal" positionX="850" positionY="300"/>
+<Connection from="4/sorun" to="3/toplumsal" with="mod"/>
+</Amr>

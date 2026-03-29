@@ -1,0 +1,11 @@
+<Amr>
+<Word name="4/bekle" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/bekle" to="onlar" with="ARG0"/>
+<Word name="3/çalma" positionX="750" positionY="200"/>
+<Connection from="4/bekle" to="3/çalma" with="ARG1"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="3/çalma" to="sen" with="poss"/>
+<Word name="2/piyano" positionX="750" positionY="300"/>
+<Connection from="3/çalma" to="2/piyano" with="ARG1"/>
+</Amr>

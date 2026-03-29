@@ -1,0 +1,11 @@
+<Amr>
+<Word name="5/yıkan" positionX="750" positionY="100"/>
+<Word name="2/kız" positionX="650" positionY="200"/>
+<Connection from="5/yıkan" to="2/kız" with="ARG0"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/kız" to="1/bu" with="mod"/>
+<Word name="date-entity" positionX="750" positionY="200"/>
+<Connection from="5/yıkan" to="date-entity" with="time"/>
+<Word name="4/sabahleyin" positionX="650" positionY="300"/>
+<Connection from="date-entity" to="4/sabahleyin" with="dayperiod"/>
+</Amr>

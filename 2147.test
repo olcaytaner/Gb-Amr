@@ -1,0 +1,17 @@
+<Amr>
+<Word name="7/iste" positionX="750" positionY="100"/>
+<Word name="6/yaz" positionX="650" positionY="200"/>
+<Connection from="7/iste" to="6/yaz" with="ARG1"/>
+<Word name="2/konu" positionX="550" positionY="300"/>
+<Connection from="6/yaz" to="2/konu" with="location"/>
+<Word name="1/bu" positionX="450" positionY="400"/>
+<Connection from="2/konu" to="1/bu" with="mod"/>
+<Word name="5/sayfa" positionX="650" positionY="300"/>
+<Connection from="6/yaz" to="5/sayfa" with="ARG1"/>
+<Word name="and" positionX="550" positionY="400"/>
+<Connection from="5/sayfa" to="and" with="quant"/>
+<Word name="4/iki" positionX="450" positionY="500"/>
+<Connection from="and" to="4/iki" with="op1"/>
+<Word name="3/bir" positionX="550" positionY="500"/>
+<Connection from="and" to="3/bir" with="op2"/>
+</Amr>

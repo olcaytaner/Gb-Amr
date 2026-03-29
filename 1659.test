@@ -1,0 +1,22 @@
+<Amr>
+<Word name="10/kolaylaştır" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="10/kolaylaştır" to="o" with="ARG0"/>
+<Word name="2/teknik" positionX="750" positionY="200"/>
+<Connection from="10/kolaylaştır" to="2/teknik"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/teknik" to="1/bu"/>
+<Word name="9/karşılaştır" positionX="850" positionY="200"/>
+<Connection from="10/kolaylaştır" to="9/karşılaştır"/>
+<Connection from="9/karşılaştır" to="o" with="ARG0"/>
+<Word name="o" positionX="850" positionY="300"/>
+<Connection from="9/karşılaştır" to="o" with="poss"/>
+<Word name="8/eser" positionX="950" positionY="300"/>
+<Connection from="9/karşılaştır" to="8/eser" with="ARG2"/>
+<Word name="6/farklı 7/ol" positionX="850" positionY="400"/>
+<Connection from="8/eser" to="6/farklı 7/ol"/>
+<Word name="5/yapı" positionX="750" positionY="500"/>
+<Connection from="6/farklı 7/ol" to="5/yapı"/>
+<Word name="4/yüzeysel" positionX="650" positionY="600"/>
+<Connection from="5/yapı" to="4/yüzeysel" with="mod"/>
+</Amr>

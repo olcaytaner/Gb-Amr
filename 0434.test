@@ -1,0 +1,9 @@
+<Amr>
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="4/yıkan" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="4/yıkan" with="ARG1"/>
+<Word name="1/çocuk" positionX="550" positionY="300"/>
+<Connection from="4/yıkan" to="1/çocuk" with="ARG0"/>
+<Word name="3/kendi 2/kendi" positionX="650" positionY="300"/>
+<Connection from="4/yıkan" to="3/kendi 2/kendi" with="manner"/>
+</Amr>

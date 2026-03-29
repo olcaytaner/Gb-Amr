@@ -1,0 +1,13 @@
+<Amr>
+<Word name="6/kaynaklan" positionX="750" positionY="100"/>
+<Word name="2/karışıklık" positionX="650" positionY="200"/>
+<Connection from="6/kaynaklan" to="2/karışıklık" with="ARG0"/>
+<Word name="1/bu" positionX="550" positionY="300"/>
+<Connection from="2/karışıklık" to="1/bu" with="mod"/>
+<Word name="5/özellik" positionX="750" positionY="200"/>
+<Connection from="6/kaynaklan" to="5/özellik" with="ARG1"/>
+<Word name="3/sorun" positionX="650" positionY="300"/>
+<Connection from="5/özellik" to="3/sorun" with="mod"/>
+<Word name="4/kendi" positionX="750" positionY="300"/>
+<Connection from="5/özellik" to="4/kendi" with="mod"/>
+</Amr>

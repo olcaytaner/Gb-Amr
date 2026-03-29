@@ -1,0 +1,15 @@
+<Amr>
+<Word name="karşılaştır" positionX="750" positionY="100"/>
+<Word name="2/git" positionX="650" positionY="200"/>
+<Connection from="karşılaştır" to="2/git" with="ARG1"/>
+<Word name="imperative" positionX="550" positionY="300"/>
+<Connection from="2/git" to="imperative" with="mode"/>
+<Word name="1/sen" positionX="650" positionY="300"/>
+<Connection from="2/git" to="1/sen" with="ARG0"/>
+<Word name="5/gel" positionX="750" positionY="200"/>
+<Connection from="karşılaştır" to="5/gel" with="ARG2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="5/gel" to="-" with="polarity"/>
+<Word name="4/ben" positionX="750" positionY="300"/>
+<Connection from="5/gel" to="4/ben" with="ARG0"/>
+</Amr>

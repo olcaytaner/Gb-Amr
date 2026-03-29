@@ -1,0 +1,9 @@
+<Amr>
+<Word name="3/ev" positionX="750" positionY="100"/>
+<Word name="1/sol" positionX="650" positionY="200"/>
+<Connection from="3/ev" to="1/sol" with="location"/>
+<Word name="ordinal-entity" positionX="750" positionY="200"/>
+<Connection from="3/ev" to="ordinal-entity" with="ord"/>
+<Word name="1" positionX="650" positionY="300"/>
+<Connection from="ordinal-entity" to="1" with="value"/>
+</Amr>

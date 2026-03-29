@@ -1,0 +1,15 @@
+<Amr>
+<Word name="8/sor" positionX="750" positionY="100"/>
+<Word name="3/gel" positionX="650" positionY="200"/>
+<Connection from="8/sor" to="3/gel" with="ARG1"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="3/gel" to="sen" with="ARG0"/>
+<Word name="2/akşam" positionX="650" positionY="300"/>
+<Connection from="3/gel" to="2/akşam" with="time"/>
+<Word name="9/anne" positionX="750" positionY="200"/>
+<Connection from="8/sor" to="9/anne" with="ARG0"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="9/anne" to="ben" with="poss"/>
+<Word name="10/ben" positionX="850" positionY="200"/>
+<Connection from="8/sor" to="10/ben" with="ARG2"/>
+</Amr>

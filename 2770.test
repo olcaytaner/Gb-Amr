@@ -1,0 +1,15 @@
+<Amr>
+<Word name="6/bura" positionX="750" positionY="100"/>
+<Word name="5/yer" positionX="650" positionY="200"/>
+<Connection from="6/bura" to="5/yer" with="domain"/>
+<Word name="4/toplan" positionX="550" positionY="300"/>
+<Connection from="5/yer" to="4/toplan" with="location-of"/>
+<Word name="biz" positionX="450" positionY="400"/>
+<Connection from="4/toplan" to="biz" with="ARG0"/>
+<Word name="rate-entity-91" positionX="550" positionY="400"/>
+<Connection from="4/toplan" to="rate-entity-91" with="frequency"/>
+<Word name="date-entity" positionX="450" positionY="500"/>
+<Connection from="rate-entity-91" to="date-entity" with="ARG4"/>
+<Word name="2/cuma" positionX="350" positionY="600"/>
+<Connection from="date-entity" to="2/cuma" with="weekday"/>
+</Amr>

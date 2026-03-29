@@ -1,0 +1,17 @@
+<Amr>
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="9/öğren" positionX="650" positionY="200"/>
+<Connection from="gerek" to="9/öğren" with="ARG1"/>
+<Word name="5/öğrenci" positionX="550" positionY="300"/>
+<Connection from="9/öğren" to="5/öğrenci" with="ARG0"/>
+<Word name="3/iste" positionX="450" positionY="400"/>
+<Connection from="5/öğrenci" to="3/iste" with="ARG0-of"/>
+<Word name="2/oku" positionX="350" positionY="500"/>
+<Connection from="3/iste" to="2/oku" with="ARG1"/>
+<Word name="1/Yurtdışı" positionX="250" positionY="600"/>
+<Connection from="2/oku" to="1/Yurtdışı" with="location"/>
+<Word name="8/ingilizce" positionX="650" positionY="300"/>
+<Connection from="9/öğren" to="8/ingilizce" with="ARG1"/>
+<Word name="7/iyi" positionX="550" positionY="400"/>
+<Connection from="8/ingilizce" to="7/iyi" with="mod"/>
+</Amr>

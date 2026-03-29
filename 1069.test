@@ -1,0 +1,11 @@
+<Amr>
+<Word name="5/çık" positionX="750" positionY="100"/>
+<Word name="3/bir" positionX="650" positionY="200"/>
+<Connection from="5/çık" to="3/bir" with="quant"/>
+<Word name="2/alt" positionX="750" positionY="200"/>
+<Connection from="5/çık" to="2/alt" with="source"/>
+<Word name="1/kanepe" positionX="650" positionY="300"/>
+<Connection from="2/alt" to="1/kanepe" with="mod"/>
+<Word name="4/fare" positionX="850" positionY="200"/>
+<Connection from="5/çık" to="4/fare" with="ARG1"/>
+</Amr>

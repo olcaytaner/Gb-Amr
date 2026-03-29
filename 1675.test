@@ -1,0 +1,15 @@
+<Amr>
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/açık" positionX="650" positionY="200"/>
+<Connection from="and" to="2/açık" with="op1"/>
+<Word name="1/kapı" positionX="550" positionY="300"/>
+<Connection from="2/açık" to="1/kapı"/>
+<Word name="4/ev" positionX="750" positionY="200"/>
+<Connection from="and" to="4/ev" with="location"/>
+<Word name="öner" positionX="650" positionY="300"/>
+<Connection from="4/ev" to="öner"/>
+<Word name="5/ol" positionX="550" positionY="400"/>
+<Connection from="öner" to="5/ol"/>
+<Word name="onlar" positionX="450" positionY="500"/>
+<Connection from="5/ol" to="onlar" with="ARG0"/>
+</Amr>

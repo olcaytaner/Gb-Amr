@@ -1,0 +1,9 @@
+<Amr>
+<Word name="4/vazgeç" positionX="750" positionY="100"/>
+<Word name="1/zerrin" positionX="650" positionY="200"/>
+<Connection from="4/vazgeç" to="1/zerrin" with="ARG0"/>
+<Word name="3/oyna" positionX="750" positionY="200"/>
+<Connection from="4/vazgeç" to="3/oyna" with="ARG1"/>
+<Word name="2/tenis" positionX="650" positionY="300"/>
+<Connection from="3/oyna" to="2/tenis" with="ARG1"/>
+</Amr>

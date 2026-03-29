@@ -1,0 +1,19 @@
+<Amr>
+<Word name="karşılaştır" positionX="750" positionY="100"/>
+<Word name="3/satın 4/al" positionX="650" positionY="200"/>
+<Connection from="karşılaştır" to="3/satın 4/al" with="ARG1"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="3/satın 4/al" to="ben" with="ARG0"/>
+<Word name="1/kitap" positionX="650" positionY="300"/>
+<Connection from="3/satın 4/al" to="1/kitap" with="ARG1"/>
+<Word name="2/heves" positionX="750" positionY="300"/>
+<Connection from="3/satın 4/al" to="2/heves" with="manner"/>
+<Word name="mümkün" positionX="750" positionY="200"/>
+<Connection from="karşılaştır" to="mümkün" with="ARG2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="mümkün" to="-" with="polarity"/>
+<Word name="6/oku" positionX="750" positionY="300"/>
+<Connection from="mümkün" to="6/oku" with="domain"/>
+<Connection from="6/oku" to="ben" with="ARG0"/>
+<Connection from="6/oku" to="1/kitap" with="ARG1"/>
+</Amr>

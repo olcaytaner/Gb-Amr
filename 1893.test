@@ -1,0 +1,9 @@
+<Amr>
+<Word name="4/ucuz" positionX="750" positionY="100"/>
+<Word name="2/ev" positionX="650" positionY="200"/>
+<Connection from="4/ucuz" to="2/ev" with="domain"/>
+<Word name="1/kalorifersiz" positionX="550" positionY="300"/>
+<Connection from="2/ev" to="1/kalorifersiz" with="mod"/>
+<Word name="3/nispeten" positionX="750" positionY="200"/>
+<Connection from="4/ucuz" to="3/nispeten" with="manner"/>
+</Amr>

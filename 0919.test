@@ -1,0 +1,15 @@
+<Amr>
+<Word name="5/tarla" positionX="750" positionY="100"/>
+<Word name="3/önce" positionX="650" positionY="200"/>
+<Connection from="5/tarla" to="3/önce"/>
+<Word name="temporal-quantity" positionX="550" positionY="300"/>
+<Connection from="3/önce" to="temporal-quantity" with="duration"/>
+<Word name="2/yıl" positionX="450" positionY="400"/>
+<Connection from="temporal-quantity" to="2/yıl" with="unit"/>
+<Word name="1/yirmi" positionX="550" positionY="400"/>
+<Connection from="temporal-quantity" to="1/yirmi" with="quant"/>
+<Word name="4/bura" positionX="750" positionY="200"/>
+<Connection from="5/tarla" to="4/bura" with="domain"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="4/bura" to="o" with="poss"/>
+</Amr>

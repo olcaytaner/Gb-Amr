@@ -1,0 +1,16 @@
+<Amr>
+<Word name="9/söyle" positionX="750" positionY="100"/>
+<Word name="8/ben" positionX="650" positionY="200"/>
+<Connection from="9/söyle" to="8/ben" with="ARG2"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="9/söyle" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="1/ali" positionX="650" positionY="400"/>
+<Connection from="-" to="1/ali" with="op1"/>
+<Word name="7/bil" positionX="850" positionY="200"/>
+<Connection from="9/söyle" to="7/bil" with="cond"/>
+<Connection from="7/bil" to="person" with="ARG0"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr>
+<Word name="2/git" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="2/git" to="onlar" with="ARG0"/>
+<Word name="mountain" positionX="750" positionY="200"/>
+<Connection from="2/git" to="mountain"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="mountain" to="name" with="name"/>
+<Word name="Uludağ" positionX="750" positionY="300"/>
+<Connection from="mountain" to="Uludağ" with="wiki"/>
+<Word name="1/Uludağ" positionX="650" positionY="400"/>
+<Connection from="Uludağ" to="1/Uludağ" with="op1"/>
+</Amr>

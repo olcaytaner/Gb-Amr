@@ -1,0 +1,9 @@
+<Amr>
+<Word name="either" positionX="750" positionY="100"/>
+<Word name="6/şapka" positionX="650" positionY="200"/>
+<Connection from="either" to="6/şapka" with="op1"/>
+<Word name="3/atkı" positionX="750" positionY="200"/>
+<Connection from="either" to="3/atkı" with="op2"/>
+<Word name="1/yeşil" positionX="650" positionY="300"/>
+<Connection from="3/atkı" to="1/yeşil" with="mod"/>
+</Amr>

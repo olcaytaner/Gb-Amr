@@ -1,0 +1,21 @@
+<Amr>
+<Word name="8/izin 9/ver" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="8/izin 9/ver" to="-" with="polarity"/>
+<Word name="2/sahip" positionX="750" positionY="200"/>
+<Connection from="8/izin 9/ver" to="2/sahip" with="ARG0"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="2/sahip" to="biz" with="poss"/>
+<Word name="1/ev" positionX="750" positionY="300"/>
+<Connection from="2/sahip" to="1/ev" with="mod"/>
+<Word name="7/besle" positionX="850" positionY="200"/>
+<Connection from="8/izin 9/ver" to="7/besle" with="ARG1"/>
+<Word name="biz" positionX="750" positionY="300"/>
+<Connection from="7/besle" to="biz" with="ARG0"/>
+<Word name="or" positionX="850" positionY="300"/>
+<Connection from="7/besle" to="or" with="ARG1"/>
+<Word name="6/köpek" positionX="750" positionY="400"/>
+<Connection from="or" to="6/köpek" with="op1"/>
+<Word name="3/kedi" positionX="850" positionY="400"/>
+<Connection from="or" to="3/kedi" with="op2"/>
+</Amr>

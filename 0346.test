@@ -1,0 +1,7 @@
+<Amr>
+<Word name="4/soğuk" positionX="750" positionY="100"/>
+<Word name="1/su" positionX="650" positionY="200"/>
+<Connection from="4/soğuk" to="1/su" with="domain"/>
+<Word name="çok" positionX="750" positionY="200"/>
+<Connection from="4/soğuk" to="çok" with="degree"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr>
+<Word name="3/al" positionX="750" positionY="100"/>
+<Word name="1/büro" positionX="650" positionY="200"/>
+<Connection from="3/al" to="1/büro" with="source"/>
+<Word name="2/kağıt" positionX="750" positionY="200"/>
+<Connection from="3/al" to="2/kağıt" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/kağıt" to="o" with="poss"/>
+<Word name="imperative" positionX="850" positionY="200"/>
+<Connection from="3/al" to="imperative" with="mode"/>
+<Word name="sen" positionX="950" positionY="200"/>
+<Connection from="3/al" to="sen" with="ARG0"/>
+</Amr>

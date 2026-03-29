@@ -1,0 +1,11 @@
+<Amr>
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="2/yatsanıza" positionX="650" positionY="200"/>
+<Connection from="and" to="2/yatsanıza" with="op1"/>
+<Word name="1/artık" positionX="550" positionY="300"/>
+<Connection from="2/yatsanıza" to="1/artık" with="manner"/>
+<Word name="4/uyukla" positionX="750" positionY="200"/>
+<Connection from="and" to="4/uyukla" with="op2"/>
+<Word name="siz" positionX="650" positionY="300"/>
+<Connection from="4/uyukla" to="siz" with="ARG0"/>
+</Amr>

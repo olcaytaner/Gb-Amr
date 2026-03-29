@@ -1,0 +1,9 @@
+<Amr>
+<Word name="3/bir 4/tane" positionX="750" positionY="100"/>
+<Word name="include-91" positionX="650" positionY="200"/>
+<Connection from="3/bir 4/tane" to="include-91" with="ARG1-of"/>
+<Word name="2/öğrenci" positionX="550" positionY="300"/>
+<Connection from="include-91" to="2/öğrenci" with="ARG2"/>
+<Word name="1/erkek" positionX="450" positionY="400"/>
+<Connection from="2/öğrenci" to="1/erkek" with="mod"/>
+</Amr>

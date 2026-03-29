@@ -1,0 +1,18 @@
+<Amr>
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/şarkı 7/söyle" positionX="650" positionY="200"/>
+<Connection from="and" to="6/şarkı 7/söyle" with="op1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="6/şarkı 7/söyle" to="o" with="ARG0"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="6/şarkı 7/söyle" to="-" with="polarity"/>
+<Word name="3/git" positionX="750" positionY="200"/>
+<Connection from="and" to="3/git" with="op2"/>
+<Connection from="3/git" to="o" with="ARG0"/>
+<Word name="2/ders" positionX="750" positionY="300"/>
+<Connection from="3/git" to="2/ders" with="ARG1"/>
+<Word name="1/şan" positionX="650" positionY="400"/>
+<Connection from="2/ders" to="1/şan" with="mod"/>
+<Word name="sürekli" positionX="850" positionY="300"/>
+<Connection from="3/git" to="sürekli" with="manner"/>
+</Amr>

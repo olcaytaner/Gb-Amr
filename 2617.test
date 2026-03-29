@@ -1,0 +1,22 @@
+<Amr>
+<Word name="öner" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="öner" to="ben" with="ARG0"/>
+<Word name="6/çık" positionX="750" positionY="200"/>
+<Connection from="öner" to="6/çık" with="ARG1"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="6/çık" to="biz" with="ARG0"/>
+<Word name="5/yürüyüş" positionX="750" positionY="300"/>
+<Connection from="6/çık" to="5/yürüyüş" with="ARG1"/>
+<Word name="4/otur" positionX="850" positionY="300"/>
+<Connection from="6/çık" to="4/otur" with="prep-after"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="4/otur" to="-" with="polarity"/>
+<Word name="3/ev" positionX="850" positionY="400"/>
+<Connection from="4/otur" to="3/ev" with="location"/>
+<Connection from="4/otur" to="biz" with="ARG0"/>
+<Word name="2/hava" positionX="950" positionY="300"/>
+<Connection from="6/çık" to="2/hava" with="location"/>
+<Word name="1/bu" positionX="850" positionY="400"/>
+<Connection from="2/hava" to="1/bu"/>
+</Amr>

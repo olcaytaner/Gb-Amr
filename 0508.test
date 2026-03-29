@@ -1,0 +1,15 @@
+<Amr>
+<Word name="5/var" positionX="750" positionY="100"/>
+<Word name="company" positionX="650" positionY="200"/>
+<Connection from="5/var" to="company" with="location"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="company" to="name" with="name"/>
+<Word name="2/migros" positionX="450" positionY="400"/>
+<Connection from="name" to="2/migros" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="company" to="-" with="wiki"/>
+<Word name="4/şarap" positionX="750" positionY="200"/>
+<Connection from="5/var" to="4/şarap" with="ARG1"/>
+<Word name="3/güzel" positionX="650" positionY="300"/>
+<Connection from="4/şarap" to="3/güzel" with="mod"/>
+</Amr>

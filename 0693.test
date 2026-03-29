@@ -1,0 +1,7 @@
+<Amr>
+<Word name=" 3/torba" positionX="750" positionY="100"/>
+<Word name="2/kağıt" positionX="650" positionY="200"/>
+<Connection from=" 3/torba" to="2/kağıt" with="consist-of"/>
+<Word name="1/gazete" positionX="550" positionY="300"/>
+<Connection from="2/kağıt" to="1/gazete" with=" mod"/>
+</Amr>

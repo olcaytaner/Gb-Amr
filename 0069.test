@@ -1,0 +1,7 @@
+<Amr>
+<Word name="3/yap" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="3/yap" to="onlar" with="ARG0"/>
+<Word name="1/usul 2/usul" positionX="750" positionY="200"/>
+<Connection from="3/yap" to="1/usul 2/usul" with="manner"/>
+</Amr>

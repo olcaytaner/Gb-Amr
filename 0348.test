@@ -1,0 +1,11 @@
+<Amr>
+<Word name="6/var" positionX="750" positionY="100"/>
+<Word name="5/oğul" positionX="650" positionY="200"/>
+<Connection from="6/var" to="5/oğul" with="ARG1"/>
+<Word name="siz" positionX="550" positionY="300"/>
+<Connection from="5/oğul" to="siz" with="poss"/>
+<Word name="3/tatlı" positionX="650" positionY="300"/>
+<Connection from="5/oğul" to="3/tatlı" with="mod"/>
+<Word name="1/pek" positionX="550" positionY="400"/>
+<Connection from="3/tatlı" to="1/pek" with="manner"/>
+</Amr>

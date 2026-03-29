@@ -1,0 +1,21 @@
+<Amr>
+<Word name="3/de" positionX="750" positionY="100"/>
+<Word name="1/ben" positionX="650" positionY="200"/>
+<Connection from="3/de" to="1/ben" with="ARG2"/>
+<Word name="2/genellikle" positionX="750" positionY="200"/>
+<Connection from="3/de" to="2/genellikle" with="manner"/>
+<Word name="and" positionX="850" positionY="200"/>
+<Connection from="3/de" to="and" with="ARG1"/>
+<Word name="mümkün" positionX="750" positionY="300"/>
+<Connection from="and" to="mümkün" with="op1"/>
+<Word name="10/gel" positionX="650" positionY="400"/>
+<Connection from="mümkün" to="10/gel" with="ARG1"/>
+<Word name="-" positionX="550" positionY="500"/>
+<Connection from="10/gel" to="-" with="polarity"/>
+<Word name="sen" positionX="650" positionY="500"/>
+<Connection from="10/gel" to="sen" with="ARG0"/>
+<Word name="8/küçük" positionX="850" positionY="300"/>
+<Connection from="and" to="8/küçük" with="op2"/>
+<Word name="sen" positionX="750" positionY="400"/>
+<Connection from="8/küçük" to="sen" with="domain"/>
+</Amr>

@@ -1,0 +1,5 @@
+<Amr>
+<Word name="3/şeker" positionX="750" positionY="100"/>
+<Word name="1/bir2/miktar" positionX="650" positionY="200"/>
+<Connection from="3/şeker" to="1/bir2/miktar" with="mod"/>
+</Amr>

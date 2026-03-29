@@ -1,0 +1,11 @@
+<Amr>
+<Word name="2/müzisyen" positionX="750" positionY="100"/>
+<Word name="country" positionX="650" positionY="200"/>
+<Connection from="2/müzisyen" to="country" with="mod"/>
+<Word name="Hindistan" positionX="550" positionY="300"/>
+<Connection from="country" to="Hindistan" with="wiki"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="country" to="name" with="name"/>
+<Word name="Hindistan" positionX="550" positionY="400"/>
+<Connection from="name" to="Hindistan" with="op1"/>
+</Amr>

@@ -1,0 +1,25 @@
+<Amr>
+<Word name="8/doğ" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="8/doğ" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="1/ali" positionX="550" positionY="400"/>
+<Connection from="-" to="1/ali" with="op1"/>
+<Word name="7/sonra" positionX="750" positionY="200"/>
+<Connection from="8/doğ" to="7/sonra" with="time"/>
+<Word name="temporal-quantity" positionX="650" positionY="300"/>
+<Connection from="7/sonra" to="temporal-quantity" with="op1"/>
+<Word name="6/ay" positionX="550" positionY="400"/>
+<Connection from="temporal-quantity" to="6/ay" with="unit"/>
+<Word name="5/iki" positionX="650" positionY="400"/>
+<Connection from="temporal-quantity" to="5/iki" with="quant"/>
+<Word name="4/öl" positionX="750" positionY="300"/>
+<Connection from="7/sonra" to="4/öl" with="op2"/>
+<Word name="3/baba" positionX="650" positionY="400"/>
+<Connection from="4/öl" to="3/baba" with="ARG0"/>
+<Word name="person" positionX="550" positionY="500"/>
+<Connection from="3/baba" to="person" with="poss"/>
+</Amr>

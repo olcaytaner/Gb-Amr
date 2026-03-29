@@ -1,0 +1,17 @@
+<Amr>
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="7/kullan" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="7/kullan"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="7/kullan" to="o" with="ARG0"/>
+<Word name="1/suluboya" positionX="650" positionY="300"/>
+<Connection from="7/kullan" to="1/suluboya"/>
+<Word name="2/ancak" positionX="750" positionY="300"/>
+<Connection from="7/kullan" to="2/ancak" with="manner"/>
+<Word name="5/ressam" positionX="850" positionY="300"/>
+<Connection from="7/kullan" to="5/ressam"/>
+<Word name="3/usta" positionX="750" positionY="400"/>
+<Connection from="5/ressam" to="3/usta" with="mod"/>
+<Word name="6/böyle" positionX="950" positionY="300"/>
+<Connection from="7/kullan" to="6/böyle" with="manner"/>
+</Amr>

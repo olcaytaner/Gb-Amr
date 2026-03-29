@@ -1,0 +1,11 @@
+<Amr>
+<Word name="7/azal" positionX="750" positionY="100"/>
+<Word name="2/tatil 3/gir" positionX="650" positionY="200"/>
+<Connection from="7/azal" to="2/tatil 3/gir" with="time"/>
+<Word name="meclis" positionX="550" positionY="300"/>
+<Connection from="2/tatil 3/gir" to="meclis" with="ARG0"/>
+<Word name="6/faaliyet" positionX="750" positionY="200"/>
+<Connection from="7/azal" to="6/faaliyet" with="ARG0"/>
+<Word name="5/başkent" positionX="650" positionY="300"/>
+<Connection from="6/faaliyet" to="5/başkent" with="mod"/>
+</Amr>

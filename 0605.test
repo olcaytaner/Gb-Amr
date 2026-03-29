@@ -1,0 +1,15 @@
+<Amr>
+<Word name="5/ye" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/ye" to="o" with="ARG0"/>
+<Word name="volume-quantity" positionX="750" positionY="200"/>
+<Connection from="5/ye" to="volume-quantity" with="ARG1"/>
+<Word name="4/dilim" positionX="650" positionY="300"/>
+<Connection from="volume-quantity" to="4/dilim" with="unit"/>
+<Word name="3/iki" positionX="750" positionY="300"/>
+<Connection from="volume-quantity" to="3/iki" with="quant"/>
+<Word name="2/pasta" positionX="850" positionY="300"/>
+<Connection from="volume-quantity" to="2/pasta" with="poss"/>
+<Word name="1/çikolatalı" positionX="750" positionY="400"/>
+<Connection from="2/pasta" to="1/çikolatalı" with="mod"/>
+</Amr>

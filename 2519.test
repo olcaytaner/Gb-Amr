@@ -1,0 +1,17 @@
+<Amr>
+<Word name="7/göz 8/bat" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="7/göz 8/bat" to="-" with="polarity"/>
+<Word name="3/tut" positionX="750" positionY="200"/>
+<Connection from="7/göz 8/bat" to="3/tut" with="cond"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="3/tut" to="sen" with="ARG0"/>
+<Word name="1/iğne" positionX="750" positionY="300"/>
+<Connection from="3/tut" to="1/iğne" with="ARG1"/>
+<Word name="2/şöyle" positionX="850" positionY="300"/>
+<Connection from="3/tut" to="2/şöyle" with="manner"/>
+<Word name="4/dikiş" positionX="850" positionY="200"/>
+<Connection from="7/göz 8/bat" to="4/dikiş" with="ARG0"/>
+<Word name="5/bu 6/kadar" positionX="950" positionY="200"/>
+<Connection from="7/göz 8/bat" to="5/bu 6/kadar" with="extent"/>
+</Amr>

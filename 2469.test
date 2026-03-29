@@ -1,0 +1,13 @@
+<Amr>
+<Word name="6/yaşlan" positionX="750" positionY="100"/>
+<Word name="3/bit" positionX="650" positionY="200"/>
+<Connection from="6/yaşlan" to="3/bit" with="extent"/>
+<Word name="2/iş" positionX="550" positionY="300"/>
+<Connection from="3/bit" to="2/iş" with="ARG0"/>
+<Word name="1/bu" positionX="450" positionY="400"/>
+<Connection from="2/iş" to="1/bu" with="mod"/>
+<Word name="5/hep" positionX="750" positionY="200"/>
+<Connection from="6/yaşlan" to="5/hep" with="ARG0"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="5/hep" to="biz" with="poss"/>
+</Amr>

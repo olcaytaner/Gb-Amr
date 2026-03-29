@@ -1,0 +1,17 @@
+<Amr>
+<Word name="4/dalga 5/geç" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="4/dalga 5/geç" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/serap" positionX="450" positionY="400"/>
+<Connection from="name" to="1/serap" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/kızkardeş" positionX="750" positionY="200"/>
+<Connection from="4/dalga 5/geç" to="2/kızkardeş" with="ARG1"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/kızkardeş" to="o" with="poss"/>
+<Word name="3/hep" positionX="850" positionY="200"/>
+<Connection from="4/dalga 5/geç" to="3/hep" with="frequency"/>
+</Amr>

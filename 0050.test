@@ -1,0 +1,12 @@
+<Amr>
+<Word name="4/kabullen" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="208"/>
+<Word name="2/yarat" positionX="755" positionY="259"/>
+<Word name="1/sorun" positionX="755" positionY="360"/>
+<Word name="3/sonuç" positionX="886" positionY="186"/>
+<Connection from="4/kabullen" to="o" with="ARG0"/>
+<Connection from="4/kabullen" to="2/yarat" with="condition"/>
+<Connection from="2/yarat" to="o" with="ARG0"/>
+<Connection from="2/yarat" to="1/sorun" with="ARG1"/>
+<Connection from="4/kabullen" to="3/sonuç" with="ARG1"/>
+</Amr>

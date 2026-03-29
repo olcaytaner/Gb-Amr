@@ -1,0 +1,15 @@
+<Amr>
+<Word name="5/üye" positionX="750" positionY="100"/>
+<Word name="have-degree-91" positionX="650" positionY="200"/>
+<Connection from="5/üye" to="have-degree-91" with="mod"/>
+<Word name="3/hevesli" positionX="550" positionY="300"/>
+<Connection from="have-degree-91" to="3/hevesli" with="ARG2"/>
+<Word name="1/hep" positionX="650" positionY="300"/>
+<Connection from="have-degree-91" to="1/hep" with="ARG4"/>
+<Word name="biz" positionX="550" positionY="400"/>
+<Connection from="1/hep" to="biz" with="poss"/>
+<Word name="2/daha" positionX="750" positionY="300"/>
+<Connection from="have-degree-91" to="2/daha" with="ARG3"/>
+<Word name="o" positionX="850" positionY="300"/>
+<Connection from="have-degree-91" to="o" with="ARG1"/>
+</Amr>

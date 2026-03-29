@@ -1,0 +1,15 @@
+<Amr>
+<Word name="4/var" positionX="750" positionY="100"/>
+<Word name="3/oyun" positionX="650" positionY="200"/>
+<Connection from="4/var" to="3/oyun" with="ARG1"/>
+<Word name="2/birçok" positionX="550" positionY="300"/>
+<Connection from="3/oyun" to="2/birçok" with="mod"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="3/oyun" to="person" with="poss"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/Shakespeare" positionX="450" positionY="500"/>
+<Connection from="name" to="1/Shakespeare" with="op1"/>
+<Word name="Shakespeare" positionX="650" positionY="400"/>
+<Connection from="person" to="Shakespeare" with="wiki"/>
+</Amr>

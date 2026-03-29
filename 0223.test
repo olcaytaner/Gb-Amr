@@ -1,0 +1,15 @@
+<Amr>
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/gör" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/gör" with="ARG1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="5/gör" to="-" with="polarity"/>
+<Word name="2/gözlük" positionX="650" positionY="300"/>
+<Connection from="5/gör" to="2/gözlük" with="instrument"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/gözlük" to="1/bu"/>
+<Word name="3/sahne" positionX="750" positionY="300"/>
+<Connection from="5/gör" to="3/sahne" with="ARG1"/>
+<Word name="amr-unknown" positionX="650" positionY="400"/>
+<Connection from="3/sahne" to="amr-unknown" with="polarity"/>
+</Amr>

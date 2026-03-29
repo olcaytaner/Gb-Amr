@@ -1,0 +1,13 @@
+<Amr>
+<Word name="6/al" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="6/al" to="biz" with="ARG0"/>
+<Word name="3/hepsi" positionX="750" positionY="200"/>
+<Connection from="6/al" to="3/hepsi" with="ARG2"/>
+<Word name="onlar" positionX="650" positionY="300"/>
+<Connection from="3/hepsi" to="onlar" with="poss"/>
+<Word name="5/cevap" positionX="850" positionY="200"/>
+<Connection from="6/al" to="5/cevap" with="ARG1"/>
+<Word name="4/aynı" positionX="750" positionY="300"/>
+<Connection from="5/cevap" to="4/aynı" with="mod"/>
+</Amr>

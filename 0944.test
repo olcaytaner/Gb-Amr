@@ -1,0 +1,17 @@
+<Amr>
+<Word name="5/çalış" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="5/çalış" to="biz" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="biz" to="name" with="name"/>
+<Word name="1/Şükran" positionX="450" positionY="400"/>
+<Connection from="name" to="1/Şükran" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="biz" to="-" with="wiki"/>
+<Word name="4/görüşme" positionX="750" positionY="200"/>
+<Connection from="5/çalış" to="4/görüşme" with=" ARG1"/>
+<Word name="3/bir" positionX="650" positionY="300"/>
+<Connection from="4/görüşme" to="3/bir" with="quant"/>
+<Word name="2/ay" positionX="550" positionY="400"/>
+<Connection from="3/bir" to="2/ay" with="frequency"/>
+</Amr>

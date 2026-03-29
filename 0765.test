@@ -1,0 +1,5 @@
+<Amr>
+<Word name="3/tabak" positionX="750" positionY="100"/>
+<Word name="1/on" positionX="650" positionY="200"/>
+<Connection from="3/tabak" to="1/on" with="quant"/>
+</Amr>

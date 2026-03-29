@@ -1,0 +1,17 @@
+<Amr>
+<Word name="4/banka" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="4/banka" to="person"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/necla" positionX="450" positionY="400"/>
+<Connection from="name" to="1/necla" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/galiba" positionX="750" positionY="200"/>
+<Connection from="4/banka" to="2/galiba" with="manner"/>
+<Word name="3/artık" positionX="850" positionY="200"/>
+<Connection from="4/banka" to="3/artık" with="manner"/>
+<Word name="-" positionX="950" positionY="200"/>
+<Connection from="4/banka" to="-" with="polarity"/>
+</Amr>

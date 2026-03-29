@@ -1,0 +1,20 @@
+<Amr>
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="8/bekle" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="8/bekle" with="domain"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="8/bekle" to="biz" with="ARG0"/>
+<Word name="6/gel" positionX="650" positionY="300"/>
+<Connection from="8/bekle" to="6/gel" with="cond"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="6/gel" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="6/gel" to="o" with="ARG0"/>
+<Word name="3/o 4/saat" positionX="750" positionY="400"/>
+<Connection from="6/gel" to="3/o 4/saat" with="extent"/>
+<Word name="8/fazla" positionX="750" positionY="300"/>
+<Connection from="8/bekle" to="8/fazla" with="degree"/>
+<Word name="7/daha" positionX="650" positionY="400"/>
+<Connection from="8/fazla" to="7/daha" with="degree"/>
+<Connection from="mümkün" to="-" with="polarity"/>
+</Amr>

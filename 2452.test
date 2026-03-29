@@ -1,0 +1,24 @@
+<Amr>
+<Word name="6/görüş" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="6/görüş" to="biz" with="ARG0"/>
+<Word name="city" positionX="750" positionY="200"/>
+<Connection from="6/görüş" to="city" with="location"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="Adana" positionX="750" positionY="300"/>
+<Connection from="city" to="Adana" with="wiki"/>
+<Word name="Adana" positionX="650" positionY="400"/>
+<Connection from="Adana" to="Adana" with="op1"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="6/görüş" to="person" with="ARG1"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/şule" positionX="650" positionY="400"/>
+<Connection from="name" to="2/şule" with="op1"/>
+<Word name="-" positionX="850" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/sık" positionX="950" positionY="200"/>
+<Connection from="6/görüş" to="4/sık" with="frequency"/>
+<Word name="çok" positionX="850" positionY="300"/>
+<Connection from="4/sık" to="çok" with="degree"/>
+</Amr>

@@ -1,0 +1,19 @@
+<Amr>
+<Word name="8/ol" positionX="750" positionY="100"/>
+<Word name="7/kaza" positionX="650" positionY="200"/>
+<Connection from="8/ol" to="7/kaza" with="ARG0"/>
+<Word name="temporal-quantity" positionX="750" positionY="200"/>
+<Connection from="8/ol" to="temporal-quantity" with="duration"/>
+<Word name="2/hafta" positionX="650" positionY="300"/>
+<Connection from="temporal-quantity" to="2/hafta" with="unit"/>
+<Word name="1/üç" positionX="750" positionY="300"/>
+<Connection from="temporal-quantity" to="1/üç" with="quant"/>
+<Word name="4/kavşak" positionX="850" positionY="200"/>
+<Connection from="8/ol" to="4/kavşak" with="location"/>
+<Word name="3/bu" positionX="750" positionY="300"/>
+<Connection from="4/kavşak" to="3/bu" with="mod"/>
+<Word name="rate-entity" positionX="950" positionY="200"/>
+<Connection from="8/ol" to="rate-entity" with="frequency"/>
+<Word name="5/iki" positionX="850" positionY="300"/>
+<Connection from="rate-entity" to="5/iki" with="quant"/>
+</Amr>

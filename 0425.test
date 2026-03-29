@@ -1,0 +1,11 @@
+<Amr>
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/üzül" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/üzül" with="ARG1"/>
+<Word name="2/durum" positionX="550" positionY="300"/>
+<Connection from="5/üzül" to="2/durum" with="cause"/>
+<Word name="1/bu" positionX="450" positionY="400"/>
+<Connection from="2/durum" to="1/bu" with="mod"/>
+<Word name="3/tabii" positionX="650" positionY="300"/>
+<Connection from="5/üzül" to="3/tabii" with="manner"/>
+</Amr>

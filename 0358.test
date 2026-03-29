@@ -1,0 +1,23 @@
+<Amr>
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="11/koş" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="11/koş" with="ARG1"/>
+<Word name="3/koşucu" positionX="550" positionY="300"/>
+<Connection from="11/koş" to="3/koşucu" with="ARG0"/>
+<Word name="1/normal" positionX="450" positionY="400"/>
+<Connection from="3/koşucu" to="1/normal" with="mod"/>
+<Word name="7/mesafe" positionX="650" positionY="300"/>
+<Connection from="11/koş" to="7/mesafe" with="ARG1"/>
+<Word name="distance-quantity" positionX="550" positionY="400"/>
+<Connection from="7/mesafe" to="distance-quantity" with="extent"/>
+<Word name="5/metrelik" positionX="450" positionY="500"/>
+<Connection from="distance-quantity" to="5/metrelik" with="unit"/>
+<Word name="4/100" positionX="550" positionY="500"/>
+<Connection from="distance-quantity" to="4/100" with="quant"/>
+<Word name="temporal-quantity" positionX="750" positionY="300"/>
+<Connection from="11/koş" to="temporal-quantity" with="duration"/>
+<Word name="9/saniye" positionX="650" positionY="400"/>
+<Connection from="temporal-quantity" to="9/saniye" with="unit"/>
+<Word name="8/20" positionX="750" positionY="400"/>
+<Connection from="temporal-quantity" to="8/20" with="quant"/>
+</Amr>

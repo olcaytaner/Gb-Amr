@@ -1,0 +1,27 @@
+<Amr>
+<Word name="9/iste" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="9/iste" to="-" with="polarity"/>
+<Word name="sen" positionX="750" positionY="200"/>
+<Connection from="9/iste" to="sen" with="ARG0"/>
+<Word name="4/burada" positionX="850" positionY="200"/>
+<Connection from="9/iste" to="4/burada"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="4/burada" to="person"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ali" positionX="550" positionY="500"/>
+<Connection from="name" to="1/ali" with="op1"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/o 3/sıra" positionX="850" positionY="300"/>
+<Connection from="4/burada" to="2/o 3/sıra" with="location"/>
+<Word name="5/i" positionX="950" positionY="300"/>
+<Connection from="4/burada" to="5/i" with="cond"/>
+<Word name="6/neden" positionX="950" positionY="200"/>
+<Connection from="9/iste" to="6/neden" with="manner"/>
+<Word name="7/o" positionX="1050" positionY="200"/>
+<Connection from="9/iste" to="7/o"/>
+<Word name="8/yardım" positionX="1150" positionY="200"/>
+<Connection from="9/iste" to="8/yardım"/>
+</Amr>

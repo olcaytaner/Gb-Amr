@@ -1,0 +1,26 @@
+<Amr>
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="7/söyle" positionX="650" positionY="200"/>
+<Connection from="gerek" to="7/söyle" with="ARG1"/>
+<Word name="6/biz" positionX="550" positionY="300"/>
+<Connection from="7/söyle" to="6/biz" with="ARG2"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="7/söyle" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/meryem" positionX="450" positionY="500"/>
+<Connection from="name" to="1/meryem" with="op1"/>
+<Word name="5/bil" positionX="750" positionY="200"/>
+<Connection from="gerek" to="5/bil" with="cond"/>
+<Connection from="5/bil" to="person" with="ARG0"/>
+<Word name="4/yap" positionX="750" positionY="300"/>
+<Connection from="5/bil" to="4/yap" with="ARG1"/>
+<Word name="2/bu" positionX="650" positionY="400"/>
+<Connection from="4/yap" to="2/bu" with="ARG1"/>
+<Connection from="4/yap" to="person" with="ARG0"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="3/sevgi" positionX="550" positionY="600"/>
+<Connection from="name" to="3/sevgi" with="op1"/>
+<Word name="-" positionX="750" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

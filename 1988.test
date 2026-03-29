@@ -1,0 +1,26 @@
+<Amr>
+<Word name="4/bil" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/bil" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="4/bil" to="o" with="ARG0"/>
+<Word name="3/yıl" positionX="850" positionY="200"/>
+<Connection from="4/bil" to="3/yıl" with="time"/>
+<Word name="2/gir" positionX="750" positionY="300"/>
+<Connection from="3/yıl" to="2/gir"/>
+<Connection from="2/gir" to="o" with="ARG0"/>
+<Word name="o" positionX="750" positionY="400"/>
+<Connection from="2/gir" to="o" with="poss"/>
+<Word name="1/üniversite" positionX="850" positionY="400"/>
+<Connection from="2/gir" to="1/üniversite"/>
+<Word name="5/hiç" positionX="950" positionY="200"/>
+<Connection from="4/bil" to="5/hiç" with="degree"/>
+<Word name="language" positionX="1050" positionY="200"/>
+<Connection from="4/bil" to="language" with="medium"/>
+<Word name="name" positionX="950" positionY="300"/>
+<Connection from="language" to="name" with="name"/>
+<Word name="6/ingilizce" positionX="850" positionY="400"/>
+<Connection from="name" to="6/ingilizce" with="op1"/>
+<Word name="İngilizce" positionX="1050" positionY="300"/>
+<Connection from="language" to="İngilizce" with="wiki"/>
+</Amr>

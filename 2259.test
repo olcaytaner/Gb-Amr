@@ -1,0 +1,11 @@
+<Amr>
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="5/ye" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="5/ye" with="ARG1"/>
+<Word name="1/çay" positionX="550" positionY="300"/>
+<Connection from="5/ye" to="1/çay" with="instrument"/>
+<Word name="2/insan" positionX="650" positionY="300"/>
+<Connection from="5/ye" to="2/insan" with="ARG0"/>
+<Word name="şey" positionX="750" positionY="300"/>
+<Connection from="5/ye" to="şey" with="ARG1"/>
+</Amr>

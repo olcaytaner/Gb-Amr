@@ -1,0 +1,23 @@
+<Amr>
+<Word name="7/söyle" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="7/söyle" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ceyda" positionX="450" positionY="400"/>
+<Connection from="name" to="1/ceyda" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/anne" positionX="750" positionY="200"/>
+<Connection from="7/söyle" to="2/anne" with="ARG2"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="2/anne" to="ben" with="poss"/>
+<Word name="6/gel" positionX="850" positionY="200"/>
+<Connection from="7/söyle" to="6/gel" with="ARG1"/>
+<Word name="3/herkes" positionX="750" positionY="300"/>
+<Connection from="6/gel" to="3/herkes" with="ARG0"/>
+<Word name="5/giysi" positionX="850" positionY="300"/>
+<Connection from="6/gel" to="5/giysi" with="instrument"/>
+<Word name="4/kalın" positionX="750" positionY="400"/>
+<Connection from="5/giysi" to="4/kalın" with="mod"/>
+</Amr>

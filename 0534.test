@@ -1,0 +1,11 @@
+<Amr>
+<Word name="öner" positionX="750" positionY="100"/>
+<Word name="4/seç" positionX="650" positionY="200"/>
+<Connection from="öner" to="4/seç" with="ARG1"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="4/seç" to="o" with="ARG0"/>
+<Word name="1/ilaç" positionX="650" positionY="300"/>
+<Connection from="4/seç" to="1/ilaç" with="ARG1"/>
+<Word name="2/hasta" positionX="750" positionY="300"/>
+<Connection from="4/seç" to="2/hasta" with="purpose"/>
+</Amr>

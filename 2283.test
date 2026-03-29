@@ -1,0 +1,13 @@
+<Amr>
+<Word name="6/yok" positionX="750" positionY="100"/>
+<Word name="şey" positionX="650" positionY="200"/>
+<Connection from="6/yok" to="şey" with="ARG1"/>
+<Word name="bil" positionX="550" positionY="300"/>
+<Connection from="şey" to="bil" with="ARG1-of"/>
+<Word name="ben" positionX="450" positionY="400"/>
+<Connection from="bil" to="ben" with="ARG0"/>
+<Word name="2/konu" positionX="650" positionY="300"/>
+<Connection from="şey" to="2/konu" with="topic"/>
+<Word name="1/bu" positionX="550" positionY="400"/>
+<Connection from="2/konu" to="1/bu" with="mod"/>
+</Amr>

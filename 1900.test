@@ -1,0 +1,7 @@
+<Amr>
+<Word name="3/kıskan" positionX="750" positionY="100"/>
+<Word name="1/mühendis" positionX="650" positionY="200"/>
+<Connection from="3/kıskan" to="1/mühendis" with="ARG0"/>
+<Word name="2/mimar" positionX="750" positionY="200"/>
+<Connection from="3/kıskan" to="2/mimar" with="ARG1"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr>
+<Word name="6/koy" positionX="750" positionY="100"/>
+<Word name="5/ad" positionX="650" positionY="200"/>
+<Connection from="6/koy" to="5/ad" with="ARG1"/>
+<Word name="4/tuhaf" positionX="550" positionY="300"/>
+<Connection from="5/ad" to="4/tuhaf" with="mod"/>
+<Word name="2/insan" positionX="750" positionY="200"/>
+<Connection from="6/koy" to="2/insan" with="ARG0"/>
+<Word name="1/bazı" positionX="650" positionY="300"/>
+<Connection from="2/insan" to="1/bazı" with="mod"/>
+<Word name="3/çocuk" positionX="850" positionY="200"/>
+<Connection from="6/koy" to="3/çocuk" with="ARG2"/>
+<Word name="onlar" positionX="750" positionY="300"/>
+<Connection from="3/çocuk" to="onlar" with="poss"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr>
+<Word name="5/zor" positionX="750" positionY="100"/>
+<Word name="4/oku" positionX="650" positionY="200"/>
+<Connection from="5/zor" to="4/oku" with="domain"/>
+<Word name="3/okul" positionX="550" positionY="300"/>
+<Connection from="4/oku" to="3/okul" with="location"/>
+<Word name="benze" positionX="450" positionY="400"/>
+<Connection from="3/okul" to="benze" with="ARG0-of"/>
+<Word name="bu" positionX="350" positionY="500"/>
+<Connection from="benze" to="bu" with="ARG1"/>
+</Amr>

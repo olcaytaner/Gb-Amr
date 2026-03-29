@@ -1,0 +1,15 @@
+<Amr>
+<Word name="7/bırak" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="7/bırak" to="ben" with="ARG0"/>
+<Word name="2/gör" positionX="750" positionY="200"/>
+<Connection from="7/bırak" to="2/gör" with="purpose"/>
+<Word name="1/herkes" positionX="650" positionY="300"/>
+<Connection from="2/gör" to="1/herkes" with="ARG0"/>
+<Word name="4/kart" positionX="850" positionY="200"/>
+<Connection from="7/bırak" to="4/kart" with="ARG1"/>
+<Word name="6/üst" positionX="950" positionY="200"/>
+<Connection from="7/bırak" to="6/üst" with="ARG2"/>
+<Word name="5/masa" positionX="850" positionY="300"/>
+<Connection from="6/üst" to="5/masa" with="poss"/>
+</Amr>

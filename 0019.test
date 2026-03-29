@@ -1,0 +1,19 @@
+<Amr>
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="6/düşün" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="6/düşün" with="ARG1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="6/düşün" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="6/düşün" to="ben" with="ARG0"/>
+<Word name="5/sözcük" positionX="750" positionY="300"/>
+<Connection from="6/düşün" to="5/sözcük" with="ARG1"/>
+<Word name="have-degree" positionX="650" positionY="400"/>
+<Connection from="5/sözcük" to="have-degree" with="ARG1-of"/>
+<Word name="3/uygun" positionX="550" positionY="500"/>
+<Connection from="have-degree" to="3/uygun" with="ARG2"/>
+<Word name="1/bu" positionX="650" positionY="500"/>
+<Connection from="have-degree" to="1/bu" with="ARG1"/>
+<Word name="2/daha" positionX="750" positionY="500"/>
+<Connection from="have-degree" to="2/daha" with="ARG3"/>
+</Amr>

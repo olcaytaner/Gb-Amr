@@ -1,0 +1,11 @@
+<Amr>
+<Word name="3/getir" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="3/getir" to="sen" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="200"/>
+<Connection from="3/getir" to="imperative" with="mode"/>
+<Word name="1/bana" positionX="850" positionY="200"/>
+<Connection from="3/getir" to="1/bana" with="ARG2"/>
+<Word name="5/kahve" positionX="950" positionY="200"/>
+<Connection from="3/getir" to="5/kahve" with="ARG1"/>
+</Amr>

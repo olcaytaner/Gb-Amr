@@ -1,0 +1,23 @@
+<Amr>
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="8/düşün" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="8/düşün" with="ARG1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="8/düşün" to="-" with="polarity"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="8/düşün" to="ben" with="ARG0"/>
+<Word name="7/ev" positionX="750" positionY="300"/>
+<Connection from="8/düşün" to="7/ev" with="ARG1"/>
+<Word name="have-degree-91" positionX="650" positionY="400"/>
+<Connection from="7/ev" to="have-degree-91" with="ARG1-of"/>
+<Word name="5/uygun" positionX="550" positionY="500"/>
+<Connection from="have-degree-91" to="5/uygun" with="ARG2"/>
+<Word name="4/daha" positionX="650" positionY="500"/>
+<Connection from="have-degree-91" to="4/daha" with="ARG3"/>
+<Word name="3/ev" positionX="750" positionY="500"/>
+<Connection from="have-degree-91" to="3/ev" with="ARG4"/>
+<Word name="2/bu" positionX="650" positionY="600"/>
+<Connection from="3/ev" to="2/bu" with="mod"/>
+<Word name="1/siz" positionX="850" positionY="300"/>
+<Connection from="8/düşün" to="1/siz" with="beneficiary"/>
+</Amr>

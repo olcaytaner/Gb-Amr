@@ -1,0 +1,7 @@
+<Amr>
+<Word name="4/söyle" positionX="750" positionY="100"/>
+<Word name="2/ameliyat 3/ol" positionX="650" positionY="200"/>
+<Connection from="4/söyle" to="2/ameliyat 3/ol" with="ARG1"/>
+<Word name="ayşe" positionX="550" positionY="300"/>
+<Connection from="2/ameliyat 3/ol" to="ayşe" with="poss"/>
+</Amr>

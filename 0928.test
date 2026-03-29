@@ -1,0 +1,15 @@
+<Amr>
+<Word name="5/var" positionX="750" positionY="100"/>
+<Word name="2/hafta" positionX="650" positionY="200"/>
+<Connection from="5/var" to="2/hafta" with="time"/>
+<Word name="1/gelecek" positionX="550" positionY="300"/>
+<Connection from="2/hafta" to="1/gelecek" with="mod"/>
+<Word name="4/vakit" positionX="750" positionY="200"/>
+<Connection from="5/var" to="4/vakit" with="ARG1"/>
+<Word name="3/boş" positionX="650" positionY="300"/>
+<Connection from="4/vakit" to="3/boş" with="mod"/>
+<Word name="sen" positionX="750" positionY="300"/>
+<Connection from="4/vakit" to="sen" with="poss"/>
+<Word name="amr-unknown" positionX="850" positionY="200"/>
+<Connection from="5/var" to="amr-unknown" with="polarity"/>
+</Amr>

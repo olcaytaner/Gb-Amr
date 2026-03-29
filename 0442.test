@@ -1,0 +1,13 @@
+<Amr>
+<Word name="9/pişir" positionX="750" positionY="100"/>
+<Word name="1/keşke" positionX="650" positionY="200"/>
+<Connection from="9/pişir" to="1/keşke" with="manner"/>
+<Word name="3/fasulye" positionX="750" positionY="200"/>
+<Connection from="9/pişir" to="3/fasulye" with="ARG1"/>
+<Word name="2/şu" positionX="650" positionY="300"/>
+<Connection from="3/fasulye" to="2/şu" with="mod"/>
+<Word name="7/ahçı" positionX="850" positionY="200"/>
+<Connection from="9/pişir" to="7/ahçı" with="ARG0"/>
+<Word name="4/doğru 5/dürüst " positionX="750" positionY="300"/>
+<Connection from="7/ahçı" to="4/doğru 5/dürüst " with="mod"/>
+</Amr>

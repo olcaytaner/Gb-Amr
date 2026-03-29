@@ -1,0 +1,9 @@
+<Amr>
+<Word name="5/çık" positionX="750" positionY="100"/>
+<Word name="1/aslında" positionX="650" positionY="200"/>
+<Connection from="5/çık" to="1/aslında" with="manner"/>
+<Word name="2/birazdan" positionX="750" positionY="200"/>
+<Connection from="5/çık" to="2/birazdan" with="time"/>
+<Word name="3/ben" positionX="850" positionY="200"/>
+<Connection from="5/çık" to="3/ben" with="ARG0"/>
+</Amr>

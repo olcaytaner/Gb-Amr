@@ -1,0 +1,15 @@
+<Amr>
+<Word name="4/anla" positionX="750" positionY="100"/>
+<Word name="1/hakan" positionX="650" positionY="200"/>
+<Connection from="4/anla" to="1/hakan" with="ARG0"/>
+<Word name="3/sev" positionX="750" positionY="200"/>
+<Connection from="4/anla" to="3/sev" with="ARG1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="3/sev" to="-" with="polarity"/>
+<Word name="biz" positionX="750" positionY="300"/>
+<Connection from="3/sev" to="biz" with="ARG0"/>
+<Word name="2/anne" positionX="850" positionY="300"/>
+<Connection from="3/sev" to="2/anne" with="ARG1"/>
+<Word name="o" positionX="750" positionY="400"/>
+<Connection from="2/anne" to="o" with="poss"/>
+</Amr>

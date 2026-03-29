@@ -1,0 +1,13 @@
+<Amr>
+<Word name="5/kalk" positionX="750" positionY="100"/>
+<Word name="4/uçak" positionX="650" positionY="200"/>
+<Connection from="5/kalk" to="4/uçak" with="ARG0"/>
+<Word name="frequency" positionX="750" positionY="200"/>
+<Connection from="5/kalk" to="frequency" with="rate-entity"/>
+<Word name="2/gün" positionX="650" positionY="300"/>
+<Connection from="frequency" to="2/gün" with="weekday"/>
+<Word name="1/her" positionX="550" positionY="400"/>
+<Connection from="2/gün" to="1/her" with="mod"/>
+<Word name="3/14.30" positionX="750" positionY="300"/>
+<Connection from="frequency" to="3/14.30" with="time"/>
+</Amr>

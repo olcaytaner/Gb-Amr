@@ -1,0 +1,7 @@
+<Amr>
+<Word name="3/gerginlik" positionX="750" positionY="100"/>
+<Word name="1/Harun" positionX="650" positionY="200"/>
+<Connection from="3/gerginlik" to="1/Harun" with="mod"/>
+<Word name="2/ara" positionX="750" positionY="200"/>
+<Connection from="3/gerginlik" to="2/ara" with="mod"/>
+</Amr>

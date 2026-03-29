@@ -1,0 +1,17 @@
+<Amr>
+<Word name="5/ol" positionX="750" positionY="100"/>
+<Word name="fasulye" positionX="650" positionY="200"/>
+<Connection from="5/ol" to="fasulye" with="ARG0"/>
+<Word name="4/piş" positionX="750" positionY="200"/>
+<Connection from="5/ol" to="4/piş" with="cond"/>
+<Word name="1/fasulye" positionX="650" positionY="300"/>
+<Connection from="4/piş" to="1/fasulye" with="ARG1"/>
+<Word name="temporal-quantity" positionX="750" positionY="300"/>
+<Connection from="4/piş" to="temporal-quantity" with="duration"/>
+<Word name="2/yarım" positionX="650" positionY="400"/>
+<Connection from="temporal-quantity" to="2/yarım" with="quant"/>
+<Word name="3/saat" positionX="750" positionY="400"/>
+<Connection from="temporal-quantity" to="3/saat" with="unit"/>
+<Word name="6/artık" positionX="850" positionY="200"/>
+<Connection from="5/ol" to="6/artık" with="manner"/>
+</Amr>

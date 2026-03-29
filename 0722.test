@@ -1,0 +1,17 @@
+<Amr>
+<Word name="have-degree-91" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="have-degree-91" to="person" with="ARG4"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/semra" positionX="450" positionY="400"/>
+<Connection from="name" to="1/semra" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/becerikli" positionX="750" positionY="200"/>
+<Connection from="have-degree-91" to="4/becerikli" with="ARG2"/>
+<Word name="3/daha" positionX="850" positionY="200"/>
+<Connection from="have-degree-91" to="3/daha" with="ARG3"/>
+<Word name="o" positionX="950" positionY="200"/>
+<Connection from="have-degree-91" to="o" with="ARG1"/>
+</Amr>

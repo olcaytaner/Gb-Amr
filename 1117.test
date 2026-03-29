@@ -1,0 +1,13 @@
+<Amr>
+<Word name="5/var" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/var" to="o" with="ARG0"/>
+<Word name="1/sahil" positionX="750" positionY="200"/>
+<Connection from="5/var" to="1/sahil" with="location"/>
+<Word name="2/boyunca" positionX="650" positionY="300"/>
+<Connection from="1/sahil" to="2/boyunca" with="mod"/>
+<Word name="4/köy" positionX="850" positionY="200"/>
+<Connection from="5/var" to="4/köy" with="ARG1"/>
+<Word name="3/küçük" positionX="750" positionY="300"/>
+<Connection from="4/köy" to="3/küçük" with="mod"/>
+</Amr>

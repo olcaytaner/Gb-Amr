@@ -1,0 +1,11 @@
+<Amr>
+<Word name="2/edebiyat" positionX="750" positionY="100"/>
+<Word name="country" positionX="650" positionY="200"/>
+<Connection from="2/edebiyat" to="country" with="mod"/>
+<Word name="Fransa" positionX="550" positionY="300"/>
+<Connection from="country" to="Fransa" with="wiki"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="country" to="name" with="name"/>
+<Word name="Fransa" positionX="550" positionY="400"/>
+<Connection from="name" to="Fransa" with="op1"/>
+</Amr>

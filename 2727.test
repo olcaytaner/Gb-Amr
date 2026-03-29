@@ -1,0 +1,15 @@
+<Amr>
+<Word name="1/babıali" positionX="750" positionY="100"/>
+<Word name="7/hükümet" positionX="650" positionY="200"/>
+<Connection from="1/babıali" to="7/hükümet"/>
+<Word name="5/deyiş" positionX="550" positionY="300"/>
+<Connection from="7/hükümet" to="5/deyiş" with="mod"/>
+<Word name="3/başka" positionX="450" positionY="400"/>
+<Connection from="5/deyiş" to="3/başka"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="7/hükümet" to="person"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="6/osmanlı" positionX="450" positionY="500"/>
+<Connection from="name" to="6/osmanlı" with="op1"/>
+</Amr>

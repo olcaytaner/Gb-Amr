@@ -1,0 +1,24 @@
+<Amr>
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="6/temizle" positionX="650" positionY="200"/>
+<Connection from="and" to="6/temizle" with="op1"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="6/temizle" to="person" with="ARG0"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ali" positionX="350" positionY="500"/>
+<Connection from="name" to="1/ali" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="2/oda" positionX="650" positionY="300"/>
+<Connection from="6/temizle" to="2/oda" with="ARG1"/>
+<Word name="3/temizle" positionX="750" positionY="200"/>
+<Connection from="and" to="3/temizle" with="op2"/>
+<Connection from="3/temizle" to="person" with="ARG0"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/mehmet" positionX="450" positionY="500"/>
+<Connection from="name" to="5/mehmet" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/balkon" positionX="750" positionY="300"/>
+<Connection from="3/temizle" to="6/balkon" with="ARG1"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr>
+<Word name="6/zor" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="6/zor" to="and" with="domain"/>
+<Word name="5/gel" positionX="550" positionY="300"/>
+<Connection from="and" to="5/gel" with="op1"/>
+<Word name="1/her 2/gün" positionX="450" positionY="400"/>
+<Connection from="5/gel" to="1/her 2/gün" with="frequency"/>
+<Word name="3/ora" positionX="550" positionY="400"/>
+<Connection from="5/gel" to="3/ora" with="ARG1"/>
+<Word name="4/git" positionX="650" positionY="300"/>
+<Connection from="and" to="4/git" with="op2"/>
+<Connection from="4/git" to="1/her 2/gün" with="frequency"/>
+<Connection from="4/git" to="3/ora" with="ARG1"/>
+</Amr>

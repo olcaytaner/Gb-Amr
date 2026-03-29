@@ -1,0 +1,11 @@
+<Amr>
+<Word name="5/devam 6/et" positionX="750" positionY="100"/>
+<Word name="1/şebnem" positionX="650" positionY="200"/>
+<Connection from="5/devam 6/et" to="1/şebnem" with="ARG0"/>
+<Word name="2/hastalık" positionX="750" positionY="200"/>
+<Connection from="5/devam 6/et" to="2/hastalık" with="concession"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="2/hastalık" to="o" with="poss"/>
+<Word name="4/çalışma" positionX="850" positionY="200"/>
+<Connection from="5/devam 6/et" to="4/çalışma" with="ARG1"/>
+</Amr>

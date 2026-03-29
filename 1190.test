@@ -1,0 +1,11 @@
+<Amr>
+<Word name="5/yorgun" positionX="750" positionY="100"/>
+<Word name="1/o" positionX="650" positionY="200"/>
+<Connection from="5/yorgun" to="1/o" with=" ARG0"/>
+<Word name="2/bu" positionX="750" positionY="200"/>
+<Connection from="5/yorgun" to="2/bu" with="mod"/>
+<Word name="3/gün" positionX="850" positionY="200"/>
+<Connection from="5/yorgun" to="3/gün" with=" mod"/>
+<Word name="4/çok" positionX="950" positionY="200"/>
+<Connection from="5/yorgun" to="4/çok" with="degree"/>
+</Amr>

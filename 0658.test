@@ -1,0 +1,13 @@
+<Amr>
+<Word name="5/lazım" positionX="750" positionY="100"/>
+<Word name="1/bana" positionX="650" positionY="200"/>
+<Connection from="5/lazım" to="1/bana" with="beneficiary"/>
+<Word name="4/tane" positionX="750" positionY="200"/>
+<Connection from="5/lazım" to="4/tane" with="domain"/>
+<Word name="3/iki" positionX="650" positionY="300"/>
+<Connection from="4/tane" to="3/iki" with="quant"/>
+<Word name="include-91" positionX="750" positionY="300"/>
+<Connection from="4/tane" to="include-91" with="ARG1-of"/>
+<Word name="2/küçük" positionX="650" positionY="400"/>
+<Connection from="include-91" to="2/küçük" with="ARG2"/>
+</Amr>

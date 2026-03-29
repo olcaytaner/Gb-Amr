@@ -1,0 +1,36 @@
+<Amr>
+<Word name="8/tanı" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="8/tanı" to="-" with="polarity"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="8/tanı" to="and"/>
+<Word name="1/siz" positionX="850" positionY="200"/>
+<Connection from="8/tanı" to="1/siz" with="ARG0"/>
+<Word name="7/kalan" positionX="950" positionY="200"/>
+<Connection from="8/tanı" to="7/kalan" with="ARG1"/>
+<Word name="o" positionX="850" positionY="300"/>
+<Connection from="7/kalan" to="o" with="poss"/>
+<Word name="person" positionX="950" positionY="300"/>
+<Connection from="7/kalan" to="person"/>
+<Word name="name" positionX="850" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/türkiye" positionX="750" positionY="500"/>
+<Connection from="name" to="5/türkiye" with="op1"/>
+<Word name="Türkiye" positionX="950" positionY="400"/>
+<Connection from="person" to="Türkiye" with="wiki"/>
+<Word name="city" positionX="1050" positionY="300"/>
+<Connection from="7/kalan" to="city"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="2/ Ankara" positionX="850" positionY="500"/>
+<Connection from="name" to="2/ Ankara" with=" op1"/>
+<Word name="Ankara" positionX="1050" positionY="400"/>
+<Connection from="city" to="Ankara" with=" wiki"/>
+<Connection from="7/kalan" to="city"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="4" positionX="950" positionY="500"/>
+<Connection from="name" to="4:/İstanbul" with=" op1"/>
+<Word name="İstanbul" positionX="1150" positionY="400"/>
+<Connection from="city" to="İstanbul" with=" wiki"/>
+<Word name="6/geri" positionX="1250" positionY="300"/>
+<Connection from="7/kalan" to="6/geri" with="manner"/>
+</Amr>

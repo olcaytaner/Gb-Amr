@@ -1,0 +1,26 @@
+<Amr>
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="9/sokak 10/çık" positionX="650" positionY="200"/>
+<Connection from="and" to="9/sokak 10/çık" with="op1"/>
+<Word name="8/yürü" positionX="550" positionY="300"/>
+<Connection from="9/sokak 10/çık" to="8/yürü"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="8/yürü" to="o" with="ARG0"/>
+<Word name="7/blok" positionX="550" positionY="400"/>
+<Connection from="8/yürü" to="7/blok" with="ARG1"/>
+<Word name="6/bir" positionX="450" positionY="500"/>
+<Connection from="7/blok" to="6/bir"/>
+<Word name="11/ol" positionX="650" positionY="300"/>
+<Connection from="9/sokak 10/çık" to="11/ol"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="11/ol" to="-" with="polarity"/>
+<Word name="biz" positionX="650" positionY="400"/>
+<Connection from="11/ol" to="biz" with="ARG0"/>
+<Word name="4/tuttur" positionX="750" positionY="200"/>
+<Connection from="and" to="4/tuttur" with="op2"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="4/tuttur" to="sen" with="ARG0"/>
+<Word name="1/sokak 2/çık" positionX="750" positionY="300"/>
+<Connection from="4/tuttur" to="1/sokak 2/çık" with="ARG1"/>
+<Connection from="1/sokak 2/çık" to="biz" with="ARG0"/>
+</Amr>

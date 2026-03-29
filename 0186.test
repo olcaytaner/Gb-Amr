@@ -1,0 +1,17 @@
+<Amr>
+<Word name="5/güzel 6/ol" positionX="750" positionY="100"/>
+<Word name="city" positionX="650" positionY="200"/>
+<Connection from="5/güzel 6/ol" to="city" with="ARG1"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="1/londra" positionX="450" positionY="400"/>
+<Connection from="name" to="1/londra" with="op1"/>
+<Word name="londra" positionX="650" positionY="300"/>
+<Connection from="city" to="londra" with="wiki"/>
+<Word name="date-entity" positionX="750" positionY="200"/>
+<Connection from="5/güzel 6/ol" to="date-entity" with="time"/>
+<Word name="2/sonbahar" positionX="650" positionY="300"/>
+<Connection from="date-entity" to="2/sonbahar" with="season"/>
+<Word name="3/o 4/kadar" positionX="850" positionY="200"/>
+<Connection from="5/güzel 6/ol" to="3/o 4/kadar" with="degree"/>
+</Amr>

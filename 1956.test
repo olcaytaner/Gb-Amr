@@ -1,0 +1,13 @@
+<Amr>
+<Word name="4/zorla" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="4/zorla" to="o" with="ARG0"/>
+<Word name="2/anne" positionX="750" positionY="200"/>
+<Connection from="4/zorla" to="2/anne" with="ARG2"/>
+<Word name="1/hasta" positionX="650" positionY="300"/>
+<Connection from="2/anne" to="1/hasta" with="mod"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="2/anne" to="o" with="poss"/>
+<Word name="3/yeme" positionX="850" positionY="200"/>
+<Connection from="4/zorla" to="3/yeme" with="ARG1"/>
+</Amr>

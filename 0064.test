@@ -1,0 +1,20 @@
+<Amr>
+<Word name="7/anla" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="7/anla" to="-" with="polarity"/>
+<Word name="1/ben" positionX="750" positionY="200"/>
+<Connection from="7/anla" to="1/ben" with="ARG0"/>
+<Word name="and" positionX="850" positionY="200"/>
+<Connection from="7/anla" to="and" with="ARG1"/>
+<Word name="4/hoca" positionX="750" positionY="300"/>
+<Connection from="and" to="4/hoca" with="op1"/>
+<Word name="2/adam" positionX="650" positionY="400"/>
+<Connection from="4/hoca" to="2/adam" with="domain"/>
+<Word name="3/tarih" positionX="750" positionY="400"/>
+<Connection from="4/hoca" to="3/tarih" with="mod"/>
+<Word name="6/hoca" positionX="850" positionY="300"/>
+<Connection from="and" to="6/hoca" with="op2"/>
+<Word name="5/marih" positionX="750" positionY="400"/>
+<Connection from="6/hoca" to="5/marih" with="mod"/>
+<Connection from="6/hoca" to="2/adam" with="domain"/>
+</Amr>

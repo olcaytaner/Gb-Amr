@@ -1,0 +1,25 @@
+<Amr>
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="8/konuş" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="8/konuş" with="domain"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="8/konuş" to="sen" with="ARG0"/>
+<Word name="2/konu" positionX="650" positionY="300"/>
+<Connection from="8/konuş" to="2/konu" with="ARG1"/>
+<Word name="1/o" positionX="550" positionY="400"/>
+<Connection from="2/konu" to="1/o" with="mod"/>
+<Word name="either" positionX="750" positionY="300"/>
+<Connection from="8/konuş" to="either" with="ARG2"/>
+<Word name="person" positionX="650" positionY="400"/>
+<Connection from="either" to="person" with="op1"/>
+<Word name="name" positionX="550" positionY="500"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/ahmet" positionX="450" positionY="600"/>
+<Connection from="name" to="4/ahmet" with="op1"/>
+<Word name="-" positionX="650" positionY="500"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="7/karı" positionX="750" positionY="400"/>
+<Connection from="either" to="7/karı" with="op2"/>
+<Word name="o" positionX="650" positionY="500"/>
+<Connection from="7/karı" to="o" with="poss"/>
+</Amr>

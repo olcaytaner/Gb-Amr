@@ -1,0 +1,11 @@
+<Amr>
+<Word name="5/ressam" positionX="750" positionY="100"/>
+<Word name="1/baba" positionX="650" positionY="200"/>
+<Connection from="5/ressam" to="1/baba" with="domain"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/baba" to="o" with="poss"/>
+<Word name="3/meşhur" positionX="750" positionY="200"/>
+<Connection from="5/ressam" to="3/meşhur" with="mod"/>
+<Word name="2/dünyaca" positionX="650" positionY="300"/>
+<Connection from="3/meşhur" to="2/dünyaca" with="mod"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr>
+<Word name="7/vazo" positionX="750" positionY="100"/>
+<Word name="4/kon" positionX="650" positionY="200"/>
+<Connection from="7/vazo" to="4/kon" with="loc-of"/>
+<Word name="1/iç" positionX="550" positionY="300"/>
+<Connection from="4/kon" to="1/iç" with="ARG2"/>
+<Word name="o" positionX="450" positionY="400"/>
+<Connection from="1/iç" to="o" with="poss"/>
+<Word name="3/çiçek" positionX="650" positionY="300"/>
+<Connection from="4/kon" to="3/çiçek" with="ARG1"/>
+<Word name="2/birkaç" positionX="550" positionY="400"/>
+<Connection from="3/çiçek" to="2/birkaç" with="mod"/>
+</Amr>

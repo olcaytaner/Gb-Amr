@@ -1,0 +1,31 @@
+<Amr>
+<Word name="8/götür" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="8/götür" to="o" with="ARG0"/>
+<Word name="4/git" positionX="750" positionY="200"/>
+<Connection from="8/götür" to="4/git"/>
+<Connection from="4/git" to="o" with="ARG0"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="4/git" to="person"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="2/hanım" positionX="550" positionY="500"/>
+<Connection from="name" to="2/hanım" with="op1"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="person" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/hayriye" positionX="650" positionY="600"/>
+<Connection from="name" to="1/hayriye" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/nereye" positionX="850" positionY="300"/>
+<Connection from="4/git" to="3/nereye"/>
+<Word name="5/köpek" positionX="850" positionY="200"/>
+<Connection from="8/götür" to="5/köpek"/>
+<Word name="o" positionX="750" positionY="300"/>
+<Connection from="5/köpek" to="o" with="poss"/>
+<Word name="6/de" positionX="850" positionY="300"/>
+<Connection from="5/köpek" to="6/de"/>
+<Word name="7/yanında" positionX="950" positionY="200"/>
+<Connection from="8/götür" to="7/yanında"/>
+</Amr>

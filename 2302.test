@@ -1,0 +1,13 @@
+<Amr>
+<Word name="8/bulun" positionX="750" positionY="100"/>
+<Word name="4/gazete" positionX="650" positionY="200"/>
+<Connection from="8/bulun" to="4/gazete" with="location"/>
+<Word name="2/çık" positionX="550" positionY="300"/>
+<Connection from="4/gazete" to="2/çık" with="ARG0-of"/>
+<Word name="1/yarın" positionX="450" positionY="400"/>
+<Connection from="2/çık" to="1/yarın" with="time"/>
+<Word name="7/yazı" positionX="750" positionY="200"/>
+<Connection from="8/bulun" to="7/yazı" with="ARG0"/>
+<Word name="5/önemli" positionX="650" positionY="300"/>
+<Connection from="7/yazı" to="5/önemli" with="mod"/>
+</Amr>

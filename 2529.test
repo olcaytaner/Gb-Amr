@@ -1,0 +1,24 @@
+<Amr>
+<Word name="5/gel" positionX="750" positionY="100"/>
+<Word name="3/ol" positionX="650" positionY="200"/>
+<Connection from="5/gel" to="3/ol" with="cond"/>
+<Word name="country" positionX="550" positionY="300"/>
+<Connection from="3/ol" to="country" with="location"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="country" to="name" with="name"/>
+<Word name="Türkiye" positionX="550" positionY="400"/>
+<Connection from="country" to="Türkiye" with="wiki"/>
+<Word name="Türkiye" positionX="450" positionY="500"/>
+<Connection from="Türkiye" to="Türkiye" with="op1"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="3/ol" to="person" with="domain"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="4/nikah:destination 1/filiz:op1" positionX="750" positionY="200"/>
+<Connection from="5/gel" to="4/nikah:destination 1/filiz:op1"/>
+<Word name="siz" positionX="650" positionY="300"/>
+<Connection from="4/nikah:destination 1/filiz" to="siz" with="poss"/>
+<Word name="person" positionX="850" positionY="200"/>
+<Connection from="5/gel" to="person" with="ARG0"/>
+</Amr>

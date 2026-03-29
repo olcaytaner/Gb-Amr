@@ -1,0 +1,13 @@
+<Amr>
+<Word name="3/al" positionX="750" positionY="100"/>
+<Word name="sen" positionX="650" positionY="200"/>
+<Connection from="3/al" to="sen" with="ARG0"/>
+<Word name="1/saat" positionX="750" positionY="200"/>
+<Connection from="3/al" to="1/saat"/>
+<Word name="sen" positionX="650" positionY="300"/>
+<Connection from="1/saat" to="sen" with="poss"/>
+<Word name="2/ileri" positionX="850" positionY="200"/>
+<Connection from="3/al" to="2/ileri"/>
+<Word name="4/mi" positionX="950" positionY="200"/>
+<Connection from="3/al" to="4/mi"/>
+</Amr>

@@ -1,0 +1,21 @@
+<Amr>
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="9/dayan" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="9/dayan" with="ARG1"/>
+<Word name="6/terapist" positionX="550" positionY="300"/>
+<Connection from="9/dayan" to="6/terapist" with="ARG0"/>
+<Word name="4/gör" positionX="450" positionY="400"/>
+<Connection from="6/terapist" to="4/gör" with="ARG1-of"/>
+<Word name="ben" positionX="350" positionY="500"/>
+<Connection from="4/gör" to="ben" with="ARG0"/>
+<Word name="and" positionX="450" positionY="500"/>
+<Connection from="4/gör" to="and" with="time"/>
+<Word name="1/yakında" positionX="350" positionY="600"/>
+<Connection from="and" to="1/yakında" with="op1"/>
+<Word name="2/her 3/gün" positionX="450" positionY="600"/>
+<Connection from="and" to="2/her 3/gün" with="op2"/>
+<Word name="8/ben" positionX="650" positionY="300"/>
+<Connection from="9/dayan" to="8/ben" with="ARG1"/>
+<Word name="amr-unknown" positionX="750" positionY="300"/>
+<Connection from="9/dayan" to="amr-unknown" with="polarity"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr>
+<Word name="7/yol 8/aç" positionX="750" positionY="100"/>
+<Word name="2/hava" positionX="650" positionY="200"/>
+<Connection from="7/yol 8/aç" to="2/hava" with="ARG0"/>
+<Word name="1/sıcak" positionX="550" positionY="300"/>
+<Connection from="2/hava" to="1/sıcak" with="mod"/>
+<Word name="6/olgunlaş" positionX="750" positionY="200"/>
+<Connection from="7/yol 8/aç" to="6/olgunlaş" with="ARG1"/>
+<Word name="4/meyva" positionX="650" positionY="300"/>
+<Connection from="6/olgunlaş" to="4/meyva" with="ARG0"/>
+<Word name="5/erken" positionX="750" positionY="300"/>
+<Connection from="6/olgunlaş" to="5/erken" with="manner"/>
+<Word name="10/yıl" positionX="850" positionY="200"/>
+<Connection from="7/yol 8/aç" to="10/yıl" with="time"/>
+<Word name="9/bu" positionX="750" positionY="300"/>
+<Connection from="10/yıl" to="9/bu" with="mod"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr>
+<Word name="4/var" positionX="750" positionY="100"/>
+<Word name="1/bura" positionX="650" positionY="200"/>
+<Connection from="4/var" to="1/bura" with="location"/>
+<Word name="3/elbise" positionX="750" positionY="200"/>
+<Connection from="4/var" to="3/elbise" with="ARG1"/>
+<Word name="ben" positionX="650" positionY="300"/>
+<Connection from="3/elbise" to="ben" with="poss"/>
+<Word name="6/sökük" positionX="750" positionY="300"/>
+<Connection from="3/elbise" to="6/sökük" with="mod"/>
+<Word name="5/etek" positionX="650" positionY="400"/>
+<Connection from="6/sökük" to="5/etek"/>
+<Word name="o" positionX="550" positionY="500"/>
+<Connection from="5/etek" to="o" with="poss"/>
+<Word name="ben" positionX="850" positionY="200"/>
+<Connection from="4/var" to="ben" with="ARG0"/>
+</Amr>

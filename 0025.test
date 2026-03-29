@@ -1,0 +1,7 @@
+<Amr>
+<Word name="1/dizge" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="1/dizge" to="o" with="loc-of"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="1/dizge" to="ben" with="poss"/>
+</Amr>

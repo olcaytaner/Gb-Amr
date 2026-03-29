@@ -1,0 +1,13 @@
+<Amr>
+<Word name="7/üzül" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="7/üzül" to="biz" with="ARG0"/>
+<Word name="6/işleme" positionX="750" positionY="200"/>
+<Connection from="7/üzül" to="6/işleme" with="ARG1"/>
+<Word name="5/suç" positionX="650" positionY="300"/>
+<Connection from="6/işleme" to="5/suç" with="ARG1"/>
+<Word name="3/öyle" positionX="550" positionY="400"/>
+<Connection from="5/suç" to="3/öyle" with="mod"/>
+<Word name="2/çocuk" positionX="750" positionY="300"/>
+<Connection from="6/işleme" to="2/çocuk" with="ARG0"/>
+</Amr>

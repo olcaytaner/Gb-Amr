@@ -1,0 +1,13 @@
+<Amr>
+<Word name="düşün" positionX="750" positionY="100"/>
+<Word name="6/say" positionX="650" positionY="200"/>
+<Connection from="düşün" to="6/say" with="ARG1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="6/say" to="-" with="polarity"/>
+<Word name="3/resim" positionX="650" positionY="300"/>
+<Connection from="6/say" to="3/resim" with="ARG1"/>
+<Word name="2/bu" positionX="550" positionY="400"/>
+<Connection from="3/resim" to="2/bu" with="mod"/>
+<Word name="4/sanat 5/eser" positionX="750" positionY="300"/>
+<Connection from="6/say" to="4/sanat 5/eser" with="ARG2"/>
+</Amr>

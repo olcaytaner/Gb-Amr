@@ -1,0 +1,9 @@
+<Amr>
+<Word name="3/sürün" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/sürün" to="o" with="ARG0"/>
+<Word name="1/Hergün" positionX="750" positionY="200"/>
+<Connection from="3/sürün" to="1/Hergün" with="frequency"/>
+<Word name="2/koku" positionX="850" positionY="200"/>
+<Connection from="3/sürün" to="2/koku" with="ARG1"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr>
+<Word name="3/gir" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="3/gir" to="o" with="ARG0"/>
+<Word name="1/hırsız" positionX="750" positionY="200"/>
+<Connection from="3/gir" to="1/hırsız"/>
+<Word name="2/buradan" positionX="850" positionY="200"/>
+<Connection from="3/gir" to="2/buradan"/>
+</Amr>

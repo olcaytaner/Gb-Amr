@@ -1,0 +1,11 @@
+<Amr>
+<Word name="have-degree-91" positionX="750" positionY="100"/>
+<Word name="3/büyük" positionX="650" positionY="200"/>
+<Connection from="have-degree-91" to="3/büyük" with="ARG2"/>
+<Word name="2/az" positionX="750" positionY="200"/>
+<Connection from="have-degree-91" to="2/az" with="ARG3"/>
+<Word name="1/bu" positionX="850" positionY="200"/>
+<Connection from="have-degree-91" to="1/bu" with="ARG4"/>
+<Word name="5/araba" positionX="950" positionY="200"/>
+<Connection from="have-degree-91" to="5/araba" with="ARG1"/>
+</Amr>

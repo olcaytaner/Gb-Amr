@@ -1,0 +1,9 @@
+<Amr>
+<Word name="3/su" positionX="750" positionY="100"/>
+<Word name="volume-quantity" positionX="650" positionY="200"/>
+<Connection from="3/su" to="volume-quantity" with="quant"/>
+<Word name="2/bardak" positionX="550" positionY="300"/>
+<Connection from="volume-quantity" to="2/bardak" with="unit"/>
+<Word name="1/sekiz" positionX="650" positionY="300"/>
+<Connection from="volume-quantity" to="1/sekiz" with="quant"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr>
+<Word name="iste" positionX="750" positionY="100"/>
+<Word name="2/bitir" positionX="650" positionY="200"/>
+<Connection from="iste" to="2/bitir" with="ARG1"/>
+<Word name="onlar" positionX="550" positionY="300"/>
+<Connection from="2/bitir" to="onlar" with="ARG0"/>
+<Word name="1/çabuk" positionX="650" positionY="300"/>
+<Connection from="2/bitir" to="1/çabuk" with="manner"/>
+</Amr>

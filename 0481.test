@@ -1,0 +1,16 @@
+<Amr>
+<Word name="7/var" positionX="750" positionY="100"/>
+<Word name="1/masa" positionX="650" positionY="200"/>
+<Connection from="7/var" to="1/masa" with="location"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="7/var" to="and" with="ARG1"/>
+<Word name="5/kitap" positionX="650" positionY="300"/>
+<Connection from="and" to="5/kitap" with="op1"/>
+<Word name="2/biraz" positionX="550" positionY="400"/>
+<Connection from="5/kitap" to="2/biraz" with="mod"/>
+<Word name="3/kalem" positionX="750" positionY="300"/>
+<Connection from="and" to="3/kalem" with="op2"/>
+<Connection from="3/kalem" to="2/biraz" with="mod"/>
+<Word name="8/galiba" positionX="850" positionY="200"/>
+<Connection from="7/var" to="8/galiba" with="manner"/>
+</Amr>

@@ -1,0 +1,19 @@
+<Amr>
+<Word name="8/utan" positionX="750" positionY="100"/>
+<Word name="4/utangaç" positionX="650" positionY="200"/>
+<Connection from="8/utan" to="4/utangaç" with="cause"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="4/utangaç" to="person"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/erol" positionX="350" positionY="500"/>
+<Connection from="name" to="1/erol" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="çok" positionX="650" positionY="300"/>
+<Connection from="4/utangaç" to="çok" with="degree"/>
+<Word name="6/doktor" positionX="750" positionY="200"/>
+<Connection from="8/utan" to="6/doktor" with="ARG1"/>
+<Word name="o" positionX="850" positionY="200"/>
+<Connection from="8/utan" to="o" with="ARG0"/>
+</Amr>

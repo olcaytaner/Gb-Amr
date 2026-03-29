@@ -1,0 +1,7 @@
+<Amr>
+<Word name="date-entity" positionX="750" positionY="100"/>
+<Word name="1/yirmi 2/otuz" positionX="650" positionY="200"/>
+<Connection from="date-entity" to="1/yirmi 2/otuz" with="time"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="date-entity" to="o" with="loc-of"/>
+</Amr>

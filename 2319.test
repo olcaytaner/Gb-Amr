@@ -1,0 +1,11 @@
+<Amr>
+<Word name="4/biri" positionX="750" positionY="100"/>
+<Word name="3/yüz" positionX="650" positionY="200"/>
+<Connection from="4/biri" to="3/yüz" with="ARG0-of"/>
+<Word name="distance-quantity" positionX="550" positionY="300"/>
+<Connection from="3/yüz" to="distance-quantity" with="quant"/>
+<Word name="2/kilometre" positionX="450" positionY="400"/>
+<Connection from="distance-quantity" to="2/kilometre" with="unit"/>
+<Word name="1/iki" positionX="550" positionY="400"/>
+<Connection from="distance-quantity" to="1/iki" with="quant"/>
+</Amr>

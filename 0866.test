@@ -1,0 +1,9 @@
+<Amr>
+<Word name="4/çok 5/şükür" positionX="750" positionY="100"/>
+<Word name="3/gel" positionX="650" positionY="200"/>
+<Connection from="4/çok 5/şükür" to="3/gel" with="cause"/>
+<Word name="1/Ambülans" positionX="550" positionY="300"/>
+<Connection from="3/gel" to="1/Ambülans" with="op1"/>
+<Word name="2/çabuk" positionX="650" positionY="300"/>
+<Connection from="3/gel" to="2/çabuk" with="manner"/>
+</Amr>

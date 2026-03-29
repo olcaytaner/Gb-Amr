@@ -1,0 +1,20 @@
+<Amr>
+<Word name="7/sev" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="7/sev" to="o" with="ARG0"/>
+<Word name="2/doğru" positionX="750" positionY="200"/>
+<Connection from="7/sev" to="2/doğru" with="manner"/>
+<Word name="1/daha" positionX="650" positionY="300"/>
+<Connection from="2/doğru" to="1/daha" with="manner"/>
+<Word name="5/pilav" positionX="850" positionY="200"/>
+<Connection from="7/sev" to="5/pilav"/>
+<Word name="4/yap" positionX="750" positionY="300"/>
+<Connection from="5/pilav" to="4/yap"/>
+<Word name="o" positionX="650" positionY="400"/>
+<Connection from="4/yap" to="o" with="poss"/>
+<Word name="3/anne" positionX="750" positionY="400"/>
+<Connection from="4/yap" to="3/anne"/>
+<Connection from="3/anne" to="o" with="poss"/>
+<Word name="6/çok" positionX="950" positionY="200"/>
+<Connection from="7/sev" to="6/çok" with="degree"/>
+</Amr>

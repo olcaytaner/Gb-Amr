@@ -1,0 +1,15 @@
+<Amr>
+<Word name="4/yaşa" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="4/yaşa" to="person" with="ARG0"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/filiz" positionX="450" positionY="400"/>
+<Connection from="name" to="1/filiz" with="op2"/>
+<Word name="2/hanım" positionX="550" positionY="400"/>
+<Connection from="name" to="2/hanım" with="op1"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="3/yalnız" positionX="750" positionY="200"/>
+<Connection from="4/yaşa" to="3/yalnız" with="manner"/>
+</Amr>

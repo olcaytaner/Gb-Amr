@@ -1,0 +1,19 @@
+<Amr>
+<Word name="11/unut" positionX="750" positionY="100"/>
+<Word name="1/sen" positionX="650" positionY="200"/>
+<Connection from="11/unut" to="1/sen"/>
+<Word name="6/hatırla" positionX="550" positionY="300"/>
+<Connection from="1/sen" to="6/hatırla"/>
+<Word name="2/ki" positionX="450" positionY="400"/>
+<Connection from="6/hatırla" to="2/ki"/>
+<Word name="5/gün" positionX="550" positionY="400"/>
+<Connection from="6/hatırla" to="5/gün"/>
+<Word name="3/herkes" positionX="450" positionY="500"/>
+<Connection from="5/gün" to="3/herkes" with="mod"/>
+<Word name="4/doğum" positionX="550" positionY="500"/>
+<Connection from="5/gün" to="4/doğum" with="mod"/>
+<Word name="8/sen" positionX="750" positionY="200"/>
+<Connection from="11/unut" to="8/sen"/>
+<Word name="9/bile" positionX="650" positionY="300"/>
+<Connection from="8/sen" to="9/bile"/>
+</Amr>

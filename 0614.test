@@ -1,0 +1,9 @@
+<Amr>
+<Word name="amr-unknown" positionX="750" positionY="100"/>
+<Word name="3/anne" positionX="650" positionY="200"/>
+<Connection from="amr-unknown" to="3/anne" with="loc-of"/>
+<Word name="2/çocuk" positionX="550" positionY="300"/>
+<Connection from="3/anne" to="2/çocuk" with="poss"/>
+<Word name="1/bu" positionX="450" positionY="400"/>
+<Connection from="2/çocuk" to="1/bu" with="mod"/>
+</Amr>

@@ -1,0 +1,18 @@
+<Amr>
+<Word name="governent-organization" positionX="750" positionY="100"/>
+<Word name="name" positionX="650" positionY="200"/>
+<Connection from="governent-organization" to="name" with="name"/>
+<Word name="province" positionX="550" positionY="300"/>
+<Connection from="name" to="province" with="op1"/>
+<Connection from="province" to="name" with="name"/>
+<Word name="1/kadıköy" positionX="350" positionY="500"/>
+<Connection from="name" to="1/kadıköy" with="op1"/>
+<Word name="Kadıköy" positionX="550" positionY="400"/>
+<Connection from="province" to="Kadıköy" with="wiki"/>
+<Word name="2/kız" positionX="650" positionY="300"/>
+<Connection from="name" to="2/kız" with="op2"/>
+<Word name="3/yüksek" positionX="750" positionY="300"/>
+<Connection from="name" to="3/yüksek" with="op3"/>
+<Word name="4/meslek 5/okul" positionX="850" positionY="300"/>
+<Connection from="name" to="4/meslek 5/okul" with=" op4"/>
+</Amr>

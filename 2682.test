@@ -1,0 +1,21 @@
+<Amr>
+<Word name="7/var" positionX="750" positionY="100"/>
+<Word name="6/hava" positionX="650" positionY="200"/>
+<Connection from="7/var" to="6/hava" with="ARG1"/>
+<Word name="karşılaştır" positionX="550" positionY="300"/>
+<Connection from="6/hava" to="karşılaştır" with="mod"/>
+<Word name="1/sıcak" positionX="450" positionY="400"/>
+<Connection from="karşılaştır" to="1/sıcak" with="ARG1"/>
+<Word name="3/bunaltıcı" positionX="550" positionY="400"/>
+<Connection from="karşılaştır" to="3/bunaltıcı" with="ARG2"/>
+<Word name="-" positionX="450" positionY="500"/>
+<Connection from="3/bunaltıcı" to="-" with="polarity"/>
+<Word name="city" positionX="750" positionY="200"/>
+<Connection from="7/var" to="city" with="ARG0"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="8/ankara" positionX="550" positionY="400"/>
+<Connection from="name" to="8/ankara" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="city" to="-" with="wiki"/>
+</Amr>

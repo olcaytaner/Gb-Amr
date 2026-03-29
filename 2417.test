@@ -1,0 +1,13 @@
+<Amr>
+<Word name="6/anlat" positionX="750" positionY="100"/>
+<Word name="2/kadın" positionX="650" positionY="200"/>
+<Connection from="6/anlat" to="2/kadın" with="ARG0"/>
+<Word name="1/genç" positionX="550" positionY="300"/>
+<Connection from="2/kadın" to="1/genç" with="mod"/>
+<Word name="3/ağla 4/ağla" positionX="750" positionY="200"/>
+<Connection from="6/anlat" to="3/ağla 4/ağla" with="prep-by"/>
+<Word name="5/hikaye" positionX="850" positionY="200"/>
+<Connection from="6/anlat" to="5/hikaye" with="ARG1"/>
+<Word name="2/kadın" positionX="750" positionY="300"/>
+<Connection from="5/hikaye" to="2/kadın" with="poss"/>
+</Amr>

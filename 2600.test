@@ -1,0 +1,24 @@
+<Amr>
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="8/kurtar" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="8/kurtar" with="domain"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="8/kurtar" to="biz" with="ARG0"/>
+<Word name="6/yaka" positionX="650" positionY="300"/>
+<Connection from="8/kurtar" to="6/yaka" with="ARG1"/>
+<Word name="biz" positionX="550" positionY="400"/>
+<Connection from="6/yaka" to="biz" with="poss"/>
+<Word name="-" positionX="750" positionY="200"/>
+<Connection from="mümkün" to="-" with="polarity"/>
+<Word name="3/imzala" positionX="850" positionY="200"/>
+<Connection from="mümkün" to="3/imzala" with="time"/>
+<Word name="2/kağıt" positionX="750" positionY="300"/>
+<Connection from="3/imzala" to="2/kağıt" with="ARG1"/>
+<Word name="1/o" positionX="650" positionY="400"/>
+<Connection from="2/kağıt" to="1/o" with="mod"/>
+<Connection from="3/imzala" to="biz" with="ARG0"/>
+<Word name="7/hiç" positionX="950" positionY="200"/>
+<Connection from="mümkün" to="7/hiç" with="degree"/>
+<Word name="5/artık" positionX="1050" positionY="200"/>
+<Connection from="mümkün" to="5/artık" with="manner"/>
+</Amr>

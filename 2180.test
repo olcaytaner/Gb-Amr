@@ -1,0 +1,19 @@
+<Amr>
+<Word name="8/al" positionX="750" positionY="100"/>
+<Word name="biz" positionX="650" positionY="200"/>
+<Connection from="8/al" to="biz" with="ARG0"/>
+<Word name="7/komut" positionX="750" positionY="200"/>
+<Connection from="8/al" to="7/komut"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="7/komut" to="o" with="poss"/>
+<Word name="4/hazır 5/ol" positionX="750" positionY="300"/>
+<Connection from="7/komut" to="4/hazır 5/ol"/>
+<Word name="siz" positionX="650" positionY="400"/>
+<Connection from="4/hazır 5/ol" to="siz" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="400"/>
+<Connection from="4/hazır 5/ol" to="imperative" with="mode"/>
+<Word name="3/altı" positionX="850" positionY="400"/>
+<Connection from="4/hazır 5/ol" to="3/altı"/>
+<Word name="2/saat" positionX="750" positionY="500"/>
+<Connection from="3/altı" to="2/saat" with="mod"/>
+</Amr>

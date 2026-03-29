@@ -1,0 +1,19 @@
+<Amr>
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="7/al" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="7/al" with="ARG1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="7/al" to="-" with="polarity"/>
+<Word name="4/öğrenci" positionX="650" positionY="300"/>
+<Connection from="7/al" to="4/öğrenci" with="ARG0"/>
+<Word name="2/düşük" positionX="550" positionY="400"/>
+<Connection from="4/öğrenci" to="2/düşük" with="mod"/>
+<Word name="1/not" positionX="450" positionY="500"/>
+<Connection from="2/düşük" to="1/not" with="mod"/>
+<Word name="o" positionX="350" positionY="600"/>
+<Connection from="1/not" to="o" with="poss"/>
+<Word name="6/sınav" positionX="750" positionY="300"/>
+<Connection from="7/al" to="6/sınav" with="ARG1"/>
+<Word name="5/bu" positionX="650" positionY="400"/>
+<Connection from="6/sınav" to="5/bu" with="mod"/>
+</Amr>

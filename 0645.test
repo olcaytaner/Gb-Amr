@@ -1,0 +1,33 @@
+<Amr>
+<Word name="11/var" positionX="750" positionY="100"/>
+<Word name="country" positionX="650" positionY="200"/>
+<Connection from="11/var" to="country" with="location"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="country" to="name" with="name"/>
+<Word name="4/sierra" positionX="450" positionY="400"/>
+<Connection from="name" to="4/sierra" with="op1"/>
+<Word name="5/leone" positionX="550" positionY="400"/>
+<Connection from="name" to="5/leone" with="op2"/>
+<Word name="include-91" positionX="650" positionY="400"/>
+<Connection from="name" to="include-91" with="ARG1-of"/>
+<Word name="3/ülke" positionX="550" positionY="500"/>
+<Connection from="include-91" to="3/ülke" with="ARG2"/>
+<Word name="world-region" positionX="450" positionY="600"/>
+<Connection from="3/ülke" to="world-region" with="mod"/>
+<Connection from="world-region" to="name" with="name"/>
+<Word name="2/afrika" positionX="250" positionY="800"/>
+<Connection from="name" to="2/afrika" with="op1"/>
+<Word name="1/batı" positionX="350" positionY="800"/>
+<Connection from="name" to="1/batı" with="mod"/>
+<Word name="-" positionX="450" positionY="700"/>
+<Connection from="world-region" to="-" with="wiki"/>
+<Connection from="name" to="-" with="wiki"/>
+<Word name="temporal-quantity" positionX="750" positionY="200"/>
+<Connection from="11/var" to="temporal-quantity" with="duration"/>
+<Word name="7/yıl" positionX="650" positionY="300"/>
+<Connection from="temporal-quantity" to="7/yıl" with="unit"/>
+<Word name="6/on" positionX="750" positionY="300"/>
+<Connection from="temporal-quantity" to="6/on" with="quant"/>
+<Word name="9/iç 10/savaş" positionX="850" positionY="200"/>
+<Connection from="11/var" to="9/iç 10/savaş" with="mod"/>
+</Amr>

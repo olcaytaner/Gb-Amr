@@ -1,0 +1,13 @@
+<Amr>
+<Word name="4/gerek" positionX="750" positionY="100"/>
+<Word name="3/ol" positionX="650" positionY="200"/>
+<Connection from="4/gerek" to="3/ol" with="ARG1"/>
+<Word name="biz" positionX="550" positionY="300"/>
+<Connection from="3/ol" to="biz" with="ARG0"/>
+<Word name="2/havaliman" positionX="650" positionY="300"/>
+<Connection from="3/ol" to="2/havaliman" with="location"/>
+<Word name="date-entity" positionX="550" positionY="400"/>
+<Connection from="2/havaliman" to="date-entity" with="time"/>
+<Word name="1/8.30" positionX="450" positionY="500"/>
+<Connection from="date-entity" to="1/8.30" with="time"/>
+</Amr>

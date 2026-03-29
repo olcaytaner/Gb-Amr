@@ -1,0 +1,11 @@
+<Amr>
+<Word name="5/seç" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/seç" to="-" with="polarity"/>
+<Word name="1/başkan" positionX="750" positionY="200"/>
+<Connection from="5/seç" to="1/başkan" with="ARG1"/>
+<Word name="4/şekil" positionX="850" positionY="200"/>
+<Connection from="5/seç" to="4/şekil" with="manner"/>
+<Word name="2/demokratik" positionX="750" positionY="300"/>
+<Connection from="4/şekil" to="2/demokratik" with="mod"/>
+</Amr>

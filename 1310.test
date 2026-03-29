@@ -1,0 +1,31 @@
+<Amr>
+<Word name="5/al" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="5/al" to="onlar" with="ARG0"/>
+<Word name="1/artık" positionX="750" positionY="200"/>
+<Connection from="5/al" to="1/artık" with="manner"/>
+<Word name="2/otobüs" positionX="850" positionY="200"/>
+<Connection from="5/al" to="2/otobüs" with="location"/>
+<Word name="3/herkes" positionX="950" positionY="200"/>
+<Connection from="5/al" to="3/herkes"/>
+<Word name="onlar" positionX="850" positionY="300"/>
+<Connection from="3/herkes" to="onlar" with="poss"/>
+<Word name="and" positionX="950" positionY="300"/>
+<Connection from="3/herkes" to="and"/>
+<Word name="10/yaşlı" positionX="850" positionY="400"/>
+<Connection from="and" to="10/yaşlı" with="op1"/>
+<Word name="11/ol" positionX="750" positionY="500"/>
+<Connection from="10/yaşlı" to="11/ol"/>
+<Word name="o" positionX="650" positionY="600"/>
+<Connection from="11/ol" to="o" with="ARG0"/>
+<Word name="imperative" positionX="750" positionY="600"/>
+<Connection from="11/ol" to="imperative" with="mode"/>
+<Word name="7/genç" positionX="950" positionY="400"/>
+<Connection from="and" to="7/genç" with="op2"/>
+<Word name="8/ol" positionX="850" positionY="500"/>
+<Connection from="7/genç" to="8/ol"/>
+<Connection from="8/ol" to="o" with="ARG0"/>
+<Connection from="8/ol" to="imperative" with="mode"/>
+<Word name="4/para" positionX="1050" positionY="200"/>
+<Connection from="5/al" to="4/para" with="ARG1"/>
+</Amr>

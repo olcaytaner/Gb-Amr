@@ -1,0 +1,9 @@
+<Amr>
+<Word name="5/var" positionX="750" positionY="100"/>
+<Word name="4/paket" positionX="650" positionY="200"/>
+<Connection from="5/var" to="4/paket" with="ARG1"/>
+<Word name="2/gerektir" positionX="550" positionY="300"/>
+<Connection from="4/paket" to="2/gerektir" with="ARG0-of"/>
+<Word name="1/imza" positionX="450" positionY="400"/>
+<Connection from="2/gerektir" to="1/imza" with="ARG1"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr>
+<Word name="5/gel" positionX="750" positionY="100"/>
+<Word name="1/dün" positionX="650" positionY="200"/>
+<Connection from="5/gel" to="1/dün" with="time"/>
+<Word name="4/mektup" positionX="750" positionY="200"/>
+<Connection from="5/gel" to="4/mektup" with="ARG1"/>
+<Word name="2/otuz 3/üç" positionX="650" positionY="300"/>
+<Connection from="4/mektup" to="2/otuz 3/üç" with="quant"/>
+</Amr>

@@ -1,0 +1,22 @@
+<Amr>
+<Word name="7/telaş" positionX="750" positionY="100"/>
+<Word name="2/gelecek 3/zaman" positionX="650" positionY="200"/>
+<Connection from="7/telaş" to="2/gelecek 3/zaman"/>
+<Word name="1/misafir" positionX="550" positionY="300"/>
+<Connection from="2/gelecek 3/zaman" to="1/misafir"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="7/telaş" to="person"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="5/hanım" positionX="550" positionY="400"/>
+<Connection from="name" to="5/hanım" with="op1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="person" to="person"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/fatma" positionX="650" positionY="500"/>
+<Connection from="name" to="4/fatma" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="6/çok" positionX="850" positionY="200"/>
+<Connection from="7/telaş" to="6/çok" with="degree"/>
+</Amr>

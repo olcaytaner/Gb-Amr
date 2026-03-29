@@ -1,0 +1,11 @@
+<Amr>
+<Word name="6/sağla" positionX="750" positionY="100"/>
+<Word name="2/yağmur" positionX="650" positionY="200"/>
+<Connection from="6/sağla" to="2/yağmur" with="ARG0"/>
+<Word name="1/ilkbahar" positionX="550" positionY="300"/>
+<Connection from="2/yağmur" to="1/ilkbahar" with="mod"/>
+<Word name="3/mahsul" positionX="750" positionY="200"/>
+<Connection from="6/sağla" to="3/mahsul" with="ARG1"/>
+<Word name="4/bol" positionX="650" positionY="300"/>
+<Connection from="3/mahsul" to="4/bol" with="mod"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr>
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="2/git" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="2/git" with="domain"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="2/git" to="ben" with="ARG0"/>
+<Word name="city" positionX="650" positionY="300"/>
+<Connection from="2/git" to="city" with="ARG1"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="city" to="name" with="name"/>
+<Word name="1/Antalya" positionX="450" positionY="500"/>
+<Connection from="name" to="1/Antalya" with="op1"/>
+<Word name="Antalya" positionX="650" positionY="400"/>
+<Connection from="city" to="Antalya" with="wiki"/>
+<Word name="-" positionX="750" positionY="200"/>
+<Connection from="mümkün" to="-" with="polarity"/>
+</Amr>

@@ -1,0 +1,15 @@
+<Amr>
+<Word name="8/var" positionX="750" positionY="100"/>
+<Word name="1/ben" positionX="650" positionY="200"/>
+<Connection from="8/var" to="1/ben" with="poss"/>
+<Word name="2/oda" positionX="750" positionY="200"/>
+<Connection from="8/var" to="2/oda" with="mod"/>
+<Word name="3/o" positionX="850" positionY="200"/>
+<Connection from="8/var" to="3/o" with="poss"/>
+<Word name="4/ara" positionX="950" positionY="200"/>
+<Connection from="8/var" to="4/ara" with="mod"/>
+<Word name="7/duvar" positionX="1050" positionY="200"/>
+<Connection from="8/var" to="7/duvar" with="ARG1"/>
+<Word name="5/kalın" positionX="950" positionY="300"/>
+<Connection from="7/duvar" to="5/kalın" with="mod"/>
+</Amr>

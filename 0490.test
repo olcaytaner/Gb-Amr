@@ -1,0 +1,5 @@
+<Amr>
+<Word name="2/Silahşör" positionX="750" positionY="100"/>
+<Word name="1/üç" positionX="650" positionY="200"/>
+<Connection from="2/Silahşör" to="1/üç" with="quant"/>
+</Amr>

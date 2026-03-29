@@ -1,0 +1,7 @@
+<Amr>
+<Word name="3/sıra" positionX="750" positionY="100"/>
+<Word name="1/telefon 2/et" positionX="650" positionY="200"/>
+<Connection from="3/sıra" to="1/telefon 2/et"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Connection from="1/telefon 2/et" to="sen" with="poss"/>
+</Amr>

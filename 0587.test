@@ -1,0 +1,13 @@
+<Amr>
+<Word name="5/ara" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="5/ara" to="onlar" with="ARG0"/>
+<Word name="4/ev" positionX="750" positionY="200"/>
+<Connection from="5/ara" to="4/ev" with="ARG1"/>
+<Word name="ol" positionX="650" positionY="300"/>
+<Connection from="4/ev" to="ol" with="ARG0-of"/>
+<Word name="2/yakın" positionX="550" positionY="400"/>
+<Connection from="ol" to="2/yakın" with="manner"/>
+<Word name="1/okul" positionX="650" positionY="400"/>
+<Connection from="ol" to="1/okul" with="ARG2"/>
+</Amr>

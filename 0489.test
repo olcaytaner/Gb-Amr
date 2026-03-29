@@ -1,0 +1,15 @@
+<Amr>
+<Word name="7/ol" positionX="750" positionY="100"/>
+<Word name="6/kalabalık" positionX="650" positionY="200"/>
+<Connection from="7/ol" to="6/kalabalık" with="manner"/>
+<Word name="5/daha" positionX="550" positionY="300"/>
+<Connection from="6/kalabalık" to="5/daha" with="degree"/>
+<Word name="2/yıl" positionX="750" positionY="200"/>
+<Connection from="7/ol" to="2/yıl" with="time"/>
+<Word name="1/bu" positionX="650" positionY="300"/>
+<Connection from="2/yıl" to="1/bu" with="mod"/>
+<Word name="4/sınıf" positionX="850" positionY="200"/>
+<Connection from="7/ol" to="4/sınıf" with="ARG0"/>
+<Word name="3/bütün" positionX="750" positionY="300"/>
+<Connection from="4/sınıf" to="3/bütün" with="mod"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr>
+<Word name="yap" positionX="750" positionY="100"/>
+<Word name="1/yapılaş" positionX="650" positionY="200"/>
+<Connection from="yap" to="1/yapılaş" with="ARG1"/>
+<Word name="-" positionX="750" positionY="200"/>
+<Connection from="yap" to="-" with="polarity"/>
+</Amr>

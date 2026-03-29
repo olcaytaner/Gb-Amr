@@ -1,0 +1,7 @@
+<Amr>
+<Word name="3/kırıl" positionX="750" positionY="100"/>
+<Word name="2/laf" positionX="650" positionY="200"/>
+<Connection from="3/kırıl" to="2/laf" with="cause"/>
+<Word name="1/böyle" positionX="550" positionY="300"/>
+<Connection from="2/laf" to="1/böyle" with="mod"/>
+</Amr>

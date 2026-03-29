@@ -1,0 +1,17 @@
+<Amr>
+<Word name="4/zaman" positionX="750" positionY="100"/>
+<Word name="3/buluş" positionX="650" positionY="200"/>
+<Word name="sen" positionX="550" positionY="300"/>
+<Word name="1/bugün" positionX="650" positionY="300"/>
+<Word name="person" positionX="922" positionY="268"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Word name="2/ziya" positionX="550" positionY="500"/>
+<Word name="-" positionX="1029" positionY="428"/>
+<Connection from="4/zaman" to="3/buluş" with="time"/>
+<Connection from="3/buluş" to="sen" with="poss"/>
+<Connection from="3/buluş" to="1/bugün" with="time"/>
+<Connection from="3/buluş" to="person" with="ARG1"/>
+<Connection from="person" to="name" with="name"/>
+<Connection from="name" to="2/ziya" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

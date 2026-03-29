@@ -1,0 +1,28 @@
+<Amr>
+<Word name="11/söyle" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="11/söyle" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="11/söyle" to="o" with="ARG0"/>
+<Word name="6/gel" positionX="850" positionY="200"/>
+<Connection from="11/söyle" to="6/gel" with="cond"/>
+<Connection from="6/gel" to="o" with="ARG0"/>
+<Word name="1/her 2/ne 3/kadar" positionX="850" positionY="300"/>
+<Connection from="6/gel" to="1/her 2/ne 3/kadar" with="extent"/>
+<Word name="person" positionX="950" positionY="300"/>
+<Connection from="6/gel" to="person"/>
+<Word name="name" positionX="850" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/banu" positionX="750" positionY="500"/>
+<Connection from="name" to="4/banu" with="op1"/>
+<Word name="-" positionX="950" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/toplantı" positionX="1050" positionY="300"/>
+<Connection from="6/gel" to="5/toplantı"/>
+<Word name="biz" positionX="950" positionY="400"/>
+<Connection from="5/toplantı" to="biz" with="poss"/>
+<Word name="7/da" positionX="1150" positionY="300"/>
+<Connection from="6/gel" to="7/da"/>
+<Word name="8/pek" positionX="950" positionY="200"/>
+<Connection from="11/söyle" to="8/pek" with="manner"/>
+</Amr>

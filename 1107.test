@@ -1,0 +1,11 @@
+<Amr>
+<Word name="6/sorun 7/ol" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/sorun 7/ol" to="-" with="polarity"/>
+<Word name="4/iş" positionX="750" positionY="200"/>
+<Connection from="6/sorun 7/ol" to="4/iş" with="ARG0"/>
+<Word name="3/alışveriş" positionX="650" positionY="300"/>
+<Connection from="4/iş" to="3/alışveriş" with="mod"/>
+<Word name="5/pek" positionX="850" positionY="200"/>
+<Connection from="6/sorun 7/ol" to="5/pek" with="manner"/>
+</Amr>

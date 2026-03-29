@@ -1,0 +1,27 @@
+<Amr>
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="8/bul" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="8/bul"/>
+<Word name="7/şey" positionX="550" positionY="300"/>
+<Connection from="8/bul" to="7/şey" with="ARG1"/>
+<Word name="6/bir" positionX="650" positionY="300"/>
+<Connection from="8/bul" to="6/bir" with=" quant"/>
+<Word name="5/yara" positionX="750" positionY="300"/>
+<Connection from="8/bul" to="5/yara" with="mod"/>
+<Word name="4/iş" positionX="850" positionY="300"/>
+<Connection from="8/bul" to="4/iş" with=" poss"/>
+<Word name="sen" positionX="950" positionY="300"/>
+<Connection from="8/bul" to="sen" with="ARG0"/>
+<Word name="3/ara" positionX="1050" positionY="300"/>
+<Connection from="8/bul" to="3/ara" with="ARG1"/>
+<Word name="2/giysi" positionX="950" positionY="400"/>
+<Connection from="3/ara" to="2/giysi" with="mod"/>
+<Word name="person" positionX="850" positionY="500"/>
+<Connection from="2/giysi" to="person"/>
+<Word name="name" positionX="750" positionY="600"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/ali" positionX="650" positionY="700"/>
+<Connection from="name" to="1/ali" with="op1"/>
+<Word name="-" positionX="850" positionY="600"/>
+<Connection from="person" to="-" with="wiki"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr>
+<Word name="6/kolay" positionX="750" positionY="100"/>
+<Word name="3/eleştir" positionX="650" positionY="200"/>
+<Connection from="6/kolay" to="3/eleştir"/>
+<Word name="siz" positionX="550" positionY="300"/>
+<Connection from="3/eleştir" to="siz" with="ARG0"/>
+<Word name="1/siz" positionX="650" positionY="300"/>
+<Connection from="3/eleştir" to="1/siz" with="ARG0"/>
+<Word name="2/kendi" positionX="750" positionY="300"/>
+<Connection from="3/eleştir" to="2/kendi" with="mod"/>
+<Word name="siz" positionX="650" positionY="400"/>
+<Connection from="2/kendi" to="siz" with="poss"/>
+<Word name="4/ne" positionX="750" positionY="200"/>
+<Connection from="6/kolay" to="4/ne" with="extent"/>
+<Word name="5/kadar" positionX="850" positionY="200"/>
+<Connection from="6/kolay" to="5/kadar" with=" extent"/>
+</Amr>

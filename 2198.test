@@ -1,0 +1,11 @@
+<Amr>
+<Word name="5/kız" positionX="750" positionY="100"/>
+<Word name="4/gör" positionX="650" positionY="200"/>
+<Connection from="5/kız" to="4/gör" with="ARG1-of"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="4/gör" to="ben" with="ARG0"/>
+<Word name="1/her 2/gün" positionX="650" positionY="300"/>
+<Connection from="4/gör" to="1/her 2/gün" with="time"/>
+<Word name="3/okul" positionX="750" positionY="300"/>
+<Connection from="4/gör" to="3/okul" with="location"/>
+</Amr>

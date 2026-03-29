@@ -1,0 +1,16 @@
+<Amr>
+<Word name="7/çek" positionX="750" positionY="100"/>
+<Word name="4/sınav 5/gir" positionX="650" positionY="200"/>
+<Connection from="7/çek" to="4/sınav 5/gir" with="time"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="4/sınav 5/gir" to="person" with="ARG0"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="necla" positionX="450" positionY="500"/>
+<Connection from="-" to="necla" with="op1"/>
+<Word name="6/heyecan" positionX="750" positionY="200"/>
+<Connection from="7/çek" to="6/heyecan" with="ARG1"/>
+<Connection from="7/çek" to="person" with="ARG0"/>
+</Amr>

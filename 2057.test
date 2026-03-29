@@ -1,0 +1,13 @@
+<Amr>
+<Word name="3/zor" positionX="750" positionY="100"/>
+<Word name="2/öğren" positionX="650" positionY="200"/>
+<Connection from="3/zor" to="2/öğren" with="domain"/>
+<Word name="language" positionX="550" positionY="300"/>
+<Connection from="2/öğren" to="language" with="ARG1"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="language" to="name" with="name"/>
+<Word name="1/türkçe" positionX="350" positionY="500"/>
+<Connection from="name" to="1/türkçe" with="op1"/>
+<Word name="Türkçe" positionX="550" positionY="400"/>
+<Connection from="language" to="Türkçe" with="wiki"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr>
+<Word name="7/yor" positionX="750" positionY="100"/>
+<Word name="4/gez" positionX="650" positionY="200"/>
+<Connection from="7/yor" to="4/gez" with="ARG0"/>
+<Word name="temporal-quantity" positionX="550" positionY="300"/>
+<Connection from="4/gez" to="temporal-quantity" with="duration"/>
+<Word name="2/gün" positionX="450" positionY="400"/>
+<Connection from="temporal-quantity" to="2/gün" with="unit"/>
+<Word name="1/bütün" positionX="350" positionY="500"/>
+<Connection from="2/gün" to="1/bütün" with="mod"/>
+<Word name="3/müze" positionX="650" positionY="300"/>
+<Connection from="4/gez" to="3/müze" with="ARG1"/>
+<Word name="5/biz" positionX="750" positionY="200"/>
+<Connection from="7/yor" to="5/biz" with="ARG1"/>
+<Word name="6/çok" positionX="850" positionY="200"/>
+<Connection from="7/yor" to="6/çok" with="degree"/>
+</Amr>

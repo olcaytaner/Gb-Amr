@@ -1,0 +1,9 @@
+<Amr>
+<Word name="4/kablo" positionX="750" positionY="100"/>
+<Word name="distance-quantity" positionX="650" positionY="200"/>
+<Connection from="4/kablo" to="distance-quantity" with="mod"/>
+<Word name="2/metrelik" positionX="550" positionY="300"/>
+<Connection from="distance-quantity" to="2/metrelik" with="unit"/>
+<Word name="1/beş" positionX="650" positionY="300"/>
+<Connection from="distance-quantity" to="1/beş" with="quant"/>
+</Amr>

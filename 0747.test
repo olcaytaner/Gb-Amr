@@ -1,0 +1,7 @@
+<Amr>
+<Word name="4/konu" positionX="750" positionY="100"/>
+<Word name="1/güvenlik" positionX="650" positionY="200"/>
+<Connection from="4/konu" to="1/güvenlik" with="topic"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="4/konu" to="o" with="domain"/>
+</Amr>

@@ -1,0 +1,13 @@
+<Amr>
+<Word name="4/yet" positionX="750" positionY="100"/>
+<Word name="3/tane" positionX="650" positionY="200"/>
+<Connection from="4/yet" to="3/tane" with="ARG0"/>
+<Word name="include-91" positionX="550" positionY="300"/>
+<Connection from="3/tane" to="include-91" with="ARG1-of"/>
+<Word name="1/küçük" positionX="450" positionY="400"/>
+<Connection from="include-91" to="1/küçük" with="ARG2"/>
+<Word name="2/on" positionX="650" positionY="300"/>
+<Connection from="3/tane" to="2/on" with="quant"/>
+<Word name="amr-unknown" positionX="750" positionY="200"/>
+<Connection from="4/yet" to="amr-unknown" with="polarity"/>
+</Amr>

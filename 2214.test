@@ -1,0 +1,9 @@
+<Amr>
+<Word name="4/kap" positionX="750" positionY="100"/>
+<Word name="2/koyun" positionX="650" positionY="200"/>
+<Connection from="4/kap" to="2/koyun" with="ARG1"/>
+<Word name="1/köylü" positionX="550" positionY="300"/>
+<Connection from="2/koyun" to="1/köylü" with="poss"/>
+<Word name="3/kurt" positionX="750" positionY="200"/>
+<Connection from="4/kap" to="3/kurt" with="ARG0"/>
+</Amr>

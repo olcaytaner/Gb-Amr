@@ -1,0 +1,11 @@
+<Amr>
+<Word name="4/bilin" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/bilin" to="-" with="polarity"/>
+<Word name="3/kim" positionX="750" positionY="200"/>
+<Connection from="4/bilin" to="3/kim" with="ARG1"/>
+<Word name="2/baba" positionX="650" positionY="300"/>
+<Connection from="3/kim" to="2/baba" with="poss"/>
+<Word name="1/çocuk" positionX="550" positionY="400"/>
+<Connection from="2/baba" to="1/çocuk" with="poss"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr>
+<Word name="8/elbise" positionX="750" positionY="100"/>
+<Word name="3/göster" positionX="650" positionY="200"/>
+<Connection from="8/elbise" to="3/göster" with="ARG1-of"/>
+<Word name="ben" positionX="550" positionY="300"/>
+<Connection from="3/göster" to="ben" with="ARG0"/>
+<Word name="2/sen" positionX="650" positionY="300"/>
+<Connection from="3/göster" to="2/sen" with="ARG2"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="8/elbise" to="o" with="domain"/>
+</Amr>

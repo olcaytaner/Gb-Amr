@@ -1,0 +1,13 @@
+<Amr>
+<Word name="6/kapat" positionX="750" positionY="100"/>
+<Word name="1/kayıt" positionX="650" positionY="200"/>
+<Connection from="6/kapat" to="1/kayıt" with="ARG1"/>
+<Word name="date-entity" positionX="750" positionY="200"/>
+<Connection from="6/kapat" to="date-entity" with="date"/>
+<Word name="2/bugün" positionX="650" positionY="300"/>
+<Connection from="date-entity" to="2/bugün" with="time"/>
+<Word name="4/17" positionX="750" positionY="300"/>
+<Connection from="date-entity" to="4/17:00" with="time"/>
+<Word name="biz" positionX="850" positionY="200"/>
+<Connection from="6/kapat" to="biz" with="ARG0"/>
+</Amr>

@@ -1,0 +1,7 @@
+<Amr>
+<Word name="5/yer" positionX="750" positionY="100"/>
+<Word name="2/sen" positionX="650" positionY="200"/>
+<Connection from="5/yer" to="2/sen" with="ARG1"/>
+<Word name="4/kaza" positionX="750" positionY="200"/>
+<Connection from="5/yer" to="4/kaza" with="mod"/>
+</Amr>

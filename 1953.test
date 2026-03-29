@@ -1,0 +1,15 @@
+<Amr>
+<Word name="5/bitir" positionX="750" positionY="100"/>
+<Word name="o" positionX="650" positionY="200"/>
+<Connection from="5/bitir" to="o" with="ARG0"/>
+<Word name="2/para" positionX="750" positionY="200"/>
+<Connection from="5/bitir" to="2/para" with="ARG1"/>
+<Word name="1/bütün" positionX="650" positionY="300"/>
+<Connection from="2/para" to="1/bütün" with="mod"/>
+<Word name="temporal-quantity" positionX="850" positionY="200"/>
+<Connection from="5/bitir" to="temporal-quantity" with="duration"/>
+<Word name="4/hafta" positionX="750" positionY="300"/>
+<Connection from="temporal-quantity" to="4/hafta" with="unit"/>
+<Word name="bir" positionX="850" positionY="300"/>
+<Connection from="temporal-quantity" to="bir" with="quant"/>
+</Amr>

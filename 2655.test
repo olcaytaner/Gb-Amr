@@ -1,0 +1,15 @@
+<Amr>
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="8/gir" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="8/gir" with="domain"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="8/gir" to="person"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="1/necla" positionX="450" positionY="500"/>
+<Connection from="-" to="1/necla" with="op1"/>
+<Word name="and" positionX="650" positionY="300"/>
+<Connection from="8/gir" to="and" with="ARG1"/>
+</Amr>

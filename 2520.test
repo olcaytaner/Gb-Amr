@@ -1,0 +1,13 @@
+<Amr>
+<Word name="6/ol" positionX="750" positionY="100"/>
+<Word name="5/iyi" positionX="650" positionY="200"/>
+<Connection from="6/ol" to="5/iyi" with="ARG1"/>
+<Word name="4/yap" positionX="750" positionY="200"/>
+<Connection from="6/ol" to="4/yap" with="cond"/>
+<Word name="1/bugün" positionX="650" positionY="300"/>
+<Connection from="4/yap" to="1/bugün" with="time"/>
+<Word name="2/burada" positionX="750" positionY="300"/>
+<Connection from="4/yap" to="2/burada" with="location"/>
+<Word name="3/temizlik" positionX="850" positionY="300"/>
+<Connection from="4/yap" to="3/temizlik" with="ARG1"/>
+</Amr>

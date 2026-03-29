@@ -1,0 +1,9 @@
+<Amr>
+<Word name="4/kadın" positionX="750" positionY="100"/>
+<Word name="3/ol" positionX="650" positionY="200"/>
+<Connection from="4/kadın" to="3/ol" with="ARG1-of"/>
+<Word name="2/iş" positionX="550" positionY="300"/>
+<Connection from="3/ol" to="2/iş" with="location"/>
+<Word name="1/bugün" positionX="650" positionY="300"/>
+<Connection from="3/ol" to="1/bugün" with="time"/>
+</Amr>

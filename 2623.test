@@ -1,0 +1,22 @@
+<Amr>
+<Word name="10/san" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="10/san" to="-" with="polarity"/>
+<Word name="ben" positionX="750" positionY="200"/>
+<Connection from="10/san" to="ben" with="ARG0"/>
+<Word name="8/fark" positionX="850" positionY="200"/>
+<Connection from="10/san" to="8/fark"/>
+<Word name="and" positionX="750" positionY="300"/>
+<Connection from="8/fark" to="and"/>
+<Word name="4/oku 5/oku" positionX="650" positionY="400"/>
+<Connection from="and" to="4/oku 5/oku" with="op1"/>
+<Connection from="4/oku 5/oku" to="-" with="polarity"/>
+<Word name="o" positionX="650" positionY="500"/>
+<Connection from="4/oku 5/oku" to="o" with="ARG0"/>
+<Word name="o" positionX="750" positionY="500"/>
+<Connection from="4/oku 5/oku" to="o" with="poss"/>
+<Word name="9/ol" positionX="850" positionY="300"/>
+<Connection from="8/fark" to="9/ol"/>
+<Connection from="9/ol" to="o" with="ARG0"/>
+<Connection from="9/ol" to="o" with="poss"/>
+</Amr>

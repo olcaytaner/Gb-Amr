@@ -1,0 +1,9 @@
+<Amr>
+<Word name="5/düş" positionX="750" positionY="100"/>
+<Word name="şey" positionX="650" positionY="200"/>
+<Connection from="5/düş" to="şey" with="ARG0"/>
+<Word name="2/arka" positionX="750" positionY="200"/>
+<Connection from="5/düş" to="2/arka" with="location"/>
+<Word name="1/dolap" positionX="650" positionY="300"/>
+<Connection from="2/arka" to="1/dolap" with="poss"/>
+</Amr>

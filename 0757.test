@@ -1,0 +1,11 @@
+<Amr>
+<Word name="percentage-entity" positionX="750" positionY="100"/>
+<Word name="3/95" positionX="650" positionY="200"/>
+<Connection from="percentage-entity" to="3/95" with="value"/>
+<Word name="1/para" positionX="750" positionY="200"/>
+<Connection from="percentage-entity" to="1/para" with="poss"/>
+<Word name="biz" positionX="650" positionY="300"/>
+<Connection from="1/para" to="biz" with="poss"/>
+<Word name="o" positionX="850" positionY="200"/>
+<Connection from="percentage-entity" to="o" with="domain"/>
+</Amr>

@@ -1,0 +1,9 @@
+<Amr>
+<Word name="4/yanlış" positionX="750" positionY="100"/>
+<Word name="3/ver" positionX="650" positionY="200"/>
+<Connection from="4/yanlış" to="3/ver" with="domain"/>
+<Word name="1/para" positionX="550" positionY="300"/>
+<Connection from="3/ver" to="1/para" with="ARG2"/>
+<Word name="2/çocuk" positionX="650" positionY="300"/>
+<Connection from="3/ver" to="2/çocuk" with="ARG1"/>
+</Amr>

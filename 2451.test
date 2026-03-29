@@ -1,0 +1,19 @@
+<Amr>
+<Word name="6/burada" positionX="750" positionY="100"/>
+<Word name="4/ara" positionX="650" positionY="200"/>
+<Connection from="6/burada" to="4/ara" with="prep-while"/>
+<Word name="1/sen" positionX="550" positionY="300"/>
+<Connection from="4/ara" to="1/sen" with="ARG0"/>
+<Word name="2/orman" positionX="650" positionY="300"/>
+<Connection from="4/ara" to="2/orman" with="location"/>
+<Word name="3/o" positionX="750" positionY="300"/>
+<Connection from="4/ara" to="3/o" with="ARG1"/>
+<Word name="person" positionX="750" positionY="200"/>
+<Connection from="6/burada" to="person" with="domain"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/bahri" positionX="650" positionY="400"/>
+<Connection from="-" to="5/bahri" with="op1"/>
+</Amr>

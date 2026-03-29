@@ -1,0 +1,9 @@
+<Amr>
+<Word name="date-entity" positionX="750" positionY="100"/>
+<Word name="2/orta" positionX="650" positionY="200"/>
+<Connection from="date-entity" to="2/orta" with="location"/>
+<Word name="date-entity" positionX="550" positionY="300"/>
+<Connection from="2/orta" to="date-entity" with="part-of"/>
+<Word name="1/1/1995" positionX="450" positionY="400"/>
+<Connection from="date-entity" to="1/1/1995" with="year"/>
+</Amr>

@@ -1,0 +1,21 @@
+<Amr>
+<Word name="and" positionX="750" positionY="100"/>
+<Word name="4/burada" positionX="650" positionY="200"/>
+<Connection from="and" to="4/burada" with="op1"/>
+<Word name="1/herkes" positionX="550" positionY="300"/>
+<Connection from="4/burada" to="1/herkes"/>
+<Word name="onlar" positionX="450" positionY="400"/>
+<Connection from="1/herkes" to="onlar" with="poss"/>
+<Word name="3/iki" positionX="650" positionY="300"/>
+<Connection from="4/burada" to="3/iki"/>
+<Word name="2/saat" positionX="550" positionY="400"/>
+<Connection from="3/iki" to="2/saat" with="mod"/>
+<Word name="5/ol" positionX="750" positionY="300"/>
+<Connection from="4/burada" to="5/ol"/>
+<Word name="7/anla" positionX="750" positionY="200"/>
+<Connection from="and" to="7/anla" with="op2"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="7/anla" to="o" with="ARG0"/>
+<Word name="8/mi" positionX="750" positionY="300"/>
+<Connection from="7/anla" to="8/mi"/>
+</Amr>

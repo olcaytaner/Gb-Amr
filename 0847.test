@@ -1,0 +1,24 @@
+<Amr>
+<Word name="7/şair" positionX="750" positionY="100"/>
+<Word name="person" positionX="650" positionY="200"/>
+<Connection from="7/şair" to="person" with="domain"/>
+<Word name="name" positionX="550" positionY="300"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="1/yunus" positionX="450" positionY="400"/>
+<Connection from="name" to="1/yunus" with="op1"/>
+<Word name="2/emre" positionX="550" positionY="400"/>
+<Connection from="name" to="2/emre" with="op2"/>
+<Word name="-" positionX="650" positionY="300"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="5/sev" positionX="750" positionY="200"/>
+<Connection from="7/şair" to="5/sev" with="ARG1-of"/>
+<Word name="4/halk" positionX="650" positionY="300"/>
+<Connection from="5/sev" to="4/halk" with="ARG0"/>
+<Word name="country" positionX="550" positionY="400"/>
+<Connection from="4/halk" to="country" with="mod"/>
+<Connection from="country" to="name" with="name"/>
+<Word name="Türkiye" positionX="350" positionY="600"/>
+<Connection from="name" to="Türkiye" with="op1"/>
+<Word name="wiki" positionX="550" positionY="500"/>
+<Connection from="country" to="wiki" with="Türkiye"/>
+</Amr>

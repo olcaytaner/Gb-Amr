@@ -1,0 +1,7 @@
+<Amr>
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="3/yapılma" positionX="650" positionY="200"/>
+<Connection from="gerek" to="3/yapılma" with="ARG1"/>
+<Word name="şey" positionX="550" positionY="300"/>
+<Connection from="3/yapılma" to="şey" with="ARG1"/>
+</Amr>

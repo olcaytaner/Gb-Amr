@@ -1,0 +1,7 @@
+<Amr>
+<Word name="1/söz" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="1/söz" to="ben" with="poss"/>
+<Word name="sen" positionX="750" positionY="200"/>
+<Connection from="1/söz" to="sen" with="purpose"/>
+</Amr>

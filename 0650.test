@@ -1,0 +1,23 @@
+<Amr>
+<Word name="10/rezervasyon 11/yap" positionX="750" positionY="100"/>
+<Word name="4/aile" positionX="650" positionY="200"/>
+<Connection from="10/rezervasyon 11/yap" to="4/aile" with="ARG0"/>
+<Word name="include-91" positionX="550" positionY="300"/>
+<Connection from="4/aile" to="include-91" with="ARG1-of"/>
+<Word name="1/iç" positionX="450" positionY="400"/>
+<Connection from="include-91" to="1/iç" with="ARG2"/>
+<Word name="onlar" positionX="350" positionY="500"/>
+<Connection from="1/iç" to="onlar" with="poss"/>
+<Word name="and" positionX="650" positionY="300"/>
+<Connection from="4/aile" to="and" with="quant"/>
+<Word name="3/otuz" positionX="550" positionY="400"/>
+<Connection from="and" to="3/otuz" with="op1"/>
+<Word name="2/yirmi" positionX="650" positionY="400"/>
+<Connection from="and" to="2/yirmi" with="op2"/>
+<Word name="6/şimdiden" positionX="750" positionY="200"/>
+<Connection from="10/rezervasyon 11/yap" to="6/şimdiden" with="time"/>
+<Word name="8/yıl" positionX="850" positionY="200"/>
+<Connection from="10/rezervasyon 11/yap" to="8/yıl" with="cause"/>
+<Word name="7/gelecek" positionX="750" positionY="300"/>
+<Connection from="8/yıl" to="7/gelecek" with="mod"/>
+</Amr>

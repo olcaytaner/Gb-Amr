@@ -1,0 +1,9 @@
+<Amr>
+<Word name="3/iyi" positionX="750" positionY="100"/>
+<Word name="1/böyle" positionX="650" positionY="200"/>
+<Connection from="3/iyi" to="1/böyle"/>
+<Word name="o" positionX="550" positionY="300"/>
+<Connection from="1/böyle" to="o" with="poss"/>
+<Word name="2/daha" positionX="750" positionY="200"/>
+<Connection from="3/iyi" to="2/daha" with="manner"/>
+</Amr>

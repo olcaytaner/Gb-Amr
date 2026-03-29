@@ -1,0 +1,9 @@
+<Amr>
+<Word name="4/yıka" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="4/yıka" to="-" with="polarity"/>
+<Word name="1/bulaşık" positionX="750" positionY="200"/>
+<Connection from="4/yıka" to="1/bulaşık" with="ARG1"/>
+<Word name="3/daha" positionX="850" positionY="200"/>
+<Connection from="4/yıka" to="3/daha" with="time"/>
+</Amr>

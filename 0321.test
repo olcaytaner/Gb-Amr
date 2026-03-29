@@ -1,0 +1,23 @@
+<Amr>
+<Word name="10/iş 11/bitir" positionX="750" positionY="100"/>
+<Word name="imperative" positionX="650" positionY="200"/>
+<Connection from="10/iş 11/bitir" to="imperative" with="mode"/>
+<Word name="or" positionX="750" positionY="200"/>
+<Connection from="10/iş 11/bitir" to="or" with="ARG0"/>
+<Word name="person" positionX="650" positionY="300"/>
+<Connection from="or" to="person" with="op1"/>
+<Word name="name" positionX="550" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="4/ahmet" positionX="450" positionY="500"/>
+<Connection from="name" to="4/ahmet" with="op1"/>
+<Word name="-" positionX="650" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="1/sen" positionX="750" positionY="300"/>
+<Connection from="or" to="1/sen" with="op2"/>
+<Word name="6/bugün" positionX="850" positionY="200"/>
+<Connection from="10/iş 11/bitir" to="6/bugün" with="time"/>
+<Word name="8/git" positionX="950" positionY="200"/>
+<Connection from="10/iş 11/bitir" to="8/git" with="prep-after"/>
+<Word name="7/ora" positionX="850" positionY="300"/>
+<Connection from="8/git" to="7/ora" with="ARG1"/>
+</Amr>

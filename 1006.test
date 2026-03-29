@@ -1,0 +1,7 @@
+<Amr>
+<Word name="1/çıkış" positionX="750" positionY="100"/>
+<Word name="2/kapı" positionX="650" positionY="200"/>
+<Connection from="1/çıkış" to="2/kapı" with="location"/>
+<Word name="3/doğru" positionX="750" positionY="200"/>
+<Connection from="1/çıkış" to="3/doğru" with=" direction"/>
+</Amr>

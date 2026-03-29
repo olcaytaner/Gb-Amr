@@ -1,0 +1,7 @@
+<Amr>
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="7/inandır" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="7/inandır"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="7/inandır" to="-" with="polarity"/>
+</Amr>

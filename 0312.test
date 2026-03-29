@@ -1,0 +1,11 @@
+<Amr>
+<Word name="3/ev" positionX="750" positionY="100"/>
+<Word name="amr-unknown" positionX="650" positionY="200"/>
+<Connection from="3/ev" to="amr-unknown" with="cause"/>
+<Word name="2/hiçbiri" positionX="750" positionY="200"/>
+<Connection from="3/ev" to="2/hiçbiri" with="loc-of"/>
+<Word name="siz" positionX="650" positionY="300"/>
+<Connection from="2/hiçbiri" to="siz" with="poss"/>
+<Word name="-" positionX="850" positionY="200"/>
+<Connection from="3/ev" to="-" with="polarity"/>
+</Amr>

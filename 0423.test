@@ -1,0 +1,15 @@
+<Amr>
+<Word name="mümkün" positionX="750" positionY="100"/>
+<Word name="7/aşağı 8/düş" positionX="650" positionY="200"/>
+<Connection from="mümkün" to="7/aşağı 8/düş" with="ARG1"/>
+<Word name="4/alçak" positionX="550" positionY="300"/>
+<Connection from="7/aşağı 8/düş" to="4/alçak" with="cause"/>
+<Word name="1/parmaklık" positionX="450" positionY="400"/>
+<Connection from="4/alçak" to="1/parmaklık" with="domain"/>
+<Word name="çok" positionX="550" positionY="400"/>
+<Connection from="4/alçak" to="çok" with="degree"/>
+<Word name="o" positionX="650" positionY="300"/>
+<Connection from="7/aşağı 8/düş" to="o" with="ARG0"/>
+<Word name="6/balkon" positionX="750" positionY="300"/>
+<Connection from="7/aşağı 8/düş" to="6/balkon" with="source"/>
+</Amr>

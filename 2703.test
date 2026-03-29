@@ -1,0 +1,23 @@
+<Amr>
+<Word name="karşılaştır" positionX="750" positionY="100"/>
+<Word name="5/sev" positionX="650" positionY="200"/>
+<Connection from="karşılaştır" to="5/sev" with="ARG1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="5/sev" to="-" with="polarity"/>
+<Word name="3/kayak 4/yap" positionX="650" positionY="300"/>
+<Connection from="5/sev" to="3/kayak 4/yap" with="ARG1"/>
+<Word name="person" positionX="750" positionY="300"/>
+<Connection from="5/sev" to="person" with="ARG0"/>
+<Word name="name" positionX="650" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="-" positionX="750" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="Ziya" positionX="650" positionY="500"/>
+<Connection from="-" to="Ziya" with="op1"/>
+<Word name="9/git" positionX="750" positionY="200"/>
+<Connection from="karşılaştır" to="9/git" with="ARG2"/>
+<Connection from="9/git" to="person" with="ARG0"/>
+<Connection from="person" to="name" with="name"/>
+<Connection from="person" to="-" with="wiki"/>
+<Connection from="-" to="Ziya" with="op1"/>
+</Amr>

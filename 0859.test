@@ -1,0 +1,19 @@
+<Amr>
+<Word name="11/yat" positionX="750" positionY="100"/>
+<Word name="2/koğuş" positionX="650" positionY="200"/>
+<Connection from="11/yat" to="2/koğuş" with="location"/>
+<Word name="1/biz" positionX="550" positionY="300"/>
+<Connection from="2/koğuş" to="1/biz" with="poss"/>
+<Word name="10/hasta" positionX="750" positionY="200"/>
+<Connection from="11/yat" to="10/hasta" with="ARG0"/>
+<Word name="and" positionX="650" positionY="300"/>
+<Connection from="10/hasta" to="and" with="mod"/>
+<Word name="4/ağır" positionX="550" positionY="400"/>
+<Connection from="and" to="4/ağır" with="op1"/>
+<Word name="3/bazı" positionX="450" positionY="500"/>
+<Connection from="4/ağır" to="3/bazı" with="domain"/>
+<Word name="o" positionX="350" positionY="600"/>
+<Connection from="3/bazı" to="o" with="poss"/>
+<Word name="7/on 8/beş" positionX="650" positionY="400"/>
+<Connection from="and" to="7/on 8/beş" with="quant"/>
+</Amr>

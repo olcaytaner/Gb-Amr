@@ -1,0 +1,11 @@
+<Amr>
+<Word name="5/iste" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="5/iste" to="ben" with="ARG0"/>
+<Word name="4/tane" positionX="750" positionY="200"/>
+<Connection from="5/iste" to="4/tane" with=" ARG1"/>
+<Word name="3/bir" positionX="850" positionY="200"/>
+<Connection from="5/iste" to="3/bir" with=" quant"/>
+<Word name="1/şura-" positionX="950" positionY="200"/>
+<Connection from="5/iste" to="1/şura-" with=" source"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr>
+<Word name="5/bayıl" positionX="750" positionY="100"/>
+<Word name="4/çıkarma" positionX="650" positionY="200"/>
+<Connection from="5/bayıl" to="4/çıkarma" with="ARG1"/>
+<Word name="2/insan" positionX="550" positionY="300"/>
+<Connection from="4/çıkarma" to="2/insan" with="ARG0"/>
+<Word name="1/bazı" positionX="450" positionY="400"/>
+<Connection from="2/insan" to="1/bazı" with="mod"/>
+<Word name="3/tatsızlık" positionX="650" positionY="300"/>
+<Connection from="4/çıkarma" to="3/tatsızlık" with="ARG1"/>
+</Amr>

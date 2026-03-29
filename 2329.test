@@ -1,0 +1,9 @@
+<Amr>
+<Word name="5/ağla" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="5/ağla" to="-" with="polarity"/>
+<Word name="4/bebek" positionX="750" positionY="200"/>
+<Connection from="5/ağla" to="4/bebek" with="ARG0"/>
+<Word name="1/yemek 2/ye" positionX="650" positionY="300"/>
+<Connection from="4/bebek" to="1/yemek 2/ye" with="ARG0-of"/>
+</Amr>

@@ -1,0 +1,11 @@
+<Amr>
+<Word name="gerek" positionX="750" positionY="100"/>
+<Word name="6/söyle" positionX="650" positionY="200"/>
+<Connection from="gerek" to="6/söyle" with="ARG1"/>
+<Word name="-" positionX="550" positionY="300"/>
+<Connection from="6/söyle" to="-" with="polarity"/>
+<Word name="şey" positionX="650" positionY="300"/>
+<Connection from="6/söyle" to="şey" with="ARG1"/>
+<Word name="2/çocuk" positionX="750" positionY="300"/>
+<Connection from="6/söyle" to="2/çocuk" with="ARG2"/>
+</Amr>

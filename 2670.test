@@ -1,0 +1,26 @@
+<Amr>
+<Word name="8/bit" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="8/bit" to="-" with="polarity"/>
+<Word name="o" positionX="750" positionY="200"/>
+<Connection from="8/bit" to="o" with="ARG0"/>
+<Word name="and" positionX="850" positionY="200"/>
+<Connection from="8/bit" to="and"/>
+<Word name="3/küçük" positionX="750" positionY="300"/>
+<Connection from="and" to="3/küçük" with="op1"/>
+<Word name="4/ol" positionX="650" positionY="400"/>
+<Connection from="3/küçük" to="4/ol"/>
+<Connection from="4/ol" to="o" with="ARG0"/>
+<Word name="imperative" positionX="650" positionY="500"/>
+<Connection from="4/ol" to="imperative" with="mode"/>
+<Word name="1/büyük" positionX="850" positionY="300"/>
+<Connection from="and" to="1/büyük" with="op2"/>
+<Word name="2/ol 4/ol" positionX="750" positionY="400"/>
+<Connection from="1/büyük" to="2/ol 4/ol"/>
+<Connection from="2/ol 4/ol" to="o" with="ARG0"/>
+<Connection from="2/ol 4/ol" to="imperative" with="mode"/>
+<Word name="7/sorun" positionX="950" positionY="200"/>
+<Connection from="8/bit" to="7/sorun"/>
+<Word name="6/ev" positionX="850" positionY="300"/>
+<Connection from="7/sorun" to="6/ev" with="mod"/>
+</Amr>

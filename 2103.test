@@ -1,0 +1,13 @@
+<Amr>
+<Word name="4/yardım 5/et" positionX="750" positionY="100"/>
+<Word name="imperative" positionX="650" positionY="200"/>
+<Connection from="4/yardım 5/et" to="imperative" with="mode"/>
+<Word name="1/çocuk" positionX="750" positionY="200"/>
+<Connection from="4/yardım 5/et" to="1/çocuk" with="ARG0"/>
+<Word name="3/toplama" positionX="850" positionY="200"/>
+<Connection from="4/yardım 5/et" to="3/toplama" with="ARG1"/>
+<Word name="siz" positionX="750" positionY="300"/>
+<Connection from="3/toplama" to="siz" with="poss"/>
+<Word name="2/bura" positionX="850" positionY="300"/>
+<Connection from="3/toplama" to="2/bura" with="ARG1"/>
+</Amr>

@@ -1,0 +1,17 @@
+<Amr>
+<Word name="5/belli" positionX="750" positionY="100"/>
+<Word name="yap" positionX="650" positionY="200"/>
+<Connection from="5/belli" to="yap" with="ARG1"/>
+<Word name="person" positionX="550" positionY="300"/>
+<Connection from="yap" to="person" with="ARG0"/>
+<Word name="name" positionX="450" positionY="400"/>
+<Connection from="person" to="name" with="name"/>
+<Word name="orhan" positionX="350" positionY="500"/>
+<Connection from="name" to="orhan" with="op1"/>
+<Word name="-" positionX="550" positionY="400"/>
+<Connection from="person" to="-" with="wiki"/>
+<Word name="şey" positionX="650" positionY="300"/>
+<Connection from="yap" to="şey" with="ARG1"/>
+<Word name="-" positionX="750" positionY="300"/>
+<Connection from="yap" to="-" with="polarity"/>
+</Amr>

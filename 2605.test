@@ -1,0 +1,13 @@
+<Amr>
+<Word name="8/oda" positionX="750" positionY="100"/>
+<Word name="and" positionX="650" positionY="200"/>
+<Connection from="8/oda" to="and" with="mod"/>
+<Word name="1/güzel" positionX="550" positionY="300"/>
+<Connection from="and" to="1/güzel" with="op1"/>
+<Word name="3/büyük" positionX="650" positionY="300"/>
+<Connection from="and" to="3/büyük" with="op2"/>
+<Word name="6/manzaralı" positionX="750" positionY="300"/>
+<Connection from="and" to="6/manzaralı" with="op3"/>
+<Word name="5/deniz" positionX="650" positionY="400"/>
+<Connection from="6/manzaralı" to="5/deniz" with="mod"/>
+</Amr>

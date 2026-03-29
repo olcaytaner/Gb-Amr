@@ -1,0 +1,21 @@
+<Amr>
+<Word name="6/çık" positionX="750" positionY="100"/>
+<Word name="-" positionX="650" positionY="200"/>
+<Connection from="6/çık" to="-" with="polarity"/>
+<Word name="and" positionX="750" positionY="200"/>
+<Connection from="6/çık" to="and" with="ARG0"/>
+<Word name="2/ben" positionX="650" positionY="300"/>
+<Connection from="and" to="2/ben" with="op1"/>
+<Word name="1/arkadaş" positionX="750" positionY="300"/>
+<Connection from="and" to="1/arkadaş" with="ARG0"/>
+<Word name="ben" positionX="650" positionY="400"/>
+<Connection from="1/arkadaş" to="ben" with="poss"/>
+<Word name="date-entity" positionX="850" positionY="200"/>
+<Connection from="6/çık" to="date-entity" with="time"/>
+<Word name="4/akşam" positionX="750" positionY="300"/>
+<Connection from="date-entity" to="4/akşam" with="dayperiod"/>
+<Word name="3/bu" positionX="650" positionY="400"/>
+<Connection from="4/akşam" to="3/bu" with="mod"/>
+<Word name="5/dışarı" positionX="950" positionY="200"/>
+<Connection from="6/çık" to="5/dışarı" with="ARG2"/>
+</Amr>

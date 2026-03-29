@@ -1,0 +1,11 @@
+<Amr>
+<Word name="3/sporcu" positionX="750" positionY="100"/>
+<Word name="country" positionX="650" positionY="200"/>
+<Connection from="3/sporcu" to="country" with="mod"/>
+<Word name="wiki" positionX="550" positionY="300"/>
+<Connection from="country" to="wiki" with="rusya"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="country" to="name" with="name"/>
+<Word name="rusya" positionX="550" positionY="400"/>
+<Connection from="name" to="rusya" with="op1"/>
+</Amr>

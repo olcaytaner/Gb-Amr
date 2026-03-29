@@ -1,0 +1,9 @@
+<Amr>
+<Word name="4/kes" positionX="750" positionY="100"/>
+<Word name="onlar" positionX="650" positionY="200"/>
+<Connection from="4/kes" to="onlar" with="ARG0"/>
+<Word name="3/ağaç" positionX="750" positionY="200"/>
+<Connection from="4/kes" to="3/ağaç" with="ARG1"/>
+<Word name="1/koca 2/koca" positionX="650" positionY="300"/>
+<Connection from="3/ağaç" to="1/koca 2/koca" with="mod"/>
+</Amr>

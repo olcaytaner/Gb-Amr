@@ -1,0 +1,5 @@
+<Amr>
+<Word name="4/hasta" positionX="750" positionY="100"/>
+<Word name="1/ağır 2/yaralı" positionX="650" positionY="200"/>
+<Connection from="4/hasta" to="1/ağır 2/yaralı" with="mod"/>
+</Amr>

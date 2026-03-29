@@ -1,0 +1,11 @@
+<Amr>
+<Word name="4/al" positionX="750" positionY="100"/>
+<Word name="ben" positionX="650" positionY="200"/>
+<Connection from="4/al" to="ben" with="ARG0"/>
+<Word name="3/mavi" positionX="750" positionY="200"/>
+<Connection from="4/al" to="3/mavi" with="ARG1"/>
+<Word name="2/satıl" positionX="850" positionY="200"/>
+<Connection from="4/al" to="2/satıl" with="cond"/>
+<Word name="1/kırmızı" positionX="750" positionY="300"/>
+<Connection from="2/satıl" to="1/kırmızı" with="ARG1"/>
+</Amr>

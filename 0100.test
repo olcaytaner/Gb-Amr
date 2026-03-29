@@ -1,0 +1,11 @@
+<Amr>
+<Word name="2/mimar" positionX="750" positionY="100"/>
+<Word name="country" positionX="650" positionY="200"/>
+<Connection from="2/mimar" to="country" with="mod"/>
+<Word name="Almanya" positionX="550" positionY="300"/>
+<Connection from="country" to="Almanya" with="wiki"/>
+<Word name="name" positionX="650" positionY="300"/>
+<Connection from="country" to="name" with="name"/>
+<Word name="Almanya" positionX="550" positionY="400"/>
+<Connection from="name" to="Almanya" with="op1"/>
+</Amr>

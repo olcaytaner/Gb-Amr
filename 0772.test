@@ -1,0 +1,11 @@
+<Amr>
+<Word name="5/gazete" positionX="750" positionY="100"/>
+<Word name="volume-quantity" positionX="650" positionY="200"/>
+<Connection from="5/gazete" to="volume-quantity" with="quant"/>
+<Word name="2/oda" positionX="550" positionY="300"/>
+<Connection from="volume-quantity" to="2/oda" with="unit"/>
+<Word name="1/iki" positionX="650" positionY="300"/>
+<Connection from="volume-quantity" to="1/iki" with="quant"/>
+<Word name="4/eski" positionX="750" positionY="200"/>
+<Connection from="5/gazete" to="4/eski" with="mod"/>
+</Amr>
