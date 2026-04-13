@@ -1,3 +1,5 @@
 <Amr>
 <Word name="1/suçluluk" positionX="750" positionY="100"/>
+<Word name="amr-unknown" positionX="861" positionY="189"/>
+<Connection from="1/suçluluk" to="amr-unknown" with="polarity"/>
 </Amr>

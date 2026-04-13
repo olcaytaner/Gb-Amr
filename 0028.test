@@ -1,13 +1,13 @@
 <Amr>
 <Word name="mümkün" positionX="750" positionY="100"/>
 <Word name="yap" positionX="650" positionY="200"/>
-<Connection from="mümkün" to="yap" with="ARG1"/>
 <Word name="1/görüş" positionX="550" positionY="300"/>
-<Connection from="yap" to="1/görüş" with="ARG1"/>
 <Word name="siz" positionX="450" positionY="400"/>
+<Word name="amr-unknown" positionX="770" positionY="241"/>
+<Word name="-" positionX="907" positionY="139"/>
+<Connection from="mümkün" to="yap" with="ARG1"/>
+<Connection from="yap" to="1/görüş" with="ARG1"/>
 <Connection from="1/görüş" to="siz" with="ARG0"/>
-<Word name="amr-unknown" positionX="750" positionY="200"/>
 <Connection from="mümkün" to="amr-unknown" with="polarity"/>
-<Word name="-" positionX="850" positionY="200"/>
 <Connection from="mümkün" to="-" with="polarity"/>
 </Amr>

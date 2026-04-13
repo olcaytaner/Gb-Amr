@@ -12,7 +12,7 @@
 <Connection from="6/telefon 7/et" to="siz" with="ARG0"/>
 <Connection from="6/telefon 7/et" to="imperative" with="mode"/>
 <Connection from="6/telefon 7/et" to="3/buluş" with="time"/>
-<Connection from="3/buluş" to="siz" with="poss"/>
+<Connection from="3/buluş" to="siz" with="ARG0"/>
 <Connection from="3/buluş" to="1/bugün" with="time"/>
 <Connection from="3/buluş" to="person" with="ARG1"/>
 <Connection from="person" to="name" with="name"/>

@@ -7,6 +7,7 @@
 <Connection from="6/var" to="person" with="location"/>
 <Connection from="person" to="name" with="name"/>
 <Connection from="name" to="1/ahmet" with="op1"/>
-<Connection from="person" to="-" with="wiki"/>
 <Connection from="6/var" to="4/bir" with="quant"/>
+<Word name="-" positionX="807" positionY="345"/>
+<Connection from="person" to="-" with="wiki"/>
 </Amr>

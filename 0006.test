@@ -10,4 +10,6 @@
 <Connection from="name" to="1/aydın" with="op1"/>
 <Connection from="4/getir" to="2/ben" with="ARG2"/>
 <Connection from="4/getir" to="3/çiçek" with="ARG1"/>
+<Word name="-" positionX="771" positionY="332"/>
+<Connection from="person" to="-" with="wiki"/>
 </Amr>

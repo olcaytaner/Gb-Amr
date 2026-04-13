@@ -1,9 +1,9 @@
 <Amr>
 <Word name="mümkün" positionX="750" positionY="100"/>
 <Word name="1/bitir" positionX="650" positionY="200"/>
-<Connection from="mümkün" to="1/bitir" with="ARG1"/>
-<Word name="-" positionX="550" positionY="300"/>
-<Connection from="1/bitir" to="-" with="polarity"/>
+<Word name="-" positionX="846" positionY="185"/>
 <Word name="o" positionX="650" positionY="300"/>
+<Connection from="mümkün" to="1/bitir" with="ARG1"/>
 <Connection from="1/bitir" to="o" with="ARG0"/>
+<Connection from="mümkün" to="-" with="polarity"/>
 </Amr>

@@ -2,4 +2,6 @@
 <Word name="1/koş" positionX="750" positionY="100"/>
 <Word name="ben" positionX="650" positionY="200"/>
 <Connection from="1/koş" to="ben" with="ARG0"/>
+<Word name="S" positionX="692" positionY="57"/>
+<Connection from="S" to="1/koş" with="purpose"/>
 </Amr>

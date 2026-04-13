@@ -1,10 +1,10 @@
 <Amr>
 <Word name="3/bil" positionX="750" positionY="100"/>
-<Word name="imperative" positionX="650" positionY="200"/>
-<Word name="person" positionX="823" positionY="330"/>
-<Word name="name" positionX="765" positionY="429"/>
-<Word name="1/turgut" positionX="682" positionY="517"/>
-<Word name="-" positionX="869" positionY="436"/>
+<Word name="imperative" positionX="592" positionY="165"/>
+<Word name="person" positionX="743" positionY="226"/>
+<Word name="name" positionX="665" positionY="339"/>
+<Word name="1/turgut" positionX="582" positionY="427"/>
+<Word name="-" positionX="769" positionY="346"/>
 <Word name="amr-unknown" positionX="851" positionY="200"/>
 <Connection from="3/bil" to="imperative" with="mode"/>
 <Connection from="3/bil" to="person" with="ARG0"/>
