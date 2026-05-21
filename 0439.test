@@ -1,13 +1,15 @@
 <Amr>
 <Word name="yap" positionX="750" positionY="100"/>
 <Word name="4/dik" positionX="650" positionY="200"/>
-<Connection from="yap" to="4/dik" with="aRG1"/>
 <Word name="1/herkes" positionX="550" positionY="300"/>
-<Connection from="4/dik" to="1/herkes" with="ARG0"/>
 <Word name="onlar" positionX="450" positionY="400"/>
+<Word name="3/ağaç" positionX="1029" positionY="208"/>
+<Word name="rate-entity-91" positionX="1190" positionY="367"/>
+<Connection from="yap" to="4/dik" with="aRG1"/>
+<Connection from="4/dik" to="1/herkes" with="ARG0"/>
 <Connection from="1/herkes" to="onlar" with="poss"/>
-<Word name="3/ağaç" positionX="650" positionY="300"/>
 <Connection from="4/dik" to="3/ağaç" with="ARG1"/>
-<Word name="2/bir" positionX="550" positionY="400"/>
-<Connection from="3/ağaç" to="2/bir" with="mod"/>
+<Connection from="3/ağaç" to="rate-entity-91" with="quant"/>
+<Word name="1" positionX="1193" positionY="459"/>
+<Connection from="rate-entity-91" to="1" with="value"/>
 </Amr>

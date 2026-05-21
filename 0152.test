@@ -1,11 +1,11 @@
 <Amr>
 <Word name="2/asker" positionX="750" positionY="100"/>
-<Word name="country" positionX="650" positionY="200"/>
-<Connection from="2/asker" to="country" with="mod"/>
-<Word name="wiki" positionX="550" positionY="300"/>
-<Connection from="country" to="wiki" with="japonya"/>
+<Word name="nationality" positionX="650" positionY="200"/>
+<Word name="Japonlar" positionX="550" positionY="300"/>
 <Word name="name" positionX="650" positionY="300"/>
-<Connection from="country" to="name" with="name"/>
-<Word name="japonya" positionX="550" positionY="400"/>
-<Connection from="name" to="japonya" with="op1"/>
+<Word name="1/japon" positionX="550" positionY="400"/>
+<Connection from="2/asker" to="nationality" with="mod"/>
+<Connection from="nationality" to="name" with="name"/>
+<Connection from="name" to="1/japon" with="op1"/>
+<Connection from="nationality" to="Japonlar" with="wiki"/>
 </Amr>

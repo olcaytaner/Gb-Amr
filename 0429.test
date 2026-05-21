@@ -1,9 +1,13 @@
 <Amr>
-<Word name="3/yala" positionX="750" positionY="100"/>
-<Word name="1/sarman" positionX="650" positionY="200"/>
-<Connection from="3/yala" to="1/sarman" with="ARG0"/>
-<Word name="1/sarman" positionX="750" positionY="200"/>
-<Connection from="3/yala" to="1/sarman" with="ARG1"/>
+<Word name="3/yalan" positionX="750" positionY="100"/>
+<Word name="animal" positionX="421" positionY="303"/>
 <Word name="2/durmadan" positionX="850" positionY="200"/>
-<Connection from="3/yala" to="2/durmadan" with="manner"/>
+<Word name="name" positionX="354" positionY="460"/>
+<Word name="-" positionX="567" positionY="493"/>
+<Word name="1/sarman" positionX="353" positionY="579"/>
+<Connection from="3/yalan" to="2/durmadan" with="manner"/>
+<Connection from="3/yalan" to="animal" with="ARG0"/>
+<Connection from="animal" to="name" with="name"/>
+<Connection from="name" to="1/sarman" with="op1"/>
+<Connection from="animal" to="-" with="wiki"/>
 </Amr>

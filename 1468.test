@@ -1,22 +1,19 @@
 <Amr>
-<Word name="6/düşün" positionX="750" positionY="100"/>
-<Word name="-" positionX="650" positionY="200"/>
-<Connection from="6/düşün" to="-" with="polarity"/>
+<Word name="6/düşün" positionX="872" positionY="61"/>
+<Word name="-" positionX="537" positionY="287"/>
 <Word name="ben" positionX="750" positionY="200"/>
-<Connection from="6/düşün" to="ben" with="ARG0"/>
-<Word name="3/bil" positionX="850" positionY="200"/>
-<Connection from="6/düşün" to="3/bil" with="ARG1"/>
-<Connection from="3/bil" to="-" with="polarity"/>
-<Word name="o" positionX="850" positionY="300"/>
-<Connection from="3/bil" to="o" with="ARG0"/>
-<Word name="o" positionX="950" positionY="300"/>
-<Connection from="3/bil" to="o" with="poss"/>
-<Word name="1/Ayşe" positionX="1050" positionY="300"/>
-<Connection from="3/bil" to="1/Ayşe"/>
+<Word name="3/bil" positionX="1139" positionY="93"/>
+<Word name="person" positionX="1050" positionY="300"/>
 <Word name="2/durum" positionX="1150" positionY="300"/>
-<Connection from="3/bil" to="2/durum"/>
-<Word name="5/zaman" positionX="950" positionY="200"/>
-<Connection from="6/düşün" to="5/zaman"/>
-<Word name="4/hiçbir" positionX="850" positionY="300"/>
-<Connection from="5/zaman" to="4/hiçbir"/>
+<Word name="4/hiçbir 5/zaman" positionX="748" positionY="341"/>
+<Word name="-" positionX="940" positionY="283"/>
+<Word name="Ayşe" positionX="1063" positionY="404"/>
+<Connection from="6/düşün" to="-" with="polarity"/>
+<Connection from="6/düşün" to="ben" with="ARG0"/>
+<Connection from="6/düşün" to="3/bil" with="ARG1"/>
+<Connection from="3/bil" to="person" with="ARG0"/>
+<Connection from="3/bil" to="2/durum" with=""/>
+<Connection from="6/düşün" to="4/hiçbir 5/zaman" with="time"/>
+<Connection from="3/bil" to="-" with="polarity"/>
+<Connection from="person" to="Ayşe" with="name"/>
 </Amr>

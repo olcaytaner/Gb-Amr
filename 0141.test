@@ -1,11 +1,11 @@
 <Amr>
 <Word name="2/dil" positionX="750" positionY="100"/>
-<Word name="country" positionX="650" positionY="200"/>
-<Connection from="2/dil" to="country" with="mod"/>
-<Word name="Hindistan" positionX="550" positionY="300"/>
-<Connection from="country" to="Hindistan" with="wiki"/>
+<Word name="nationality" positionX="650" positionY="200"/>
+<Word name="Hintler" positionX="550" positionY="300"/>
 <Word name="name" positionX="650" positionY="300"/>
-<Connection from="country" to="name" with="name"/>
-<Word name="Hindistan" positionX="550" positionY="400"/>
-<Connection from="name" to="Hindistan" with="op1"/>
+<Word name="1/hint" positionX="550" positionY="400"/>
+<Connection from="2/dil" to="nationality" with="poss"/>
+<Connection from="nationality" to="name" with="name"/>
+<Connection from="name" to="1/hint" with="op1"/>
+<Connection from="nationality" to="Hintler" with="wiki"/>
 </Amr>

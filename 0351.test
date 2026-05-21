@@ -1,15 +1,15 @@
 <Amr>
 <Word name="6/dök" positionX="750" positionY="100"/>
-<Word name="o" positionX="650" positionY="200"/>
-<Connection from="6/dök" to="o" with="ARG0"/>
-<Word name="1/su" positionX="750" positionY="200"/>
-<Connection from="6/dök" to="1/su" with="ARG1"/>
-<Word name="2/yavaşça" positionX="850" positionY="200"/>
-<Connection from="6/dök" to="2/yavaşça" with="manner"/>
-<Word name="3/sürahi" positionX="950" positionY="200"/>
-<Connection from="6/dök" to="3/sürahi" with="source"/>
+<Word name="o" positionX="487" positionY="362"/>
+<Word name="1/su" positionX="679" positionY="352"/>
+<Word name="2/yavaşça" positionX="797" positionY="356"/>
+<Word name="3/sürahi" positionX="908" positionY="240"/>
 <Word name="5/bardak" positionX="1050" positionY="200"/>
-<Connection from="6/dök" to="5/bardak" with="location"/>
-<Word name="4/masa" positionX="950" positionY="300"/>
+<Word name="4/masa" positionX="1148" positionY="336"/>
+<Connection from="6/dök" to="o" with="ARG0"/>
+<Connection from="6/dök" to="1/su" with="ARG1"/>
+<Connection from="6/dök" to="2/yavaşça" with="manner"/>
+<Connection from="6/dök" to="3/sürahi" with="source"/>
+<Connection from="6/dök" to="5/bardak" with="ARG4"/>
 <Connection from="5/bardak" to="4/masa" with="loc-of"/>
 </Amr>

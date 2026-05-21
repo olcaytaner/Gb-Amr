@@ -1,9 +1,8 @@
 <Amr>
 <Word name="6/piş" positionX="750" positionY="100"/>
-<Word name="o" positionX="650" positionY="200"/>
-<Connection from="6/piş" to="o" with="ARG0"/>
-<Word name="1/fasulye" positionX="750" positionY="200"/>
-<Connection from="6/piş" to="1/fasulye" with="ARG1"/>
-<Word name="3/ol" positionX="850" positionY="200"/>
-<Connection from="6/piş" to="3/ol" with="cause"/>
+<Word name="1/fasulye" positionX="546" positionY="247"/>
+<Word name="2/kart" positionX="850" positionY="200"/>
+<Connection from="6/piş" to="1/fasulye" with="ARG0"/>
+<Connection from="6/piş" to="2/kart" with="cause"/>
+<Connection from="2/kart" to="1/fasulye" with="domain"/>
 </Amr>

@@ -1,11 +1,11 @@
 <Amr>
 <Word name="2/edebiyat" positionX="750" positionY="100"/>
-<Word name="country" positionX="650" positionY="200"/>
-<Connection from="2/edebiyat" to="country" with="mod"/>
-<Word name="Fransa" positionX="550" positionY="300"/>
-<Connection from="country" to="Fransa" with="wiki"/>
+<Word name="nationality" positionX="650" positionY="200"/>
+<Word name="Fransızlar" positionX="550" positionY="300"/>
 <Word name="name" positionX="650" positionY="300"/>
-<Connection from="country" to="name" with="name"/>
-<Word name="Fransa" positionX="550" positionY="400"/>
-<Connection from="name" to="Fransa" with="op1"/>
+<Word name="1/fransız" positionX="550" positionY="400"/>
+<Connection from="2/edebiyat" to="nationality" with="mod"/>
+<Connection from="nationality" to="name" with="name"/>
+<Connection from="name" to="1/fransız" with="op1"/>
+<Connection from="nationality" to="Fransızlar" with="wiki"/>
 </Amr>

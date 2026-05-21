@@ -1,29 +1,25 @@
 <Amr>
-<Word name="8/fırlat" positionX="750" positionY="100"/>
+<Word name="8/fırlat" positionX="906" positionY="39"/>
 <Word name="-" positionX="650" positionY="200"/>
-<Connection from="8/fırlat" to="-" with="polarity"/>
 <Word name="imperative" positionX="750" positionY="200"/>
-<Connection from="8/fırlat" to="imperative" with="mode"/>
-<Word name="2/üzerine" positionX="850" positionY="200"/>
-<Connection from="8/fırlat" to="2/üzerine"/>
-<Word name="1/bu" positionX="750" positionY="300"/>
-<Connection from="2/üzerine" to="1/bu" with="mod"/>
+<Word name="1/bu" positionX="730" positionY="357"/>
 <Word name="person" positionX="950" positionY="200"/>
+<Word name="name" positionX="864" positionY="342"/>
+<Word name="3/turgut" positionX="786" positionY="488"/>
+<Word name="-" positionX="1019" positionY="311"/>
+<Word name="5/bardak" positionX="1096" positionY="249"/>
+<Word name="4/el" positionX="1099" positionY="386"/>
+<Word name="6/duvar" positionX="1240" positionY="239"/>
+<Connection from="8/fırlat" to="imperative" with="mode"/>
 <Connection from="8/fırlat" to="person" with="ARG0"/>
-<Word name="name" positionX="850" positionY="300"/>
 <Connection from="person" to="name" with="name"/>
-<Word name="3/turgut" positionX="750" positionY="400"/>
 <Connection from="name" to="3/turgut" with="op1"/>
-<Word name="-" positionX="950" positionY="300"/>
 <Connection from="person" to="-" with="wiki"/>
-<Word name="5/bardak" positionX="1050" positionY="200"/>
 <Connection from="8/fırlat" to="5/bardak" with="ARG1"/>
-<Word name="4/el" positionX="950" positionY="300"/>
-<Connection from="5/bardak" to="4/el" with="mod"/>
-<Word name="6/duvar" positionX="1150" positionY="200"/>
-<Connection from="8/fırlat" to="6/duvar"/>
-<Word name="7/doğru" positionX="1050" positionY="300"/>
-<Connection from="6/duvar" to="7/doğru"/>
-<Word name="9/mi" positionX="1250" positionY="200"/>
-<Connection from="8/fırlat" to="9/mi"/>
+<Connection from="5/bardak" to="4/el" with="location"/>
+<Connection from="8/fırlat" to="6/duvar" with="direction"/>
+<Connection from="8/fırlat" to="-" with="polarity"/>
+<Connection from="8/fırlat" to="1/bu" with="cause"/>
+<Connection from="4/el" to="3/turgut" with="poss"/>
+<Connection from="8/fırlat" to="-" with="polarity"/>
 </Amr>

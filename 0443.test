@@ -1,11 +1,11 @@
 <Amr>
 <Word name="yap" positionX="750" positionY="100"/>
-<Word name="3/öpüş" positionX="650" positionY="200"/>
+<Word name="3/öpüş" positionX="724" positionY="183"/>
+<Word name="1/baba" positionX="405" positionY="168"/>
+<Word name="onlar" positionX="407" positionY="273"/>
+<Word name="2/kardeş" positionX="887" positionY="283"/>
 <Connection from="yap" to="3/öpüş" with="ARG1"/>
-<Word name="1/baba" positionX="550" positionY="300"/>
-<Connection from="3/öpüş" to="1/baba" with="ARG0"/>
-<Word name="onlar" positionX="450" positionY="400"/>
+<Connection from="yap" to="1/baba" with="ARG0"/>
 <Connection from="1/baba" to="onlar" with="poss"/>
-<Word name="2/kardeş" positionX="650" positionY="300"/>
-<Connection from="3/öpüş" to="2/kardeş" with="ARG1"/>
+<Connection from="3/öpüş" to="2/kardeş" with="ARG0"/>
 </Amr>

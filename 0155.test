@@ -1,13 +1,13 @@
 <Amr>
 <Word name="3/bölüm" positionX="750" positionY="100"/>
 <Word name="2/edebiyat" positionX="650" positionY="200"/>
-<Connection from="3/bölüm" to="2/edebiyat" with="mod"/>
-<Word name="country" positionX="550" positionY="300"/>
-<Connection from="2/edebiyat" to="country" with="mod"/>
+<Word name="nationality" positionX="550" positionY="300"/>
 <Word name="name" positionX="450" positionY="400"/>
-<Connection from="country" to="name" with="name"/>
-<Word name="1/ingiltere" positionX="350" positionY="500"/>
-<Connection from="name" to="1/ingiltere" with="op1"/>
-<Word name="ingiltere" positionX="550" positionY="400"/>
-<Connection from="country" to="ingiltere" with="wiki"/>
+<Word name="1/İngiliz" positionX="350" positionY="500"/>
+<Word name="İngilizler" positionX="550" positionY="400"/>
+<Connection from="3/bölüm" to="2/edebiyat" with="poss"/>
+<Connection from="2/edebiyat" to="nationality" with="mod"/>
+<Connection from="nationality" to="name" with="name"/>
+<Connection from="name" to="1/İngiliz" with="op1"/>
+<Connection from="nationality" to="İngilizler" with="wiki"/>
 </Amr>

@@ -1,17 +1,17 @@
 <Amr>
-<Word name="yap" positionX="750" positionY="100"/>
 <Word name="6/ak" positionX="650" positionY="200"/>
-<Connection from="yap" to="6/ak" with="ARG1"/>
-<Word name="o" positionX="550" positionY="300"/>
-<Connection from="6/ak" to="o" with="ARG0"/>
-<Word name="1/su" positionX="650" positionY="300"/>
-<Connection from="6/ak" to="1/su" with="ARG1"/>
-<Word name="2/durmadan" positionX="750" positionY="300"/>
-<Connection from="6/ak" to="2/durmadan" with="manner"/>
-<Word name="3/temizlikçi" positionX="850" positionY="300"/>
-<Connection from="6/ak" to="3/temizlikçi" with="ARG2"/>
+<Word name="o" positionX="470" positionY="127"/>
+<Word name="1/su" positionX="492" positionY="311"/>
+<Word name="2/durmadan" positionX="536" positionY="445"/>
+<Word name="3/temizlikçi" positionX="311" positionY="237"/>
 <Word name="4/balkon" positionX="950" positionY="300"/>
-<Connection from="6/ak" to="4/balkon"/>
-<Word name="5/aşağı" positionX="850" positionY="400"/>
-<Connection from="4/balkon" to="5/aşağı"/>
+<Connection from="6/ak" to="1/su" with="ARG1"/>
+<Connection from="6/ak" to="2/durmadan" with="manner"/>
+<Connection from="6/ak" to="4/balkon" with="ARG3"/>
+<Word name="yap" positionX="602" positionY="29"/>
+<Word name="yap (2)" positionX="620" positionY="128"/>
+<Connection from="yap" to="o" with="ARG0"/>
+<Connection from="yap" to="yap (2)" with="ARG1"/>
+<Connection from="yap (2)" to="3/temizlikçi" with="ARG0"/>
+<Connection from="yap (2)" to="6/ak" with="ARG1"/>
 </Amr>

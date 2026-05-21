@@ -1,7 +1,7 @@
 <Amr>
 <Word name="2/yok" positionX="750" positionY="100"/>
-<Word name="1/ev" positionX="650" positionY="200"/>
+<Word name="1/ev" positionX="524" positionY="219"/>
+<Word name="onlar" positionX="936" positionY="187"/>
 <Connection from="2/yok" to="1/ev" with="location"/>
-<Word name="onlar" positionX="750" positionY="200"/>
 <Connection from="2/yok" to="onlar" with="ARG0"/>
 </Amr>

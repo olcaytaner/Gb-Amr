@@ -1,7 +1,7 @@
 <Amr>
 <Word name="1/söz" positionX="750" positionY="100"/>
-<Word name="ben" positionX="650" positionY="200"/>
+<Word name="ben" positionX="584" positionY="286"/>
+<Word name="sen" positionX="906" positionY="197"/>
 <Connection from="1/söz" to="ben" with="poss"/>
-<Word name="sen" positionX="750" positionY="200"/>
 <Connection from="1/söz" to="sen" with="purpose"/>
 </Amr>

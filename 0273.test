@@ -1,9 +1,7 @@
 <Amr>
 <Word name="3/ev" positionX="750" positionY="100"/>
 <Word name="2/ol" positionX="650" positionY="200"/>
-<Connection from="3/ev" to="2/ol" with="ARG1-of"/>
-<Word name="1/bahçe" positionX="550" positionY="300"/>
+<Word name="1/bahçe" positionX="850" positionY="322"/>
+<Connection from="3/ev" to="2/ol" with="ARG0-of"/>
 <Connection from="2/ol" to="1/bahçe" with="ARG1"/>
-<Word name="o" positionX="450" positionY="400"/>
-<Connection from="1/bahçe" to="o" with="poss"/>
 </Amr>

@@ -1,11 +1,11 @@
 <Amr>
-<Word name="location" positionX="750" positionY="100"/>
+<Word name="lake" positionX="750" positionY="100"/>
 <Word name="name" positionX="650" positionY="200"/>
-<Connection from="location" to="name" with="name"/>
 <Word name="1/Van" positionX="550" positionY="300"/>
-<Connection from="name" to="1/Van" with="op1"/>
 <Word name="2/Göl" positionX="650" positionY="300"/>
+<Word name="Van Gölü" positionX="898" positionY="214"/>
+<Connection from="lake" to="name" with="name"/>
+<Connection from="name" to="1/Van" with="op1"/>
 <Connection from="name" to="2/Göl" with="op2"/>
-<Word name="wiki" positionX="750" positionY="200"/>
-<Connection from="location" to="wiki" with="Van Gölü"/>
+<Connection from="lake" to="Van Gölü" with="wiki"/>
 </Amr>

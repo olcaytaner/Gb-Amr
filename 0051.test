@@ -1,3 +1,5 @@
 <Amr>
-<Word name="1/koş" positionX="559" positionY="213"/>
+<Word name="1/koş" positionX="680" positionY="335"/>
+<Word name="S" positionX="700" positionY="161"/>
+<Connection from="S" to="1/koş" with="purpose"/>
 </Amr>

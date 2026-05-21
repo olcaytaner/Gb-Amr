@@ -1,7 +1,9 @@
 <Amr>
 <Word name="3/yetiş" positionX="750" positionY="100"/>
 <Word name="biz" positionX="650" positionY="200"/>
-<Connection from="3/yetiş" to="biz" with="ARG0"/>
 <Word name="1/rahat 2/rahat" positionX="750" positionY="200"/>
+<Connection from="3/yetiş" to="biz" with="ARG0"/>
 <Connection from="3/yetiş" to="1/rahat 2/rahat" with="manner"/>
+<Word name="mümkün" positionX="762" positionY="30"/>
+<Connection from="mümkün" to="3/yetiş" with="ARG1"/>
 </Amr>

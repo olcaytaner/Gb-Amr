@@ -1,11 +1,9 @@
 <Amr>
-<Word name="5/kim" positionX="750" positionY="100"/>
-<Word name="4/kişi" positionX="650" positionY="200"/>
-<Connection from="5/kim" to="4/kişi"/>
-<Word name="2/dağıt" positionX="550" positionY="300"/>
-<Connection from="4/kişi" to="2/dağıt"/>
-<Word name="1/soru" positionX="450" positionY="400"/>
+<Word name="amr-unknown" positionX="481" positionY="195"/>
+<Word name="2/dağıt" positionX="517" positionY="356"/>
+<Word name="1/soru" positionX="708" positionY="453"/>
 <Connection from="2/dağıt" to="1/soru" with="ARG1"/>
-<Word name="3/ol" positionX="550" positionY="400"/>
-<Connection from="2/dağıt" to="3/ol"/>
+<Word name="3/ol" positionX="432" positionY="302"/>
+<Connection from="amr-unknown" to="3/ol" with="ARG0"/>
+<Connection from="3/ol" to="2/dağıt" with="ARG0"/>
 </Amr>

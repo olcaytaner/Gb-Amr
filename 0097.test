@@ -1,3 +1,5 @@
 <Amr>
-<Word name="1/kızarkadaş" positionX="750" positionY="100"/>
+<Word name="2/arkadaş" positionX="860" positionY="147"/>
+<Word name="1/kız" positionX="819" positionY="284"/>
+<Connection from="2/arkadaş" to="1/kız" with="mod"/>
 </Amr>

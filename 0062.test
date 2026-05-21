@@ -1,21 +1,16 @@
 <Amr>
-<Word name="and" positionX="750" positionY="100"/>
-<Word name="6/gel" positionX="574" positionY="82"/>
-<Word name="1/ev" positionX="423" positionY="353"/>
-<Word name="2/çat 3/kapı" positionX="976" positionY="478"/>
-<Word name="5/alıcı" positionX="216" positionY="384"/>
-<Word name="10/dolaş" positionX="801" positionY="129"/>
-<Word name="and" positionX="562" positionY="392"/>
-<Word name="8/oda" positionX="508" positionY="498"/>
-<Word name="9/moda" positionX="808" positionY="428"/>
-<Word name="o" positionX="750" positionY="300"/>
+<Word name="and" positionX="775" positionY="120"/>
+<Word name="6/gel" positionX="532" positionY="275"/>
+<Word name="9/dolaş" positionX="1033" positionY="299"/>
+<Word name="1/ev" positionX="344" positionY="418"/>
+<Word name="2/çat 3/kapı" positionX="477" positionY="441"/>
+<Word name="7/oda" positionX="971" positionY="437"/>
+<Word name="5/alıcı" positionX="649" positionY="503"/>
 <Connection from="and" to="6/gel" with="op1"/>
+<Connection from="and" to="9/dolaş" with="op2"/>
 <Connection from="6/gel" to="1/ev" with="ARG1"/>
 <Connection from="6/gel" to="2/çat 3/kapı" with="manner"/>
+<Connection from="9/dolaş" to="7/oda" with="ARG1"/>
 <Connection from="6/gel" to="5/alıcı" with="ARG0"/>
-<Connection from="and" to="10/dolaş" with="op2"/>
-<Connection from="10/dolaş" to="and" with="ARG1"/>
-<Connection from="and" to="8/oda" with="op1"/>
-<Connection from="and" to="9/moda" with="op2"/>
-<Connection from="10/dolaş" to="o" with="ARG0"/>
+<Connection from="9/dolaş" to="5/alıcı" with="ARG0"/>
 </Amr>

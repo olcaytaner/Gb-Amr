@@ -1,11 +1,11 @@
 <Amr>
 <Word name="6/kapat" positionX="750" positionY="100"/>
 <Word name="1/okul" positionX="650" positionY="200"/>
-<Connection from="6/kapat" to="1/okul" with="ARG0"/>
-<Word name="5/tarafından" positionX="750" positionY="200"/>
-<Connection from="6/kapat" to="5/tarafından"/>
-<Word name="4/başkan" positionX="650" positionY="300"/>
-<Connection from="5/tarafından" to="4/başkan" with="mod"/>
-<Word name="3/belediye" positionX="550" positionY="400"/>
-<Connection from="4/başkan" to="3/belediye" with="mod"/>
+<Word name="person" positionX="1043" positionY="232"/>
+<Word name="have-org-role-91" positionX="550" positionY="400"/>
+<Connection from="6/kapat" to="1/okul" with="ARG1"/>
+<Connection from="person" to="have-org-role-91" with="ARG0-of"/>
+<Connection from="6/kapat" to="person" with="ARG0"/>
+<Word name="3/belediye 4/başkan" positionX="557" positionY="561"/>
+<Connection from="have-org-role-91" to="3/belediye 4/başkan" with="ARG2"/>
 </Amr>

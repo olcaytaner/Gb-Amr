@@ -1,15 +1,14 @@
 <Amr>
 <Word name="yap" positionX="750" positionY="100"/>
 <Word name="3/yıka" positionX="650" positionY="200"/>
+<Word name="-" positionX="496" positionY="148"/>
+<Word name="1/anne" positionX="818" positionY="506"/>
+<Word name="o" positionX="1297" positionY="241"/>
+<Word name="2/bulaşık" positionX="947" positionY="265"/>
 <Connection from="yap" to="3/yıka" with="ARG1"/>
-<Word name="-" positionX="550" positionY="300"/>
-<Connection from="3/yıka" to="-" with="polarity"/>
-<Word name="o" positionX="650" positionY="300"/>
-<Connection from="3/yıka" to="o" with="ARG0"/>
-<Word name="1/anne" positionX="750" positionY="300"/>
-<Connection from="3/yıka" to="1/anne" with="ARG2"/>
-<Word name="o" positionX="650" positionY="400"/>
+<Connection from="3/yıka" to="1/anne" with="ARG0"/>
 <Connection from="1/anne" to="o" with="poss"/>
-<Word name="2/bulaşık" positionX="850" positionY="300"/>
 <Connection from="3/yıka" to="2/bulaşık" with="ARG1"/>
+<Connection from="yap" to="-" with="polarity"/>
+<Connection from="yap" to="o" with="ARG0"/>
 </Amr>

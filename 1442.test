@@ -1,13 +1,15 @@
 <Amr>
-<Word name="6/iç" positionX="750" positionY="100"/>
-<Word name="2/ev" positionX="650" positionY="200"/>
-<Connection from="6/iç" to="2/ev" with="location"/>
-<Word name="1/çocuk" positionX="550" positionY="300"/>
-<Connection from="2/ev" to="1/çocuk"/>
-<Word name="-" positionX="650" positionY="300"/>
-<Connection from="2/ev" to="-" with="polarity"/>
-<Word name="4/süt" positionX="750" positionY="200"/>
+<Word name="6/iç" positionX="625" positionY="197"/>
+<Word name="be-located-at-91" positionX="373" positionY="322"/>
+<Word name="1/çocuk" positionX="252" positionY="473"/>
+<Word name="-" positionX="499" positionY="480"/>
+<Word name="4/süt" positionX="625" positionY="297"/>
+<Word name="amr-unknown" positionX="724" positionY="297"/>
+<Connection from="6/iç" to="be-located-at-91" with="condition"/>
+<Connection from="be-located-at-91" to="1/çocuk" with="ARG1"/>
+<Connection from="be-located-at-91" to="-" with="polarity"/>
 <Connection from="6/iç" to="4/süt" with="ARG1"/>
-<Word name="5/kim" positionX="850" positionY="200"/>
-<Connection from="6/iç" to="5/kim" with="ARG0"/>
+<Connection from="6/iç" to="amr-unknown" with="ARG0"/>
+<Word name="2/ev" positionX="426" positionY="508"/>
+<Connection from="be-located-at-91" to="2/ev" with="ARG2"/>
 </Amr>

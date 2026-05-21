@@ -1,19 +1,19 @@
 <Amr>
 <Word name="6/hoşlan" positionX="750" positionY="100"/>
-<Word name="-" positionX="650" positionY="200"/>
-<Connection from="6/hoşlan" to="-" with="polarity"/>
-<Word name="and" positionX="750" positionY="200"/>
-<Connection from="6/hoşlan" to="and" with="ARG0"/>
-<Word name="4/ben" positionX="650" positionY="300"/>
-<Connection from="and" to="4/ben" with="op1"/>
-<Word name="person" positionX="750" positionY="300"/>
-<Connection from="and" to="person" with="op2"/>
+<Word name="- (2)" positionX="643" positionY="142"/>
+<Word name="and" positionX="707" positionY="183"/>
+<Word name="4/ben" positionX="495" positionY="312"/>
+<Word name="person" positionX="665" positionY="306"/>
 <Word name="name" positionX="650" positionY="400"/>
-<Connection from="person" to="name" with="name"/>
 <Word name="2/ayşe" positionX="550" positionY="500"/>
-<Connection from="name" to="2/ayşe" with="op1"/>
-<Word name="-" positionX="750" positionY="400"/>
-<Connection from="person" to="-" with="wiki"/>
+<Word name="-" positionX="781" positionY="543"/>
 <Word name="5/yalan" positionX="850" positionY="200"/>
+<Connection from="6/hoşlan" to="and" with="ARG0"/>
+<Connection from="and" to="4/ben" with="op1"/>
+<Connection from="and" to="person" with="op2"/>
+<Connection from="person" to="name" with="name"/>
+<Connection from="name" to="2/ayşe" with="op1"/>
+<Connection from="person" to="-" with="wiki"/>
 <Connection from="6/hoşlan" to="5/yalan" with="ARG1"/>
+<Connection from="6/hoşlan" to="- (2)" with="polarity"/>
 </Amr>

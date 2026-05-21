@@ -1,7 +1,9 @@
 <Amr>
-<Word name="3/kim" positionX="750" positionY="100"/>
-<Word name="1/hülya" positionX="650" positionY="200"/>
-<Connection from="3/kim" to="1/hülya"/>
-<Word name="2/mi" positionX="550" positionY="300"/>
-<Connection from="1/hülya" to="2/mi"/>
+<Word name="amr-unknown" positionX="693" positionY="119"/>
+<Word name="name" positionX="621" positionY="241"/>
+<Word name="1/Hülya" positionX="581" positionY="324"/>
+<Connection from="amr-unknown" to="name" with="name"/>
+<Connection from="name" to="1/Hülya" with="op1"/>
+<Word name="-" positionX="785" positionY="328"/>
+<Connection from="name" to="-" with="wiki"/>
 </Amr>

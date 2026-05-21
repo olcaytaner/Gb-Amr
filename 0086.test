@@ -1,9 +1,11 @@
 <Amr>
 <Word name="4/dur" positionX="750" positionY="100"/>
-<Word name="o" positionX="650" positionY="200"/>
-<Connection from="4/dur" to="o" with="ARG0"/>
 <Word name="1/ön" positionX="750" positionY="200"/>
-<Connection from="4/dur" to="1/ön" with="location"/>
 <Word name="2/süklüm 3/püklüm" positionX="850" positionY="200"/>
+<Word name="o" positionX="423" positionY="242"/>
+<Connection from="4/dur" to="o" with="ARG0"/>
+<Connection from="4/dur" to="1/ön" with="location"/>
 <Connection from="4/dur" to="2/süklüm 3/püklüm" with="manner"/>
+<Word name="o" positionX="751" positionY="332"/>
+<Connection from="1/ön" to="o" with="poss"/>
 </Amr>

@@ -1,29 +1,31 @@
 <Amr>
-<Word name="8/yap" positionX="750" positionY="100"/>
-<Word name="biz" positionX="650" positionY="200"/>
+<Word name="8/yap" positionX="769" positionY="24"/>
+<Word name="biz" positionX="669" positionY="124"/>
+<Word name="4/en 5/çok" positionX="769" positionY="124"/>
+<Word name="7/ticaret" positionX="869" positionY="124"/>
+<Word name="country" positionX="769" positionY="224"/>
+<Word name="name" positionX="669" positionY="324"/>
+<Word name="6/arjantin" positionX="569" positionY="424"/>
+<Word name="Arjantin" positionX="769" positionY="324"/>
+<Word name="include-91" positionX="869" positionY="324"/>
+<Word name="3/ülke" positionX="769" positionY="424"/>
+<Word name="1/güney" positionX="469" positionY="724"/>
+<Word name=" 2/amerika" positionX="569" positionY="724"/>
+<Word name="continent" positionX="751" positionY="549"/>
 <Connection from="8/yap" to="biz" with="ARG0"/>
-<Word name="4/en 5/çok" positionX="750" positionY="200"/>
 <Connection from="8/yap" to="4/en 5/çok" with="degree"/>
-<Word name="7/ticaret" positionX="850" positionY="200"/>
 <Connection from="8/yap" to="7/ticaret" with="ARG1"/>
-<Word name="country" positionX="750" positionY="300"/>
 <Connection from="7/ticaret" to="country" with="accompanier"/>
-<Word name="name" positionX="650" positionY="400"/>
 <Connection from="country" to="name" with="name"/>
-<Word name="6/arjantin" positionX="550" positionY="500"/>
 <Connection from="name" to="6/arjantin" with="op1"/>
-<Word name="-" positionX="750" positionY="400"/>
-<Connection from="country" to="-" with="wiki"/>
-<Word name="include-91" positionX="850" positionY="400"/>
+<Connection from="country" to="Arjantin" with="wiki"/>
 <Connection from="country" to="include-91" with="ARG1-of"/>
-<Word name="3/ülke" positionX="750" positionY="500"/>
 <Connection from="include-91" to="3/ülke" with="ARG2"/>
-<Word name="continent" positionX="650" positionY="600"/>
 <Connection from="3/ülke" to="continent" with="mod"/>
-<Connection from="continent" to="name" with="name"/>
-<Word name="1/güney" positionX="450" positionY="800"/>
-<Connection from="name" to="1/güney" with="op1"/>
-<Word name=" 2/amerika" positionX="550" positionY="800"/>
-<Connection from="name" to=" 2/amerika" with="op2"/>
-<Connection from="continent" to="-" with="wiki"/>
+<Word name="name (2)" positionX="758" positionY="636"/>
+<Connection from="continent" to="name (2)" with="name"/>
+<Connection from="name (2)" to="1/güney" with="op1"/>
+<Connection from="name (2)" to=" 2/amerika" with="op2"/>
+<Word name="Güney Amerika" positionX="844" positionY="716"/>
+<Connection from="name (2)" to="Güney Amerika" with="wiki"/>
 </Amr>

@@ -1,23 +1,23 @@
 <Amr>
-<Word name="person" positionX="750" positionY="100"/>
+<Word name="person" positionX="559" positionY="51"/>
 <Word name="name" positionX="650" positionY="200"/>
-<Connection from="person" to="name" with="name"/>
-<Word name="8/iskender" positionX="550" positionY="300"/>
-<Connection from="name" to="8/iskender" with="op1"/>
-<Word name="-" positionX="750" positionY="200"/>
-<Connection from="person" to="-" with="wiki"/>
-<Word name="2/konuk" positionX="850" positionY="200"/>
-<Connection from="person" to="2/konuk"/>
+<Word name="7/ küçük 8/iskender" positionX="550" positionY="300"/>
+<Word name="Küçük İskender" positionX="360" positionY="322"/>
+<Word name="2/konuk" positionX="831" positionY="47"/>
 <Word name="biz" positionX="750" positionY="300"/>
+<Word name="1/bugün" positionX="983" positionY="487"/>
+<Word name="6/şair" positionX="737" positionY="405"/>
+<Word name="4/ülke" positionX="573" positionY="590"/>
+<Word name="5/genç" positionX="992" positionY="568"/>
+<Connection from="person" to="name" with="name"/>
+<Connection from="name" to="7/ küçük 8/iskender" with="op1"/>
+<Connection from="person" to="Küçük İskender" with="wiki"/>
 <Connection from="2/konuk" to="biz" with="poss"/>
-<Word name="1/bugün" positionX="850" positionY="300"/>
 <Connection from="2/konuk" to="1/bugün" with="mod"/>
-<Word name="6/şair" positionX="950" positionY="200"/>
-<Connection from="person" to="6/şair"/>
-<Word name="4/ülke" positionX="850" positionY="300"/>
 <Connection from="6/şair" to="4/ülke" with="mod"/>
-<Word name="5/genç" positionX="950" positionY="300"/>
 <Connection from="6/şair" to="5/genç" with="mod"/>
-<Word name="7/küçük" positionX="1050" positionY="200"/>
-<Connection from="person" to="7/küçük" with="mod"/>
+<Connection from="2/konuk" to="person" with="domain "/>
+<Word name="include-91" positionX="560" positionY="379"/>
+<Connection from="include-91" to="6/şair" with="ARG2"/>
+<Connection from="include-91" to="person" with="ARG1-of"/>
 </Amr>

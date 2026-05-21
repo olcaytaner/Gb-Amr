@@ -1,9 +1,12 @@
 <Amr>
 <Word name="3/otur" positionX="750" positionY="100"/>
-<Word name="biz" positionX="650" positionY="200"/>
+<Word name="biz" positionX="450" positionY="279"/>
+<Word name="1/burada" positionX="709" positionY="404"/>
+<Word name="2/böylece" positionX="965" positionY="181"/>
 <Connection from="3/otur" to="biz" with="ARG0"/>
-<Word name="1/burada" positionX="750" positionY="200"/>
 <Connection from="3/otur" to="1/burada" with="location"/>
-<Word name="2/böylece" positionX="850" positionY="200"/>
 <Connection from="3/otur" to="2/böylece" with="manner"/>
+<Word name="4/kal" positionX="614" positionY="41"/>
+<Connection from="4/kal" to="biz" with="ARG0"/>
+<Connection from="4/kal" to="3/otur" with="prep-while"/>
 </Amr>

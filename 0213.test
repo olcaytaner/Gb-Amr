@@ -1,17 +1,16 @@
 <Amr>
 <Word name="6/önemli" positionX="750" positionY="100"/>
 <Word name="2/sat" positionX="650" positionY="200"/>
-<Connection from="6/önemli" to="2/sat" with="time"/>
-<Word name="sen" positionX="550" positionY="300"/>
-<Connection from="2/sat" to="sen" with="ARG0"/>
-<Word name="1/ev" positionX="650" positionY="300"/>
-<Connection from="2/sat" to="1/ev" with="ARG1"/>
+<Word name="1/ev" positionX="572" positionY="624"/>
 <Word name="sen" positionX="550" positionY="400"/>
-<Connection from="1/ev" to="sen" with="poss"/>
 <Word name="5/geri" positionX="750" positionY="200"/>
-<Connection from="6/önemli" to="5/geri" with="domain"/>
-<Word name="o" positionX="650" positionY="300"/>
-<Connection from="5/geri" to="o" with="poss"/>
+<Word name="o" positionX="828" positionY="428"/>
 <Word name="-" positionX="850" positionY="200"/>
+<Connection from="6/önemli" to="2/sat" with="time"/>
+<Connection from="2/sat" to="sen" with="ARG0"/>
+<Connection from="2/sat" to="1/ev" with="ARG1"/>
+<Connection from="1/ev" to="sen" with="poss"/>
+<Connection from="6/önemli" to="5/geri" with="domain"/>
+<Connection from="5/geri" to="o" with="poss"/>
 <Connection from="6/önemli" to="-" with="polarity"/>
 </Amr>

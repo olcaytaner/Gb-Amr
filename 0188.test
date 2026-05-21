@@ -1,19 +1,18 @@
 <Amr>
-<Word name="8/eğlen" positionX="750" positionY="100"/>
+<Word name="8/eğlen" positionX="869" positionY="32"/>
 <Word name="4/sev" positionX="650" positionY="200"/>
-<Connection from="8/eğlen" to="4/sev" with="concession"/>
-<Word name="person" positionX="550" positionY="300"/>
-<Connection from="4/sev" to="person" with="ARG0"/>
+<Word name="person" positionX="423" positionY="176"/>
 <Word name="name" positionX="450" positionY="400"/>
-<Connection from="person" to="name" with="name"/>
 <Word name="1/semra" positionX="350" positionY="500"/>
-<Connection from="name" to="1/semra" with="op1"/>
-<Word name="-" positionX="550" positionY="400"/>
-<Connection from="person" to="-" with="wiki"/>
+<Word name="- (2)" positionX="550" positionY="400"/>
 <Word name="-" positionX="650" positionY="300"/>
-<Connection from="4/sev" to="-" with="polarity"/>
 <Word name="3/parti" positionX="750" positionY="300"/>
+<Connection from="8/eğlen" to="4/sev" with="concession"/>
+<Connection from="4/sev" to="person" with="ARG0"/>
+<Connection from="person" to="name" with="name"/>
+<Connection from="name" to="1/semra" with="op1"/>
+<Connection from="4/sev" to="-" with="polarity"/>
 <Connection from="4/sev" to="3/parti" with="ARG1"/>
-<Word name="6/o" positionX="750" positionY="200"/>
-<Connection from="8/eğlen" to="6/o" with="ARG0"/>
+<Connection from="person" to="- (2)" with="polarity"/>
+<Connection from="8/eğlen" to="person" with="ARG0"/>
 </Amr>

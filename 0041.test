@@ -2,7 +2,7 @@
 <Word name="city" positionX="729" positionY="46"/>
 <Word name="name" positionX="561" positionY="157"/>
 <Word name="2/paris" positionX="461" positionY="257"/>
-<Word name="paris" positionX="585" positionY="329"/>
+<Word name="Paris" positionX="585" positionY="329"/>
 <Word name="biz" positionX="745" positionY="227"/>
 <Word name="date-entity" positionX="905" positionY="169"/>
 <Word name="1/yazın" positionX="994" positionY="273"/>
@@ -11,5 +11,5 @@
 <Connection from="city" to="biz" with="location-of"/>
 <Connection from="city" to="date-entity" with="time"/>
 <Connection from="date-entity" to="1/yazın" with="season"/>
-<Connection from="name" to="paris" with="wiki"/>
+<Connection from="name" to="Paris" with="wiki"/>
 </Amr>

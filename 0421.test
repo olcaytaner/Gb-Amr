@@ -1,9 +1,15 @@
 <Amr>
 <Word name="6/git" positionX="750" positionY="100"/>
-<Word name="1/ada" positionX="650" positionY="200"/>
+<Word name="1/ada" positionX="553" positionY="164"/>
+<Word name="amr-unknown" positionX="933" positionY="185"/>
+<Word name="3/deniz 4/otobüs" positionX="690" positionY="649"/>
 <Connection from="6/git" to="1/ada" with="ARG1"/>
-<Word name="amr-unknown" positionX="750" positionY="200"/>
 <Connection from="6/git" to="amr-unknown" with="polarity"/>
-<Word name="3/deniz 4/otobüs" positionX="650" positionY="300"/>
-<Connection from="amr-unknown" to="3/deniz 4/otobüs"/>
+<Word name="ship" positionX="747" positionY="273"/>
+<Word name="-" positionX="861" positionY="390"/>
+<Connection from="6/git" to="ship" with="instrument"/>
+<Connection from="ship" to="-" with="wiki"/>
+<Word name="name" positionX="724" positionY="376"/>
+<Connection from="ship" to="name" with="name"/>
+<Connection from="name" to="3/deniz 4/otobüs" with="op1"/>
 </Amr>

@@ -1,15 +1,22 @@
 <Amr>
-<Word name="mümkün" positionX="750" positionY="100"/>
-<Word name="3/bitir" positionX="650" positionY="200"/>
-<Connection from="mümkün" to="3/bitir"/>
-<Word name="1/ders" positionX="550" positionY="300"/>
+<Word name="mümkün" positionX="572" positionY="102"/>
+<Word name="3/bitir" positionX="646" positionY="205"/>
+<Word name="1/ders" positionX="519" positionY="324"/>
+<Word name="sen" positionX="646" positionY="387"/>
+<Word name="2/zaman" positionX="743" positionY="332"/>
+<Word name="and" positionX="350" positionY="32"/>
+<Word name="5/bak" positionX="188" positionY="163"/>
+<Word name="imperative" positionX="112" positionY="331"/>
+<Connection from="mümkün" to="3/bitir" with="ARG1"/>
 <Connection from="3/bitir" to="1/ders" with="ARG1"/>
-<Word name="sen" positionX="450" positionY="400"/>
+<Connection from="3/bitir" to="2/zaman" with="manner"/>
+<Connection from="and" to="mümkün" with="op2"/>
+<Connection from="and" to="5/bak" with="op1"/>
+<Word name="biz" positionX="274" positionY="281"/>
+<Connection from="5/bak" to="imperative" with="mode"/>
+<Connection from="5/bak" to="biz" with="ARG0"/>
+<Word name="amr-unknown" positionX="515" positionY="198"/>
+<Connection from="mümkün" to="amr-unknown" with="polarity"/>
+<Connection from="3/bitir" to="sen" with="ARG0"/>
 <Connection from="1/ders" to="sen" with="poss"/>
-<Word name="2/zaman" positionX="650" positionY="300"/>
-<Connection from="3/bitir" to="2/zaman" with="location"/>
-<Word name="4/mi" positionX="750" positionY="300"/>
-<Connection from="3/bitir" to="4/mi"/>
-<Word name="5/bak" positionX="850" positionY="300"/>
-<Connection from="3/bitir" to="5/bak" with="manner"/>
 </Amr>

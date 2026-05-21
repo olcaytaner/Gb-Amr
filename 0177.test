@@ -2,16 +2,19 @@
 <Word name="and" positionX="750" positionY="100"/>
 <Word name="person" positionX="584" positionY="167"/>
 <Word name="name" positionX="495" positionY="250"/>
-<Word name="3/semra" positionX="450" positionY="400"/>
+<Word name="3/semra" positionX="670" positionY="384"/>
 <Word name="-" positionX="834" positionY="338"/>
-<Word name="person" positionX="750" positionY="200"/>
-<Word name="1/ayşe" positionX="550" positionY="400"/>
+<Word name="person (2)" positionX="750" positionY="200"/>
+<Word name="1/ayşe" positionX="335" positionY="339"/>
+<Word name="name (2)" positionX="727" positionY="291"/>
+<Word name="- (2)" positionX="544" positionY="365"/>
+<Connection from="and" to="person (2)" with="op1"/>
+<Connection from="and" to="person (2)" with="op2"/>
 <Connection from="and" to="person" with="op1"/>
-<Connection from="person" to="name" with="name"/>
-<Connection from="name" to="3/semra" with="op1"/>
-<Connection from="person" to="-" with="wiki"/>
-<Connection from="and" to="person" with="op2"/>
+<Connection from="person (2)" to="name (2)" with="name"/>
+<Connection from="name (2)" to="3/semra" with="op1"/>
 <Connection from="person" to="name" with="name"/>
 <Connection from="name" to="1/ayşe" with="op1"/>
-<Connection from="person" to="-" with="wiki"/>
+<Connection from="person" to="- (2)" with="wiki"/>
+<Connection from="person (2)" to="-" with="wiki"/>
 </Amr>

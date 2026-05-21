@@ -1,17 +1,16 @@
 <Amr>
-<Word name="4/unut" positionX="750" positionY="100"/>
-<Word name="-" positionX="650" positionY="200"/>
+<Word name="4/unut" positionX="718" positionY="47"/>
+<Word name="-" positionX="595" positionY="200"/>
+<Word name="2/şemsiye" positionX="855" positionY="295"/>
+<Word name="ben" positionX="730" positionY="370"/>
+<Word name="1/yepyeni" positionX="1062" positionY="327"/>
+<Word name="3/taksi" positionX="1019" positionY="145"/>
+<Word name="imperative" positionX="633" positionY="316"/>
 <Connection from="4/unut" to="-" with="polarity"/>
-<Word name="ben" positionX="750" positionY="200"/>
 <Connection from="4/unut" to="ben" with="ARG0"/>
-<Word name="2/şemsiye" positionX="850" positionY="200"/>
 <Connection from="4/unut" to="2/şemsiye" with="ARG1"/>
-<Word name="ben" positionX="750" positionY="300"/>
 <Connection from="2/şemsiye" to="ben" with="poss"/>
-<Word name="1/yepyeni" positionX="850" positionY="300"/>
-<Connection from="2/şemsiye" to="1/yepyeni" with="mod"/>
-<Word name="3/taksi" positionX="950" positionY="200"/>
 <Connection from="4/unut" to="3/taksi" with="location"/>
-<Word name="5/mi" positionX="1050" positionY="200"/>
-<Connection from="4/unut" to="5/mi"/>
+<Connection from="4/unut" to="imperative" with="mode"/>
+<Connection from="2/şemsiye" to="1/yepyeni" with="mod"/>
 </Amr>

@@ -1,13 +1,15 @@
 <Amr>
 <Word name="iste" positionX="750" positionY="100"/>
 <Word name="4/ye" positionX="650" positionY="200"/>
-<Connection from="iste" to="4/ye" with="ARG1"/>
 <Word name="biz" positionX="550" positionY="300"/>
-<Connection from="4/ye" to="biz" with="ARG0"/>
-<Word name="2/akşam" positionX="650" positionY="300"/>
-<Connection from="4/ye" to="2/akşam" with="time"/>
-<Word name="1/bu" positionX="550" positionY="400"/>
-<Connection from="2/akşam" to="1/bu" with="mod"/>
+<Word name="date-entity" positionX="572" positionY="392"/>
+<Word name="2/akşam" positionX="543" positionY="636"/>
 <Word name="3/dışarı" positionX="750" positionY="300"/>
+<Connection from="iste" to="4/ye" with="ARG1"/>
+<Connection from="4/ye" to="biz" with="ARG0"/>
+<Connection from="4/ye" to="date-entity" with="time"/>
+<Connection from="date-entity" to="2/akşam" with="time"/>
 <Connection from="4/ye" to="3/dışarı" with="location"/>
+<Word name="1/bu" positionX="489" positionY="736"/>
+<Connection from="2/akşam" to="1/bu" with="mod"/>
 </Amr>

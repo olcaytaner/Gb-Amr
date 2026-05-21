@@ -1,13 +1,19 @@
 <Amr>
 <Word name="8/yap" positionX="750" positionY="100"/>
-<Word name="7/açıklama" positionX="650" positionY="200"/>
-<Connection from="8/yap" to="7/açıklama" with="ARG1"/>
+<Word name="7/açıklama" positionX="405" positionY="191"/>
 <Word name="5/önemli" positionX="550" positionY="300"/>
+<Word name="1/bugün" positionX="710" positionY="286"/>
+<Word name="government-organization" positionX="931" positionY="436"/>
+<Word name="3/vergi" positionX="1061" positionY="207"/>
+<Word name="name" positionX="893" positionY="555"/>
+<Word name="2/başbakanlık" positionX="892" positionY="676"/>
+<Word name="Türkiye başbakanı" positionX="1171" positionY="572"/>
+<Connection from="8/yap" to="7/açıklama" with="ARG1"/>
 <Connection from="7/açıklama" to="5/önemli" with="mod"/>
-<Word name="1/bugün" positionX="750" positionY="200"/>
 <Connection from="8/yap" to="1/bugün" with="time"/>
-<Word name="2/başbakanlık" positionX="850" positionY="200"/>
-<Connection from="8/yap" to="2/başbakanlık" with="ARG0"/>
-<Word name="3/vergi" positionX="950" positionY="200"/>
+<Connection from="8/yap" to="government-organization" with="ARG0"/>
 <Connection from="8/yap" to="3/vergi" with="topic"/>
+<Connection from="government-organization" to="Türkiye başbakanı" with="wiki"/>
+<Connection from="government-organization" to="name" with="name"/>
+<Connection from="name" to="2/başbakanlık" with="op1"/>
 </Amr>

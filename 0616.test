@@ -1,14 +1,13 @@
 <Amr>
-<Word name="and" positionX="750" positionY="100"/>
-<Word name="6/baba" positionX="650" positionY="200"/>
-<Connection from="and" to="6/baba" with="op1"/>
-<Word name="ben" positionX="550" positionY="300"/>
-<Connection from="6/baba" to="ben" with="poss"/>
-<Word name="1/fotoğraf 2/makine" positionX="650" positionY="300"/>
-<Connection from="6/baba" to="1/fotoğraf 2/makine" with="domain"/>
-<Word name="3/ben" positionX="750" positionY="200"/>
-<Connection from="and" to="3/ben" with="op2"/>
-<Word name="-" positionX="650" positionY="300"/>
-<Connection from="3/ben" to="-" with="polarity"/>
-<Connection from="3/ben" to="1/fotoğraf 2/makine" with="domain"/>
+<Word name="contrast-01" positionX="769" positionY="88"/>
+<Word name="1/fotoğraf 2/makinesi" positionX="629" positionY="186"/>
+<Word name="fotoğraf makinesi" positionX="1028" positionY="209"/>
+<Word name="3/ben" positionX="1063" positionY="315"/>
+<Word name="-" positionX="1170" positionY="328"/>
+<Word name="5/baba" positionX="641" positionY="297"/>
+<Connection from="contrast-01" to="1/fotoğraf 2/makinesi" with="ARG1"/>
+<Connection from="contrast-01" to="fotoğraf makinesi" with="ARG2"/>
+<Connection from="fotoğraf makinesi" to="3/ben" with="poss"/>
+<Connection from="fotoğraf makinesi" to="-" with="polarity"/>
+<Connection from="1/fotoğraf 2/makinesi" to="5/baba" with="poss"/>
 </Amr>

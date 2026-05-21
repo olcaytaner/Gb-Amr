@@ -1,11 +1,11 @@
 <Amr>
 <Word name="3/ülke" positionX="750" positionY="100"/>
-<Word name="country" positionX="650" positionY="200"/>
-<Connection from="3/ülke" to="country" with="mod"/>
+<Word name="continent" positionX="650" positionY="200"/>
 <Word name="name" positionX="550" positionY="300"/>
-<Connection from="country" to="name" with="name"/>
 <Word name="1/afrika" positionX="450" positionY="400"/>
+<Word name="Afrika" positionX="650" positionY="300"/>
+<Connection from="3/ülke" to="continent" with="poss"/>
+<Connection from="continent" to="name" with="name"/>
 <Connection from="name" to="1/afrika" with="op1"/>
-<Word name="afrika" positionX="650" positionY="300"/>
-<Connection from="country" to="afrika" with="wiki"/>
+<Connection from="continent" to="Afrika" with="wiki"/>
 </Amr>

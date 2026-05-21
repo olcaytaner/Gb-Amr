@@ -1,21 +1,23 @@
 <Amr>
 <Word name="10/yak" positionX="750" positionY="100"/>
-<Word name="onlar" positionX="650" positionY="200"/>
-<Connection from="10/yak" to="onlar" with="ARG0"/>
-<Word name="8/bahçe" positionX="750" positionY="200"/>
-<Connection from="10/yak" to="8/bahçe" with="location"/>
-<Word name="9/mangal" positionX="850" positionY="200"/>
-<Connection from="10/yak" to="9/mangal" with="ARG1"/>
+<Word name="onlar" positionX="358" positionY="278"/>
+<Word name="8/bahçe" positionX="464" positionY="495"/>
+<Word name="9/mangal" positionX="719" positionY="355"/>
 <Word name="2/hava 3/aç" positionX="950" positionY="200"/>
-<Connection from="10/yak" to="2/hava 3/aç" with="condition"/>
 <Word name="1/bugün" positionX="850" positionY="300"/>
-<Connection from="2/hava 3/aç" to="1/bugün" with="time"/>
-<Word name="7/san" positionX="1050" positionY="200"/>
-<Connection from="10/yak" to="7/san" with="concession"/>
+<Word name="7/san" positionX="1232" positionY="32"/>
 <Word name="6/pek" positionX="950" positionY="300"/>
-<Connection from="7/san" to="6/pek" with="degree"/>
-<Word name="5/aç" positionX="1050" positionY="300"/>
-<Connection from="7/san" to="5/aç" with="ARG1"/>
+<Word name="2/hava 3/aç" positionX="1050" positionY="300"/>
 <Word name="o" positionX="950" positionY="400"/>
-<Connection from="5/aç" to="o" with="poss"/>
+<Connection from="10/yak" to="onlar" with="ARG0"/>
+<Connection from="10/yak" to="8/bahçe" with="location"/>
+<Connection from="10/yak" to="9/mangal" with="ARG1"/>
+<Connection from="10/yak" to="2/hava 3/aç" with="condition"/>
+<Connection from="2/hava 3/aç" to="1/bugün" with="time"/>
+<Connection from="10/yak" to="7/san" with="concession"/>
+<Connection from="7/san" to="6/pek" with="degree"/>
+<Connection from="7/san" to="2/hava 3/aç" with="ARG1"/>
+<Connection from="2/hava 3/aç" to="o" with="poss"/>
+<Word name="-" positionX="1328" positionY="316"/>
+<Connection from="7/san" to="-" with="polarity"/>
 </Amr>
